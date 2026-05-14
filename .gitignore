@@ -1,0 +1,53 @@
+# Cache & intermediate files
+cache/
+finish/
+logs/
+segment/
+results/
+outputs/
+training_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.whl
+
+# Node
+node_modules/
+
+# Claude
+.claude/
+.agents/
+.codex/
+
+# Large files
+*.mp4
+*.mp3
+*.wav
+*.zip
+*.pth
+*.safetensors
+*.log
+core.*
+
+# Video files
+video_commentary_text/videos/
+video_commentary_text/backup/
+video_commentary_text/examples/
+
+# Progress & pids
+progress_*.json
+progress_*.json.lock
+pids_*.txt
+kill_*.sh
+
+# OS
+.DS_Store
+*/.DS_Store
+
+# Temp
+*.tmp
+*.swp
+*~
