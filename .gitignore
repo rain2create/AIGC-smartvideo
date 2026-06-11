@@ -13,6 +13,11 @@ outputs/
 !judge/outputs/
 training_data/
 !judge/training_data/
+!judge/training_data/v3/
+!judge/training_data/v3/splits/
+!judge/training_data/v3/splits/split_manifest.json
+!judge/training_data/v3/splits/*_pairs.jsonl
+!judge/training_data/v3/splits/*_groups.jsonl
 judge/training_data/frame_cache/
 commentary/results/*/
 commentary/.ipynb_checkpoints/
