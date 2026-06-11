@@ -1,0 +1,44 @@
+# ── 模型 ────────────────────────────────────────────────────────────────────
+model_path: /home/jovyan/data03/search_public/xby/models/Qwen3-VL-Reranker-8B
+variant_name: qwen_awr
+
+# ── LoRA ─────────────────────────────────────────────────────────────────────
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+# ── Listwise AWR ─────────────────────────────────────────────────────────────
+beta_anchor: 0.01      # anchor/KL 正则系数（δ² ≈ KL 二阶近似），防止 score explosion
+clip_eps: 0.2          # PPO-style clipping 范围，ratio 限制在 [1-ε, 1+ε]
+instruction: "Retrieve the most relevant video clip for the given query."
+
+# ── 视频帧 ───────────────────────────────────────────────────────────────────
+video_root: /home/jovyan/data03
+frame_cache_dir: judge/training_data/frame_cache
+total_pixels: 10485760
+
+# ── 数据 ─────────────────────────────────────────────────────────────────────
+splits_dir: judge/training_data/v3/splits
+
+# ── 训练超参 ─────────────────────────────────────────────────────────────────
+lr: 5.0e-6
+warmup_steps: 20
+max_steps: 500            # ~2.7 epochs（1499 groups, 188 steps/epoch）
+batch_size_per_gpu: 1     # 固定为 1（一个 group = 一个 batch）
+grad_accum: 4             # effective batch = 4 groups / optimizer step
+max_seq_len: 4096
+gradient_checkpointing: true
+bf16: true
+save_steps: 100           # 每 100 步存 checkpoint，共 5 个（100/200/300/400/500）
+
+# ── 输出路径（相对项目根）────────────────────────────────────────────────────
+output_dir: train/checkpoints/qwen_awr
+log_dir: train/logs/qwen_awr

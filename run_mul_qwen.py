@@ -68,7 +68,7 @@ def _write_progress(data: Dict[str, Any]) -> None:
             fcntl.flock(lf, fcntl.LOCK_UN)
 
 
-def init_progress(task_list: List[Tuple[str, str, str, str, str, str, str, str, str, str]], progress_path: Path) -> None:
+def init_progress(task_list: List[Tuple[str, str, str, str, str, str, str, str, str, str, str]], progress_path: Path) -> None:
     set_progress_file(progress_path)
     tasks = {}
     for t in task_list:
@@ -254,7 +254,7 @@ def generate_final_json(dj: str, structured_json: Path, output_path: Path, varia
 
 def find_or_create_txt(dj: str, start: str, end: str, logger, python_bin: str) -> Path:
     base = Path(__file__).parent.absolute()
-    comm_dir = base / "video_commentary_text"
+    comm_dir = base / "commentary"
     res_dir = comm_dir / "results" / dj
     res_dir.mkdir(parents=True, exist_ok=True)
 
@@ -312,6 +312,29 @@ def find_or_create_txt(dj: str, start: str, end: str, logger, python_bin: str) -
     return txt_file
 
 
+def _lora_tag(lora_path: str) -> str:
+    """从 lora_path 提取短标识用于 variant 命名。
+
+    Examples:
+        train/checkpoints/qwen_dpo/checkpoint-2000  → dpo2000
+        train/checkpoints/qwen_dpo/checkpoint-1500  → dpo1500
+        train/checkpoints/qwen_dpo/final            → dpo_final
+        /abs/path/my_adapter                        → my_adapter
+    """
+    p = Path(lora_path.rstrip("/"))
+    name = p.name                     # checkpoint-2000 / final
+    parent = p.parent.name            # qwen_dpo
+
+    # checkpoint-{N} → 取数字
+    if name.startswith("checkpoint-"):
+        num = name.split("-", 1)[1]
+        prefix = parent.replace("qwen_", "") if parent.startswith("qwen_") else parent
+        return f"{prefix}{num}"       # dpo2000
+    # final / 其他
+    prefix = parent.replace("qwen_", "") if parent.startswith("qwen_") else parent
+    return f"{prefix}_{name}"         # dpo_final
+
+
 def process_single_dj(
     dj: str,
     start: str,
@@ -323,6 +346,8 @@ def process_single_dj(
     video_index_version: str = "V1",
     rerank_version: str = "",
     rerank_model_path: str | None = None,
+    lora_path: str = "",
+    init_lora_path: str = "",
     model_path: str | None = None,
 ):
     if rerank_version:
@@ -334,6 +359,12 @@ def process_single_dj(
         variant = f"qwen_{video_index_version.lower()}_{query_version.lower()}"
     else:
         variant = f"qwen_{query_version.lower()}"
+
+    # LoRA adapter → variant 后缀，避免不同 checkpoint 产物互相覆盖
+    if lora_path:
+        lora_tag = _lora_tag(lora_path)
+        variant = f"{variant}_{lora_tag}"
+
     task_name = f"{dj}_{variant}"
     logger = setup_task_logger(task_name)
 
@@ -381,7 +412,7 @@ def process_single_dj(
                 logger.info("⏭ 跳过 [Qwen-S2 V1 视觉 embedding]（pkl 已存在）")
             else:
                 run_step(
-                    [python_bin, str(match_dir / "qwen_match" / "index_builder.py"), dj, "--overwrite", "--video-index-version", "V1"],
+                    [python_bin, str(match_dir / "qwen" / "index_builder.py"), dj, "--overwrite", "--video-index-version", "V1"],
                     "Qwen-S2 V1 视觉 embedding 索引", logger,
                 )
             log_artifact(vis_emb_pkl, "Qwen-S2 V1 embeddings_vl.pkl", logger)
@@ -391,7 +422,7 @@ def process_single_dj(
                 logger.info("⏭ 跳过 [Qwen-S2 B2 文本 embedding]（pkl 已存在）")
             else:
                 run_step(
-                    [python_bin, str(match_dir / "qwen_match" / "index_builder.py"), dj, "--overwrite", "--video-index-version", "B2"],
+                    [python_bin, str(match_dir / "qwen" / "index_builder.py"), dj, "--overwrite", "--video-index-version", "B2"],
                     "Qwen-S2 B2 文本 embedding 索引", logger,
                 )
             log_artifact(txt_emb_pkl, "Qwen-S2 B2 text_embeddings_b2.pkl", logger)
@@ -401,7 +432,7 @@ def process_single_dj(
             if qwen_embedding_pkl.exists():
                 logger.info("⏭ 跳过 [Qwen-S2 视频 visual embedding 索引]（pkl 已存在）")
             else:
-                cmd = [python_bin, str(match_dir / "qwen_match" / "index_builder.py"), dj, "--overwrite", "--video-index-version", video_index_version]
+                cmd = [python_bin, str(match_dir / "qwen" / "index_builder.py"), dj, "--overwrite", "--video-index-version", video_index_version]
                 if model_path:
                     cmd.extend(["--model-path", model_path])
                 run_step(cmd, "Qwen-S2 视频 visual embedding 索引", logger)
@@ -420,7 +451,7 @@ def process_single_dj(
             if video_index_version == "B2":
                 cmd = [
                     python_bin,
-                    str(match_dir / "qwen_match" / "retriever_b2.py"),
+                    str(match_dir / "qwen" / "retriever_b2.py"),
                     dj,
                     str(s3_json),
                     "--output-path",
@@ -434,7 +465,7 @@ def process_single_dj(
             elif video_index_version == "B3":
                 cmd = [
                     python_bin,
-                    str(match_dir / "qwen_match" / "retriever_b3.py"),
+                    str(match_dir / "qwen" / "retriever_b3.py"),
                     dj,
                     str(s3_json),
                     "--output-path",
@@ -449,7 +480,7 @@ def process_single_dj(
             else:
                 cmd = [
                     python_bin,
-                    str(match_dir / "qwen_match" / "retriever.py"),
+                    str(match_dir / "qwen" / "retriever.py"),
                     dj,
                     str(s3_json),
                     "--output-path",
@@ -471,12 +502,19 @@ def process_single_dj(
 
         # S4.5 Reranker 重排序（可选）
         if rerank_version:
+            final_mp4_path = finish_dir / variant / out_file
+            if final_mp4_path.exists():
+                logger.info("⏭ 跳过 [S4.5/S5/S6]（final mp4 已存在）")
+                log_artifact(final_mp4_path, "S5 final_mp4", logger)
+                update_progress(dj, "completed", step="已完成(跳过)")
+                return (task_name, True, f"最终视频已存在，跳过")
+
             update_progress(dj, "running", step="S4.5 Reranker")
             s45_input = qwen_s4_json
             s45_output = cache_dir / f"{txt_stem}_structured_{variant}.json"
             s45_cmd = [
                 python_bin,
-                str(match_dir / "qwen_match" / "reranker.py"),
+                str(match_dir / "qwen" / "reranker.py"),
                 dj,
                 str(s45_input),
                 "--output-path",
@@ -487,6 +525,10 @@ def process_single_dj(
             ]
             if rerank_model_path:
                 s45_cmd.extend(["--model-path", rerank_model_path])
+            if lora_path:
+                s45_cmd.extend(["--lora-path", lora_path])
+            if init_lora_path:
+                s45_cmd.extend(["--init-lora-path", init_lora_path])
             run_step(s45_cmd, "S4.5 Reranker 重排序", logger)
             log_artifact(s45_output, "S4.5 reranker output", logger)
             qwen_s4_json = s45_output
@@ -533,7 +575,7 @@ def process_single_dj(
         return (task_name, False, str(exc))
 
 
-def process_gpu_queue(gpu_id: str, tasks: List[Tuple[str, str, str, str, str, str, str, str, str, str]]):
+def process_gpu_queue(gpu_id: str, tasks: List[Tuple[str, ...]]):
     os.environ["CUDA_VISIBLE_DEVICES"] = gpu_id
     failed = 0
 
@@ -567,9 +609,10 @@ def main():
    python run_mul_qwen.py --batch tasks_qwen.txt [top_k] [query_version] [max_segments] [video_index_version]
 
 tasks_qwen.txt 每行格式:
-dj,start,end,output,top_k,query_version,max_segments,video_index_version,rerank_version,rerank_model_path
+dj,start,end,output,top_k,query_version,max_segments,video_index_version,rerank_version,rerank_model_path,lora_path,init_lora_path
 chongfan80,1,10,chongfan80_q1_final.mp4,10,Q1,0,V1,,
-chongfan80,1,10,chongfan80_b1_rerank_q1_final.mp4,20,Q3,0,B1,Q1,
+chongfan80,1,10,chongfan80_b1_rerank_q1_final.mp4,20,Q3,0,B1,Q1,,
+chongfan80,1,10,chongfan80_b1_rerank_q1_dpo2000_final.mp4,20,Q3,0,B1,Q1,,train/checkpoints/qwen_dpo/checkpoint-2000
 """
         )
         sys.exit(1)
@@ -586,15 +629,15 @@ chongfan80,1,10,chongfan80_b1_rerank_q1_final.mp4,20,Q3,0,B1,Q1,
             print(f"错误: 任务文件不存在: {batch_file}")
             sys.exit(1)
 
-        tasks: List[Tuple[str, str, str, str, str, str, str, str, str, str]] = []
+        tasks: List[Tuple[str, ...]] = []
         for line in batch_path.read_text(encoding="utf-8").splitlines():
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
             parts = [part.strip() for part in line.split(",")]
-            while len(parts) < 10:
+            while len(parts) < 12:
                 parts.append("")
-            dj, start, end, out_file, top_k, query_version, max_segments, video_index_version, rerank_version, rerank_model_path = parts[:10]
+            dj, start, end, out_file, top_k, query_version, max_segments, video_index_version, rerank_version, rerank_model_path, lora_path, init_lora_path = parts[:12]
             tasks.append(
                 (
                     dj,
@@ -607,6 +650,8 @@ chongfan80,1,10,chongfan80_b1_rerank_q1_final.mp4,20,Q3,0,B1,Q1,
                     video_index_version or default_video_index_version,
                     rerank_version or "",
                     rerank_model_path or "",
+                    lora_path or "",
+                    init_lora_path or "",
                 )
             )
 

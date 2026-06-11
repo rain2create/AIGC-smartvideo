@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import statistics
 import time
@@ -29,6 +30,7 @@ OUTPUTS_DIR = JUDGE_DIR / "outputs"
 CACHE_ROOT = PROJECT_ROOT / "text_video_match" / "cache"
 
 TOPK_THRESHOLDS = [1, 3, 5, 10, 20]
+_DISABLE_20S_FILTER = False
 SCORE_THRESHOLDS = [4.0, 4.5]
 DIMENSIONS = [
     "entity_match",
@@ -160,6 +162,8 @@ def _select_segments_within_20_seconds(
     segments: List[Dict[str, Any]],
     target_total: float = 20.0,
 ) -> List[Dict[str, Any]]:
+    if _DISABLE_20S_FILTER:
+        return segments
     selected: List[Dict[str, Any]] = []
     accumulated_time = 0.0
     for seg in segments:
@@ -401,6 +405,34 @@ def evaluate_variant_on_matrix(
                 system_set = set(system_keys[:k])
                 recall[f"top{k}"] = len(system_set & judge_set) / k if judge_set and k > 0 else None
 
+        # NDCG@K: 系统排序 vs Judge 理想排序
+        judge_score_lookup: Dict[Tuple[Optional[int], Optional[int]], float] = {}
+        for c in candidates:
+            jk = _candidate_key(c.get("candidate", {}).get("episode"), c.get("candidate", {}).get("segment_id"))
+            js = _to_float(c.get("scores", {}).get("overall")) or 0.0
+            judge_score_lookup[jk] = js
+        all_judge_scores = sorted(judge_score_lookup.values(), reverse=True)
+
+        def _dcg_at_k(k: int, ranked_keys: List[Tuple[Optional[int], Optional[int]]]) -> float:
+            dcg = 0.0
+            for i, rk in enumerate(ranked_keys[:k]):
+                dcg += judge_score_lookup.get(rk, 0.0) / math.log2(i + 2)
+            return dcg
+
+        def _idcg_at_k(k: int) -> float:
+            idcg = 0.0
+            for i in range(min(k, len(all_judge_scores))):
+                idcg += all_judge_scores[i] / math.log2(i + 2)
+            return idcg
+
+        ndcg: Dict[str, Optional[float]] = {}
+        for k in TOPK_THRESHOLDS:
+            if not system_keys:
+                ndcg[f"top{k}"] = None
+            else:
+                idcg = _idcg_at_k(k)
+                ndcg[f"top{k}"] = _dcg_at_k(k, system_keys) / idcg if idcg > 0 else None
+
         rows.append({
             "segment_sequence": seg_seq,
             "script_text": script_meta[seg_seq].get("script_text", ""),
@@ -428,6 +460,7 @@ def evaluate_variant_on_matrix(
                 for threshold in SCORE_THRESHOLDS
             },
             "recall": recall,
+            "ndcg": ndcg,
             "diagnosis": diagnose_row(rank, system_score, judge_best_score, high_counts),
         })
     return rows
@@ -518,6 +551,14 @@ def aggregate_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         },
         "score_threshold_by_script": score_threshold_by_script,
         "recall": {f"top{k}": recall_at_k(k) for k in TOPK_THRESHOLDS},
+        "ndcg": {
+            f"top{k}": (
+                float(statistics.mean(vals))
+                if (vals := [row.get("ndcg", {}).get(f"top{k}") for row in rows if row.get("ndcg", {}).get(f"top{k}") is not None])
+                else None
+            )
+            for k in TOPK_THRESHOLDS
+        },
         "max_top_matches": max_tm,
     }
 
@@ -710,6 +751,7 @@ def _variant_metric_row(variant: str, summary: Dict[str, Any]) -> Dict[str, Any]
     topk = summary.get("topk_rate", {})
     score_rate = summary.get("system_score_rate", {})
     recall = summary.get("recall", {})
+    ndcg = summary.get("ndcg", {})
     return {
         "variant": variant,
         "script_count": summary.get("script_count", 0),
@@ -717,12 +759,18 @@ def _variant_metric_row(variant: str, summary: Dict[str, Any]) -> Dict[str, Any]
         "top1": topk.get("top1"),
         "top3": topk.get("top3"),
         "top5": topk.get("top5"),
+        "top10": topk.get("top10"),
         "top20": topk.get("top20"),
         "recall_top1": recall.get("top1"),
         "recall_top3": recall.get("top3"),
         "recall_top5": recall.get("top5"),
         "recall_top10": recall.get("top10"),
         "recall_top20": recall.get("top20"),
+        "ndcg_top1": ndcg.get("top1"),
+        "ndcg_top3": ndcg.get("top3"),
+        "ndcg_top5": ndcg.get("top5"),
+        "ndcg_top10": ndcg.get("top10"),
+        "ndcg_top20": ndcg.get("top20"),
         "max_top_matches": summary.get("max_top_matches", 0),
         "mean_rank": summary.get("mean_rank"),
         "median_rank": summary.get("median_rank"),
@@ -733,49 +781,56 @@ def _variant_metric_row(variant: str, summary: Dict[str, Any]) -> Dict[str, Any]
     }
 
 
-# --- 两套排序指标 ---
+# --- 三套排序指标：命中 / 召回 / NDCG ---
 _METRICS_HIT_FIRST = [
     ("top1", "Hit@1", True, _pct),
-    ("mean_system_judge_score", "系统均分", True, _score),
-    ("ge_4_5", ">=4.5 达标率", True, _pct),
     ("top3", "Hit@3", True, _pct),
-    ("ge_4_0", ">=4.0 达标率", True, _pct),
-    ("mean_gap_to_judge_best", "平均分差", False, _score),
     ("top5", "Hit@5", True, _pct),
-    ("recall_top1", "R@1", True, _pct),
-    ("recall_top3", "R@3", True, _pct),
-    ("recall_top5", "R@5", True, _pct),
-    ("recall_top10", "R@10", True, _pct),
-    ("mean_rank", "均rank", False, _score),
+    ("top10", "Hit@10", True, _pct),
+    ("top20", "Hit@20", True, _pct),
 ]
 
 _METRICS_RECALL_FIRST = [
     ("recall_top1", "R@1", True, _pct),
     ("recall_top3", "R@3", True, _pct),
-    ("top1", "Hit@1", True, _pct),
     ("recall_top5", "R@5", True, _pct),
-    ("ge_4_0", ">=4.0 达标率", True, _pct),
-    ("mean_system_judge_score", "系统均分", True, _score),
-    ("top3", "Hit@3", True, _pct),
     ("recall_top10", "R@10", True, _pct),
+    ("recall_top20", "R@20", True, _pct),
+]
+
+_METRICS_NDCG_FIRST = [
+    ("ndcg_top1", "NDCG@1", True, _score),
+    ("ndcg_top3", "NDCG@3", True, _score),
+    ("ndcg_top5", "NDCG@5", True, _score),
+    ("ndcg_top10", "NDCG@10", True, _score),
+    ("ndcg_top20", "NDCG@20", True, _score),
+]
+
+# 通用辅助指标，三个导向都展示
+_AUX_METRICS = [
+    ("mean_system_judge_score", "系统均分", True, _score),
+    ("ge_4_0", ">=4.0", True, _pct),
+    ("ge_4_5", ">=4.5", True, _pct),
     ("mean_gap_to_judge_best", "平均分差", False, _score),
-    ("top5", "Hit@5", True, _pct),
-    ("ge_4_5", ">=4.5 达标率", True, _pct),
     ("mean_rank", "均rank", False, _score),
 ]
 
-# key → metric entry index in _METRICS_* lists
+ALL_METRICS = _METRICS_HIT_FIRST + _METRICS_RECALL_FIRST + _METRICS_NDCG_FIRST + _AUX_METRICS
+
+# 判断理由中用到的指标顺序，三导向通用
 _JUDGE_KEY_ORDER = [
     ("top1", "Hit@1"),
-    ("mean_system_judge_score", "均分"),
-    ("ge_4_5", ">=4.5"),
     ("top3", "Hit@3"),
-    ("ge_4_0", ">=4.0"),
+    ("top5", "Hit@5"),
     ("recall_top1", "R@1"),
     ("recall_top3", "R@3"),
     ("recall_top5", "R@5"),
-    ("recall_top10", "R@10"),
-    ("top5", "Hit@5"),
+    ("ndcg_top1", "NDCG@1"),
+    ("ndcg_top3", "NDCG@3"),
+    ("ndcg_top5", "NDCG@5"),
+    ("mean_system_judge_score", "均分"),
+    ("ge_4_0", ">=4.0"),
+    ("ge_4_5", ">=4.5"),
 ]
 
 
@@ -836,8 +891,9 @@ def build_variant_conclusion(report: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     conclusions = []
     for mode, metric_specs, method_desc in [
-        ("hit", _METRICS_HIT_FIRST, "按 Hit@1 → 均分 → >=4.5 → Hit@3 → >=4.0 → 分差 → Hit@5 → R@1 → R@3 → R@5 → R@10 → 均rank 字典序排列。"),
-        ("recall", _METRICS_RECALL_FIRST, "按 R@1 → R@3 → Hit@1 → R@5 → >=4.0 → 均分 → Hit@3 → R@10 → 分差 → Hit@5 → >=4.5 → 均rank 字典序排列。"),
+        ("hit", _METRICS_HIT_FIRST, "按 Hit@1 → Hit@3 → Hit@5 → Hit@10 → Hit@20 字典序排列。"),
+        ("recall", _METRICS_RECALL_FIRST, "按 R@1 → R@3 → R@5 → R@10 → R@20 字典序排列。"),
+        ("ndcg", _METRICS_NDCG_FIRST, "按 NDCG@1 → NDCG@3 → NDCG@5 → NDCG@10 → NDCG@20 字典序排列。"),
     ]:
         ranked = [dict(row) for row in variants_rows]
         ranked.sort(key=_make_sort_key(metric_specs), reverse=True)
@@ -914,14 +970,20 @@ def write_markdown_report(report: Dict[str, Any], output_path: Path, include_scr
         "例如：系统 top5 里有 3 个也在 Judge top5 里 → R@5 = 3/5 = 60%。",
         "注意：当某版本某 query 候选数不足 K 时，Recall@K 标记为 -（不适用）。",
         "",
+        "### 排序质量 (NDCG@K)",
+        "衡量系统排序与 Judge 理想排序的接近程度，范围 0~1。",
+        "公式：NDCG@K = DCG@K / IDCG@K，其中 DCG = Σ(score_i / log2(i+1))，位置越靠后权重越低。",
+        "NDCG@K = 1 代表系统前 K 个排序与 Judge 理想排序完全一致。",
+        "",
         "## 3. 推荐结论",
         "",
     ]
 
     conclusions = report.get("conclusions", [])
     section_labels = [
-        ("3a. 命中导向排名", "hit", "选中最重要：优先权衡系统选中片段的 Judge 质量"),
-        ("3b. 召回导向排名", "recall", "覆盖最重要：优先权衡系统候选池对 Judge 优质片段的召回"),
+        ("3a. 命中导向排名", "hit", "选中最重要：只看系统 best_match 在 Judge 排序中的位置"),
+        ("3b. 召回导向排名", "recall", "覆盖最重要：只看系统 topK 与 Judge topK 的交集"),
+        ("3c. NDCG 导向排名", "ndcg", "排序质量最重要：衡量系统排序与 Judge 理想排序的接近程度"),
     ]
 
     for section_title, mode, description in section_labels:
@@ -930,6 +992,17 @@ def write_markdown_report(report: Dict[str, Any], output_path: Path, include_scr
         best_variant = conclusion.get("best_variant") or "-"
         best_reasons = conclusion.get("best_reasons") or []
         reason_text = "；".join(best_reasons) if best_reasons else "关键指标综合排序最高"
+
+        if mode == "hit":
+            table_header = "| 排名 | Variant | Hit@1 | Hit@3 | Hit@5 | Hit@10 | Hit@20 | 判断 |"
+            table_sep = "|---:|---|---:|---:|---:|---:|---:|---|"
+        elif mode == "recall":
+            table_header = "| 排名 | Variant | R@1 | R@3 | R@5 | R@10 | R@20 | 判断 |"
+            table_sep = "|---:|---|---:|---:|---:|---:|---:|---|"
+        else:  # ndcg
+            table_header = "| 排名 | Variant | NDCG@1 | NDCG@3 | NDCG@5 | NDCG@10 | NDCG@20 | 判断 |"
+            table_sep = "|---:|---|---:|---:|---:|---:|---:|---|"
+
         lines.extend([
             f"### {section_title}",
             "",
@@ -941,28 +1014,39 @@ def write_markdown_report(report: Dict[str, Any], output_path: Path, include_scr
             "",
             f"胜出原因：{reason_text}。",
             "",
-            f"| 排名 | Variant | R@1 | R@3 | R@5 | R@10 | R@20 | Top1命中 | Top3命中 | Top5命中 | 系统均分 | 平均分差 | >=4.0 | >=4.5 | 判断 |",
-            "|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|",
+            table_header,
+            table_sep,
         ])
         for row in ranking:
-            lines.append(
-                f"| {row.get('rank_in_section', '-')} | `{row['variant']}` | "
-                f"{_pct(row.get('recall_top1'))} | {_pct(row.get('recall_top3'))} | {_pct(row.get('recall_top5'))} | "
-                f"{_pct(row.get('recall_top10'))} | {_pct(row.get('recall_top20'))} | "
-                f"{_pct(row.get('top1'))} | {_pct(row.get('top3'))} | {_pct(row.get('top5'))} | "
-                f"{_score(row.get('mean_system_judge_score'))} | "
-                f"{_score(row.get('mean_gap_to_judge_best'))} | "
-                f"{_pct(row.get('ge_4_0'))} | {_pct(row.get('ge_4_5'))} | "
-                f"{row.get('judgement', '-')} |"
-            )
+            if mode == "hit":
+                lines.append(
+                    f"| {row.get('rank_in_section', '-')} | `{row['variant']}` | "
+                    f"{_pct(row.get('top1'))} | {_pct(row.get('top3'))} | {_pct(row.get('top5'))} | "
+                    f"{_pct(row.get('top10'))} | {_pct(row.get('top20'))} | "
+                    f"{row.get('judgement', '-')} |"
+                )
+            elif mode == "recall":
+                lines.append(
+                    f"| {row.get('rank_in_section', '-')} | `{row['variant']}` | "
+                    f"{_pct(row.get('recall_top1'))} | {_pct(row.get('recall_top3'))} | {_pct(row.get('recall_top5'))} | "
+                    f"{_pct(row.get('recall_top10'))} | {_pct(row.get('recall_top20'))} | "
+                    f"{row.get('judgement', '-')} |"
+                )
+            else:  # ndcg
+                lines.append(
+                    f"| {row.get('rank_in_section', '-')} | `{row['variant']}` | "
+                    f"{_score(row.get('ndcg_top1'))} | {_score(row.get('ndcg_top3'))} | {_score(row.get('ndcg_top5'))} | "
+                    f"{_score(row.get('ndcg_top10'))} | {_score(row.get('ndcg_top20'))} | "
+                    f"{row.get('judgement', '-')} |"
+                )
         lines.extend(["", ""])
 
     lines.extend([
         "",
         "## 4. 总体指标",
         "",
-        "| Variant | 文案数 | 覆盖率 | R@1 | R@3 | R@5 | R@10 | R@20 | Hit@1 | Hit@3 | Hit@5 | Hit@10 | Hit@20 | 均 rank | 中位 rank | 系统均分 | 平均分差 | >=4.0 | >=4.5 |",
-        "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
+        "| Variant | 文案数 | 覆盖率 | Hit@1 | Hit@3 | Hit@5 | Hit@10 | Hit@20 | R@1 | R@3 | R@5 | R@10 | R@20 | NDCG@1 | NDCG@3 | NDCG@5 | NDCG@10 | NDCG@20 | 系统均分 | 平均分差 | >=4.0 | >=4.5 | 均rank |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
     ])
 
     for variant in variants:
@@ -970,16 +1054,19 @@ def write_markdown_report(report: Dict[str, Any], output_path: Path, include_scr
         topk = summary["topk_rate"]
         score_rate = summary["system_score_rate"]
         recall = summary.get("recall", {})
+        ndcg = summary.get("ndcg", {})
         lines.append(
             f"| `{variant}` | {summary['script_count']} | {_pct(summary['coverage'])} | "
-            f"{_pct(recall.get('top1'))} | {_pct(recall.get('top3'))} | {_pct(recall.get('top5'))} | "
-            f"{_pct(recall.get('top10'))} | {_pct(recall.get('top20'))} | "
             f"{_pct(topk['top1'])} | {_pct(topk['top3'])} | {_pct(topk['top5'])} | "
             f"{_pct(topk['top10'])} | {_pct(topk['top20'])} | "
-            f"{_score(summary['mean_rank'])} | {_score(summary['median_rank'])} | "
+            f"{_pct(recall.get('top1'))} | {_pct(recall.get('top3'))} | {_pct(recall.get('top5'))} | "
+            f"{_pct(recall.get('top10'))} | {_pct(recall.get('top20'))} | "
+            f"{_score(ndcg.get('top1'))} | {_score(ndcg.get('top3'))} | {_score(ndcg.get('top5'))} | "
+            f"{_score(ndcg.get('top10'))} | {_score(ndcg.get('top20'))} | "
             f"{_score(summary['mean_system_judge_score'])} | "
             f"{_score(summary['mean_gap_to_judge_best'])} | "
-            f"{_pct(score_rate['ge_4_0'])} | {_pct(score_rate['ge_4_5'])} |"
+            f"{_pct(score_rate['ge_4_0'])} | {_pct(score_rate['ge_4_5'])} | "
+            f"{_score(summary['mean_rank'])} |"
         )
 
     pool_overall = report.get("candidate_pool_overall", {})
@@ -1234,6 +1321,7 @@ def _variant_detail_markdown(
     topk = summary["topk_rate"]
     score_rate = summary["system_score_rate"]
     recall = summary.get("recall", {})
+    ndcg = summary.get("ndcg", {})
     score_by_script = summary.get("score_threshold_by_script", {})
     selected_dims = summary.get("mean_system_dimension_scores", {})
     pool = dj_result["candidate_pool"]
@@ -1277,7 +1365,16 @@ def _variant_detail_markdown(
         f"| Recall@10 | {_pct(recall.get('top10'))} | 系统 top10 与 Judge top10 交集占比 |",
         f"| Recall@20 | {_pct(recall.get('top20'))} | 系统 top20 与 Judge top20 交集占比 |",
         "",
-        "### 维度均分",
+        f"### NDCG (排序质量)",
+        "",
+        "| 指标 | 值 | 说明 |",
+        "|---|---:|---|",
+        f"| NDCG@1 | {_score(ndcg.get('top1'))} | 排序首位是否最优 |",
+        f"| NDCG@3 | {_score(ndcg.get('top3'))} | 前3排序与Judge理想排序接近度 |",
+        f"| NDCG@5 | {_score(ndcg.get('top5'))} | 前5排序与Judge理想排序接近度 |",
+        f"| NDCG@10 | {_score(ndcg.get('top10'))} | 前10排序与Judge理想排序接近度 |",
+        f"| NDCG@20 | {_score(ndcg.get('top20'))} | 前20排序与Judge理想排序接近度 |",
+        "",
         "",
         "| 指标 | 值 |",
         "|---|---:|",
@@ -1520,7 +1617,12 @@ def main() -> None:
     parser.add_argument("--include-scripts", action="store_true", help="Markdown 中包含全量逐文案明细")
     parser.add_argument("--detail-output-root", default="", help="每个 variant/dj 明细报告输出根目录，默认 judge/outputs")
     parser.add_argument("--no-detail-reports", action="store_true", help="只生成总汇总，不写 outputs/{variant}/{dj} 明细")
+    parser.add_argument("--no-20s-filter", action="store_true", help="禁用前20秒截断，对比全量文案段")
     args = parser.parse_args()
+
+    global _DISABLE_20S_FILTER
+    if args.no_20s_filter:
+        _DISABLE_20S_FILTER = True
 
     djs = resolve_djs(args)
     variants = parse_variants(args.variants)

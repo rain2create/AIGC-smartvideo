@@ -20,7 +20,7 @@ from typing import Dict, List, Any, Optional, Tuple
 import sys
 
 sys.path.append(str(Path(__file__).parent.parent))
-from video_commentary_text.model_client import ModelClient
+from commentary.model_client import ModelClient
 
 logging.basicConfig(
     level=logging.INFO,

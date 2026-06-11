@@ -1,0 +1,43 @@
+# ── 模型 ────────────────────────────────────────────────────────────────────
+model_path: /home/jovyan/data03/search_public/xby/models/Qwen3-VL-Reranker-8B
+variant_name: qwen_sft
+
+# ── LoRA ─────────────────────────────────────────────────────────────────────
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+# ── SFT ──────────────────────────────────────────────────────────────────────
+instruction: "Retrieve the most relevant video clip for the given query."
+pos_weight: 1.6              # 1223/765≈1.6，补偿正负不平衡
+
+# ── 视频帧 ───────────────────────────────────────────────────────────────────
+video_root: /home/jovyan/data03
+frame_cache_dir: judge/training_data/frame_cache
+total_pixels: 10485760
+
+# ── 数据 ─────────────────────────────────────────────────────────────────────
+sft_data_path: train/sft/train_sft.jsonl
+
+# ── 训练超参 ─────────────────────────────────────────────────────────────────
+lr: 5.0e-6
+warmup_steps: 20
+max_steps: 375            # ~1.5 epochs（1988 samples, 249 optimizer steps/epoch）
+batch_size_per_gpu: 1
+grad_accum: 4             # effective batch = 8（2 GPU × 1 × 4）
+max_seq_len: 4096
+gradient_checkpointing: true
+bf16: true
+save_steps: 75            # checkpoint-75/150/225/300/375
+
+# ── 输出路径（相对项目根）────────────────────────────────────────────────────
+output_dir: train/checkpoints/qwen_sft
+log_dir: train/logs/qwen_sft

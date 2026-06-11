@@ -46,6 +46,7 @@
 |---|---|---|---|
 | `query.segment_sequence` | `int` | 是 | 文案段序号 |
 | `query.script_text` | `string` | 是 | 文案原文 |
+| `query.query_text` | `string` | 是 | 模型输入，Q3 格式化查询字符串（优先来自 match_breakdown.query_text，缺失时由 visual_query 重建） |
 | `query.episode_target` | `int` | 否 | 目标集数 |
 | `query.visual_query` | `object` | 否 | 文案结构化查询（保留完整原始对象，不做字段裁剪） |
 
@@ -96,15 +97,67 @@ v2→v3 变化：
 
 | 字段路径 | 类型 | 必填 | 说明 |
 |---|---|---|---|
-| `labels.sample_bucket` | `string` | 是 | `strong_positive` / `fallback_positive` / `hard_negative` / `easy_negative` / `dimension_negative` / `unusable` |
-| `labels.is_positive` | `bool` | 是 | 是否为正样本（strong_positive 或 fallback_positive） |
-| `labels.is_negative` | `bool` | 是 | 是否为负样本（hard/easy/dimension_negative） |
+| `labels.sample_bucket` | `string` | 是 | `strong_positive` / `fallback_positive` / `ambiguous_positive` / `hard_negative` / `easy_negative` |
+| `labels.is_positive` | `bool` | 是 | 是否为正样本（strong_positive、fallback_positive 或 ambiguous_positive） |
+| `labels.is_negative` | `bool` | 是 | 是否为负样本（hard_negative 或 easy_negative） |
 | `labels.tie_group` | `string/null` | 是 | 同 query 下 overall 相同的样本组名，格式 `{query_id}_overall_{score}` |
-| `labels.preference_eligible` | `bool` | 是 | 是否可参与 DPO pair 构造（Phase C 根据 tie/confidence 判定） |
-| `labels.sample_weight` | `float` | 是 | 采样权重，默认 1.0（Phase C 用于 easy_negative 降权等） |
-
 v2→v3 变化：
 - `is_positive_candidate` → `is_positive`
 - `is_negative_candidate` → `is_negative`
-- 新增 `preference_eligible`（默认 true，Phase C 根据规则覆写）
-- 新增 `sample_weight`（默认 1.0，Phase C 根据采样策略覆写）
+- `preference_eligible` 已移除（DPO/Listwise AWR 均不需要，直接用 sample_bucket 过滤）
+- `sample_weight` 已移除（DPO/Listwise AWR 均用固定数量采样，权重字段无实际用途）
+
+---
+
+## 9. `pairs.jsonl` Schema（DPO 偏好对）
+
+> 从 `samples.jsonl` 派生，每行一个 `(query, chosen, rejected)` 训练样本。
+
+| 字段路径 | 类型 | 说明 |
+|---|---|---|
+| `pair_id` | `string` | 唯一 ID，格式 `{query_id}_c{chosen_cand_id}_r{rejected_cand_id}` |
+| `query_id` | `string` | 来源 query，可追溯 |
+| `pair_type` | `string` | `strong_vs_hard` / `strong_vs_easy` / `fallback_vs_hard` |
+| `source` | `object` | `{dj, run_id}`，可追溯到原始剧和 judge 批次 |
+| `query.script_text` | `string` | 文案原文（人工可读） |
+| `query.query_text` | `string` | 模型输入，Q3 格式化查询字符串（来自 match_breakdown.query_text） |
+| `chosen.sample_id` | `string` | 可追溯回 samples.jsonl |
+| `chosen.candidate_id` | `string` | 候选片段 ID |
+| `chosen.bucket` | `string` | 所属 bucket（质检用） |
+| `chosen.overall` | `number` | judge overall 分（质检用） |
+| `chosen.video_segment_path` | `string` | 视频文件绝对路径，模型输入（fps=1.0, max_frames=8 内部抽帧） |
+| `rejected.sample_id` | `string` | 同上 |
+| `rejected.candidate_id` | `string` | 同上 |
+| `rejected.bucket` | `string` | 同上 |
+| `rejected.overall` | `number` | 同上 |
+| `rejected.video_segment_path` | `string` | 同上 |
+
+> 注：一个正样本对多个负样本时，展开为多条独立 pair，每条各自是完整的 `(prompt, chosen, rejected)`。
+
+---
+
+## 10. `groups.jsonl` Schema（Listwise AWR 候选组）
+
+> 从 `samples.jsonl` 派生，每行一个 query 的候选组，供 Listwise AWR/PPO 训练使用。
+
+| 字段路径 | 类型 | 说明 |
+|---|---|---|
+| `group_id` | `string` | 即 `query_id` |
+| `query_id` | `string` | 来源 query，可追溯 |
+| `source` | `object` | `{dj, run_id}`，可追溯到原始剧和 judge 批次 |
+| `query.script_text` | `string` | 文案原文（人工可读） |
+| `query.query_text` | `string` | 模型输入，Q3 格式化查询字符串 |
+| `candidates` | `array` | 候选列表，15-19 个，见下表 |
+
+**`candidates` 每条字段：**
+
+| 字段 | 类型 | 说明 |
+|---|---|---|
+| `sample_id` | `string` | 可追溯回 samples.jsonl |
+| `candidate_id` | `string` | 候选片段 ID |
+| `bucket` | `string` | 所属 bucket（质检用） |
+| `overall` | `number` | judge original 分（质检用） |
+| `reward` | `number` | bucket-aware reward：正样本=overall，负样本=overall-4.0 |
+| `video_segment_path` | `string` | 视频文件绝对路径，模型输入（fps=1.0, max_frames=8 内部抽帧） |
+
+> 注：reward 存原始 bucket-aware 值，per-group z-score 归一化由训练框架在 forward 阶段完成。

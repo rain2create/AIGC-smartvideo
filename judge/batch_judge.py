@@ -133,8 +133,9 @@ def build_segment_index(dj: str, cache_dir: str = None) -> Dict[str, Dict[str, A
         return {}
 
     data = json.loads(sd_path.read_text(encoding="utf-8"))
+    segments = data if isinstance(data, list) else data.get("segments", [])
     index: Dict[str, Dict[str, Any]] = {}
-    for seg in data.get("segments", []):
+    for seg in segments:
         sid = seg.get("segment_id")
         if sid is not None:
             seg_key = _make_segment_key(sid, seg.get("episode"))
@@ -760,7 +761,7 @@ def generate_report(
 
 def run_batch(
     dj: str,
-    model: str = "google/gemini-3-pro-preview",
+    model: str = "volcengine/doubao-seed-2-0-lite",
     run_id: str = "",
     cache_dir: str = None,
     output_dir: str = None,
@@ -989,7 +990,7 @@ if __name__ == "__main__":
     parser.add_argument("input_arg", nargs="?", default="", help="剧名或 task txt 路径")
     parser.add_argument("--dj", default="", help="剧名")
     parser.add_argument("--task-file", default="", help="任务文件（每行一条，默认取第一列剧名）")
-    parser.add_argument("--model", default="google/gemini-3-pro-preview", help="模型")
+    parser.add_argument("--model", default="volcengine/doubao-seed-2-0-lite", help="模型")
     parser.add_argument("--run-id", default="", help="批次ID（断点续评时指定）")
     parser.add_argument("--cache-dir", default=None, help="缓存目录")
     parser.add_argument("--output-dir", default=None, help="输出目录")

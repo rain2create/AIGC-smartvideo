@@ -133,7 +133,7 @@ def process_single_dj(dj: str, start: str, end: str, out_file: str, top_k: str):
     """
     logger = setup_task_logger(dj)
     base = Path(__file__).parent.absolute()
-    comm_dir = base / "video_commentary_text"
+    comm_dir = base / "commentary"
     match_dir = base / "text_video_match"
     finish_dir = base / "finish"
     finish_dir.mkdir(exist_ok=True)

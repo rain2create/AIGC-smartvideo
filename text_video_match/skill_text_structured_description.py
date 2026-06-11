@@ -19,11 +19,11 @@ from typing import Dict, List, Any, Optional, Tuple
 import sys
 
 sys.path.append(str(Path(__file__).parent.parent))
-from video_commentary_text.model_client import ModelClient
+from commentary.model_client import ModelClient
 from tools.video_tts import VideoTTSProcessor
-from video_commentary_text import suoying
+from commentary import suoying
 # 导入suoying的映射功能
-from video_commentary_text.suoying import (
+from commentary.suoying import (
     map_commentary_to_episodes_with_llm,
     load_asr_files
 )
@@ -84,7 +84,7 @@ class TextStructuredDescription:
         if not episode_mapping:
             raise RuntimeError(
                 f"集数映射失败(suoying JSON解析错误)，请检查 LLM 返回格式。"
-                f"剧名={self.dj}，建议检查 suoying 日志或重跑。"
+                f"剧名={dj}，建议检查 suoying 日志或重跑。"
             )
         
         logger.info(f"映射完成，句子分布在 {len(episode_mapping)} 个集数")

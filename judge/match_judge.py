@@ -92,7 +92,7 @@ class MatchJudge:
         self,
         api_url: str = None,
         api_key: str = None,
-        model: str = "google/gemini-3-pro-preview",
+        model: str = "volcengine/doubao-seed-2-0-lite",
         temperature: float = 0.0,
         timeout: int = 300,
     ):
@@ -244,7 +244,7 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
 - 环境：{sd.get('environment', '无')}
 - 互动关系：{', '.join(sd.get('interaction_type', []) or []) or '无'}
 - 画面功能：{', '.join(sd.get('functional_intent', []) or []) or '无'}
-- 情绪基调：{sd.get('emotion_tone', '无')}
+- 情绪基调：{sd.get('emotion_intensity', '无')}
 - 镜头运动：{sd.get('camera_movement', '无')}
 - 对白/字幕：{sd.get('dialogue_or_text', '无')}"""
 
@@ -294,21 +294,46 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
 
 {json_template}"""
 
-    # ─── 视频编码 ───
+    # ─── 视频抽帧 ───
+
+    FRAME_FPS = 1.0  # 每秒抽 1 帧
 
     @staticmethod
-    def _encode_video(video_path: str) -> str:
-        """将视频文件编码为 data URI（base64），直接传给模型"""
+    def _extract_frames(video_path: str) -> List[str]:
+        """将视频按 fps=1 抽帧，返回 base64 JPEG data URI 列表"""
         if not os.path.exists(video_path):
             raise FileNotFoundError(f"视频文件不存在: {video_path}")
 
-        file_size_mb = os.path.getsize(video_path) / (1024 * 1024)
-        logger.info(f"编码视频: {video_path} ({file_size_mb:.1f}MB)")
+        try:
+            import cv2
+        except ImportError:
+            raise ImportError("opencv-python 未安装，无法抽帧")
 
-        with open(video_path, "rb") as f:
-            b64 = base64.b64encode(f.read()).decode("utf-8")
+        cap = cv2.VideoCapture(video_path)
+        video_fps = cap.get(cv2.CAP_PROP_FPS) or 25.0
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        duration = total_frames / max(video_fps, 1.0)
+        interval = max(1, int(video_fps / MatchJudge.FRAME_FPS))
 
-        return f"data:video/mp4;base64,{b64}"
+        logger.info(
+            f"抽帧: {video_path} ({total_frames}frames {duration:.1f}s fps={video_fps:.1f} interval={interval})"
+        )
+
+        frame_uris = []
+        idx = 0
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
+            if idx % interval == 0:
+                _, buf = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
+                b64 = base64.b64encode(buf).decode("utf-8")
+                frame_uris.append(f"data:image/jpeg;base64,{b64}")
+            idx += 1
+        cap.release()
+
+        logger.info(f"抽帧完成: {len(frame_uris)} 帧")
+        return frame_uris
 
     # ─── API 调用 ───
 
@@ -316,16 +341,15 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
         self,
         system_prompt: str,
         user_prompt: str,
-        video_data_uri: str,
+        frame_uris: List[str],
     ) -> Dict[str, Any]:
-        """构建多模态 API payload：system text + user (text + video)"""
-        user_content = [
-            {"type": "text", "text": user_prompt},
-            {
-                "type": "video_url",
-                "video_url": {"url": video_data_uri}
-            },
-        ]
+        """构建多模态 API payload：system text + user (text + images)"""
+        user_content = [{"type": "text", "text": user_prompt}]
+        for uri in frame_uris:
+            user_content.append({
+                "type": "image_url",
+                "image_url": {"url": uri},
+            })
 
         payload = {
             "model": self.model,
@@ -397,19 +421,13 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
             cleaned = cleaned[:-3]
         cleaned = cleaned.strip()
 
-        # 尝试提取 JSON
-        patterns = [
-            r'\{[\s\S]*?"scores"[\s\S]*?\}',
-            r'\{[\s\S]*?"analysis"[\s\S]*?\}',
-            r'\{[\s\S]*\}',
-        ]
-        for pattern in patterns:
-            match = re.search(pattern, cleaned, re.DOTALL)
-            if match:
-                try:
-                    return json.loads(match.group(0))
-                except json.JSONDecodeError:
-                    continue
+        # 提取 JSON（贪婪匹配完整 JSON 对象）
+        match = re.search(r'\{[\s\S]*\}', cleaned, re.DOTALL)
+        if match:
+            try:
+                return json.loads(match.group(0))
+            except json.JSONDecodeError:
+                pass
 
         raise ValueError(f"无法解析 JSON，原始输出: {raw_text[:500]}")
 
@@ -428,9 +446,11 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
         for dim in VALID_DIMENSIONS:
             val = scores_raw.get(dim)
             if val is None:
-                logger.warning(f"维度 {dim} 缺失，默认 1 分")
-                val = 1
-            validated[dim] = int(max(1, min(5, int(val))))
+                raise ValueError(f"维度 {dim} 缺失，LLM 未输出该维度分数")
+            score = int(val)
+            if score < 1 or score > 5:
+                raise ValueError(f"维度 {dim} 分数超出范围: {score}，应为 1-5")
+            validated[dim] = score
 
         # 加权总分
         overall = sum(validated[d] * DIMENSION_WEIGHTS[d] for d in VALID_DIMENSIONS)
@@ -501,21 +521,31 @@ overall_reasoning: 这是全维度完全错配的标准低分样例。人物、�
             f"candidate_id={judge_input.segment_id}"
         )
 
-        # 1. 编码视频
-        video_data_uri = self._encode_video(judge_input.video_segment_path)
+        # 1. 抽帧
+        frame_uris = self._extract_frames(judge_input.video_segment_path)
 
         # 2. 构建 prompt + payload
         user_prompt = self._build_user_prompt(judge_input)
-        payload = self._build_api_payload(self._system_prompt, user_prompt, video_data_uri)
+        payload = self._build_api_payload(self._system_prompt, user_prompt, frame_uris)
 
-        # 3. 调用 API
-        raw_text = self._call_api(payload)
-
-        # 4. 解析 + 校验
-        parsed = self._parse_response(raw_text)
-        return self._validate_and_build_output(
-            parsed, judge_input, {"dj": dj, "run_id": run_id}
-        )
+        # 3. 调用 API + 解析（含格式校验重试）
+        max_parse_retries = 5
+        for attempt in range(1, max_parse_retries + 1):
+            raw_text = self._call_api(payload)
+            try:
+                parsed = self._parse_response(raw_text)
+                return self._validate_and_build_output(
+                    parsed, judge_input, {"dj": dj, "run_id": run_id}
+                )
+            except (ValueError, KeyError, TypeError) as e:
+                logger.warning(
+                    f"输出格式错误（尝试 {attempt}/{max_parse_retries}）: {e}"
+                )
+                if attempt < max_parse_retries:
+                    continue
+                raise RuntimeError(
+                    f"Judge 评估失败（{max_parse_retries} 次格式校验不通过）: {e}"
+                ) from e
 
     def evaluate_with_consistency(
         self,

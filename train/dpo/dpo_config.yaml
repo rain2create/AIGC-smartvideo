@@ -1,0 +1,45 @@
+# ── 模型 ────────────────────────────────────────────────────────────────────
+model_path: /home/jovyan/data03/search_public/xby/models/Qwen3-VL-Reranker-8B
+variant_name: qwen_dpo          # 输出隔离 key，所有输出路径以此为前缀
+
+# ── LoRA ─────────────────────────────────────────────────────────────────────
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+# 仅文本 transformer 层（regex 精确匹配，排除 vision encoder）
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+# ── DPO ──────────────────────────────────────────────────────────────────────
+beta: 0.1
+beta_anchor: 0.01      # anchor 正则系数，防止 score explosion（见 findings/score_explosion.md）
+instruction: "Retrieve the most relevant video clip for the given query."
+
+# ── 视频帧 ───────────────────────────────────────────────────────────────────
+video_root: /home/jovyan/data03       # data03 挂载根，远程机器改这一行
+frame_cache_dir: judge/training_data/frame_cache   # 相对项目根
+total_pixels: 10485760                # 8帧 × 1280 × 32² ≈ 与推理侧一致
+
+# ── 数据 ─────────────────────────────────────────────────────────────────────
+splits_dir: judge/training_data/v3/splits
+
+# ── 训练超参 ─────────────────────────────────────────────────────────────────
+lr: 5.0e-6
+warmup_steps: 20           # optimizer steps，= 160 global steps (~8% warmup)
+max_steps: 2000            # optimizer steps，= 16000 global steps    ~1350 optimizer steps/epoch × 1.5 epoch
+batch_size_per_gpu: 1
+grad_accum: 8             # effective batch = 16 pairs
+max_seq_len: 4096
+gradient_checkpointing: true
+bf16: true
+save_steps: 500           ## global_step
+
+# ── 输出路径（相对项目根）────────────────────────────────────────────────────
+output_dir: train/checkpoints/qwen_dpo
+log_dir: train/logs/qwen_dpo

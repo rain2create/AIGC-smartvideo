@@ -15,7 +15,7 @@
   - 兼容删除旧路径 finish 成品视频
 
 保留范围：
-  - video_commentary_text/results/<dj>/ 文案结果
+  - commentary/results/<dj>/ 文案结果
 """
 
 import logging
@@ -100,7 +100,7 @@ def process_dj(base: Path, dj: str):
     match_dir = base / "text_video_match"
     cache_dir = match_dir / "cache" / dj
     finish_dir = base / "finish"
-    text_results_dir = base / "video_commentary_text" / "results" / dj
+    text_results_dir = base / "commentary" / "results" / dj
 
     logger.info(f"开始清理，dj={dj}（删除 cache 与 finish，保留文案 results）")
 

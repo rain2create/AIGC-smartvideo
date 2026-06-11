@@ -1,17 +1,29 @@
 # Cache & intermediate files
 cache/
+!text_video_match/cache/
+finish
 finish/
+logs
 logs/
+!train/logs/
 segment/
 results/
+!commentary/results/
 outputs/
+!judge/outputs/
 training_data/
+!judge/training_data/
+judge/training_data/frame_cache/
+commentary/results/*/
+commentary/.ipynb_checkpoints/
+tasks/canonical_judge/
+judge/outputs/**/canonical*/
+judge/outputs/**/canonical*
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
-*.pkl
 *.whl
 
 # Node
@@ -24,18 +36,47 @@ node_modules/
 
 # Large files
 *.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.ts
+*.mts
+*.m2ts
+*.3gp
+*.mxf
+*.mpg
+*.mpeg
 *.mp3
 *.wav
 *.zip
 *.pth
-*.safetensors
 *.log
 core.*
 
+# Model checkpoints / weights
+train/checkpoints/
+checkpoints/
+checkpoint/
+checkpoint*/
+**/checkpoints/
+**/checkpoint/
+**/checkpoint*/
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.onnx
+optimizer.pt
+scheduler.pt
+
 # Video files
-video_commentary_text/videos/
-video_commentary_text/backup/
-video_commentary_text/examples/
+commentary/videos/
+commentary/backup/
+commentary/examples/
 
 # Progress & pids
 progress_*.json
@@ -51,3 +92,7 @@ kill_*.sh
 *.tmp
 *.swp
 *~
+
+# Orphan
+=*/
+clip
