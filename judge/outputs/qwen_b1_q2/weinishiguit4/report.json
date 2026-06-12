@@ -1,0 +1,412 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:48:38",
+  "canonical_variant": "canonical",
+  "dj": "weinishiguit4",
+  "variant": "qwen_b1_q2",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/weinishiguit4/annotation_20260508_042728",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/weinishiguit4/1_10_20260428_105209_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 107,
+    "script_count": 4,
+    "mean": 2.9149532710280375,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 311.8999999999999,
+    "dimension_sums": {
+      "entity_match": 356.0,
+      "event_match": 271.0,
+      "scene_match": 342.0,
+      "tone_match": 312.0,
+      "editing_suitability": 301.0
+    },
+    "dimension_counts": {
+      "entity_match": 107,
+      "event_match": 107,
+      "scene_match": 107,
+      "tone_match": 107,
+      "editing_suitability": 107
+    },
+    "dimension_means": {
+      "entity_match": 3.3271028037383177,
+      "event_match": 2.532710280373832,
+      "scene_match": 3.196261682242991,
+      "tone_match": 2.9158878504672896,
+      "editing_suitability": 2.8130841121495327
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 39,
+        "total": 107,
+        "rate": 0.3644859813084112
+      },
+      "ge_4_5": {
+        "count": 31,
+        "total": 107,
+        "rate": 0.2897196261682243
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.3644859813084112,
+      "ge_4_5": 0.2897196261682243
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 30,
+        "best_score": 5.0,
+        "mean_score": 3.88,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 18,
+            "total": 30,
+            "rate": 0.6
+          },
+          "ge_4_5": {
+            "count": 17,
+            "total": 30,
+            "rate": 0.5666666666666667
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6,
+          "ge_4_5": 0.5666666666666667
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 33,
+        "best_score": 5.0,
+        "mean_score": 2.6515151515151514,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 33,
+            "rate": 0.2727272727272727
+          },
+          "ge_4_5": {
+            "count": 7,
+            "total": 33,
+            "rate": 0.21212121212121213
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2727272727272727,
+          "ge_4_5": 0.21212121212121213
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 22,
+        "best_score": 5.0,
+        "mean_score": 1.7704545454545455,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.045454545454545456,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 22,
+        "best_score": 4.8,
+        "mean_score": 3.1386363636363637,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 11,
+            "total": 22,
+            "rate": 0.5
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 22,
+            "rate": 0.2727272727272727
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.5,
+          "ge_4_5": 0.2727272727272727
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/weinishiguit4/1_10_20260428_105209_structured_qwen_b1_q2.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.75,
+        "top5": 0.75,
+        "top10": 0.75,
+        "top20": 1.0
+      },
+      "mean_rank": 5.75,
+      "median_rank": 2.5,
+      "mean_system_judge_score": 4.5375,
+      "min_system_judge_score": 3.95,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.5,
+        "event_match": 4.0,
+        "scene_match": 4.75,
+        "tone_match": 5.0,
+        "editing_suitability": 4.75
+      },
+      "mean_gap_to_judge_best": 0.41250000000000003,
+      "system_score_rate": {
+        "ge_4_0": 0.75,
+        "ge_4_5": 0.75
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 1.0,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.75
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 1.0,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.75
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.41666666666666663,
+        "top5": 0.45,
+        "top10": 0.575,
+        "top20": 0.8375
+      },
+      "ndcg": {
+        "top1": 0.9172916666666667,
+        "top3": 0.9143412023587649,
+        "top5": 0.8923286983488083,
+        "top10": 0.8646484248958681,
+        "top20": 0.9151063469279486
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "男人临死前才发现，自己舔了十年的白月光，竟是个彻头彻尾的冒牌货",
+        "episode_target": 1,
+        "n_candidates": 30,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.509441,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 16,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 18,
+          "ge_4_5": 17
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.2,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.9,
+          "top3": 0.927150489178407,
+          "top5": 0.8943492593732794,
+          "top10": 0.7869164813655516,
+          "top20": 0.8566856851793465
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "假名媛不仅霸占了结巴校花的情书和礼物，甚至抢走玉佩，顶替了首富孙女的身份",
+        "episode_target": 9,
+        "n_candidates": 33,
+        "system_segment_id": 18,
+        "system_episode": 9,
+        "system_source_score": 0.632887,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 9,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 7
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8438204877889071,
+          "top5": 0.8944064902581988,
+          "top10": 0.8377554522243056,
+          "top20": 0.8931277738802778
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "得知真相的男人含恨而终，没想到下一秒，他竟重生回到了过去",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.516557,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.05,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.79,
+          "top3": 0.9012227514639013,
+          "top5": 0.8309201348837029,
+          "top10": 0.8491197049787251,
+          "top20": 0.9218840239567514
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "脑海中闪过前世校花为他捐献心脏的画面，男人暗暗发誓，这一世绝不让悲剧重演",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 5,
+        "system_episode": 2,
+        "system_source_score": 0.582418,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 11,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.9791666666666667,
+          "top3": 0.9851710810038443,
+          "top5": 0.9496389088800522,
+          "top10": 0.9848020610148902,
+          "top20": 0.9887279046954188
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

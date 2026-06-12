@@ -1,0 +1,923 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "qinaidewoyaojhl",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/qinaidewoyaojhl/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qinaidewoyaojhl/1_10_20260515_030632_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 462,
+    "script_count": 11,
+    "mean": 1.7094155844155845,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 789.7500000000005,
+    "dimension_sums": {
+      "entity_match": 1422.0,
+      "event_match": 574.0,
+      "scene_match": 772.0,
+      "tone_match": 635.0,
+      "editing_suitability": 586.0
+    },
+    "dimension_counts": {
+      "entity_match": 462,
+      "event_match": 462,
+      "scene_match": 462,
+      "tone_match": 462,
+      "editing_suitability": 462
+    },
+    "dimension_means": {
+      "entity_match": 3.0779220779220777,
+      "event_match": 1.2424242424242424,
+      "scene_match": 1.670995670995671,
+      "tone_match": 1.3744588744588744,
+      "editing_suitability": 1.2683982683982684
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 15,
+        "total": 462,
+        "rate": 0.032467532467532464
+      },
+      "ge_4_5": {
+        "count": 3,
+        "total": 462,
+        "rate": 0.006493506493506494
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.032467532467532464,
+      "ge_4_5": 0.006493506493506494
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 47,
+        "best_score": 4.4,
+        "mean_score": 2.442553191489362,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 47,
+            "rate": 0.14893617021276595
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14893617021276595,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 47,
+        "best_score": 3.7,
+        "mean_score": 1.8393617021276596,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 39,
+        "best_score": 2.1,
+        "mean_score": 1.5576923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 39,
+        "best_score": 2.25,
+        "mean_score": 1.5897435897435896,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 47,
+        "best_score": 5.0,
+        "mean_score": 2.0627659574468087,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 47,
+            "rate": 0.14893617021276595
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 47,
+            "rate": 0.06382978723404255
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14893617021276595,
+          "ge_4_5": 0.06382978723404255
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 47,
+        "best_score": 2.05,
+        "mean_score": 1.5148936170212766,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 39,
+        "best_score": 1.8,
+        "mean_score": 1.2333333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 32,
+        "best_score": 4.25,
+        "mean_score": 1.9234375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 32,
+            "rate": 0.03125
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03125,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 39,
+        "best_score": 1.95,
+        "mean_score": 1.1397435897435897,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 39,
+        "best_score": 3.35,
+        "mean_score": 1.7397435897435898,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 47,
+        "best_score": 3.45,
+        "mean_score": 1.6095744680851063,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qinaidewoyaojhl/1_10_20260515_030632_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 11,
+      "ranked_script_count": 11,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.18181818181818182,
+        "top3": 0.36363636363636365,
+        "top5": 0.45454545454545453,
+        "top10": 0.5454545454545454,
+        "top20": 0.9090909090909091
+      },
+      "mean_rank": 9.818181818181818,
+      "median_rank": 10,
+      "mean_system_judge_score": 2.3045454545454547,
+      "min_system_judge_score": 1.45,
+      "max_system_judge_score": 4.45,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.181818181818182,
+        "event_match": 1.5454545454545454,
+        "scene_match": 2.3636363636363638,
+        "tone_match": 1.9090909090909092,
+        "editing_suitability": 1.7272727272727273
+      },
+      "mean_gap_to_judge_best": 0.8136363636363636,
+      "system_score_rate": {
+        "ge_4_0": 0.18181818181818182,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.2727272727272727,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.18181818181818182
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.09090909090909091,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.18181818181818182,
+        "top3": 0.4242424242424242,
+        "top5": 0.4,
+        "top10": 0.42727272727272725,
+        "top20": 0.6772727272727272
+      },
+      "ndcg": {
+        "top1": 0.7643134020237059,
+        "top3": 0.8369963091244691,
+        "top5": 0.8445326303950688,
+        "top10": 0.8591978332482275,
+        "top20": 0.8794290008017479
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "与顾西洲相恋5年，温以宁准备求婚，却发现他只是把自己当作玩物",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 41,
+        "system_episode": 1,
+        "system_source_score": 0.177734,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 36,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.4,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8742470669693612,
+          "top5": 0.9135039620716594,
+          "top10": 0.8057726909809237,
+          "top20": 0.8360786046391687
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "这份深情化作五年如一日的付出，她为他准备的每一份惊喜，他都报以冷漠回应",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 41,
+        "system_episode": 1,
+        "system_source_score": 0.056641,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 17,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 27,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.5945945945945946,
+          "top3": 0.7216567324206227,
+          "top5": 0.7381424875197425,
+          "top10": 0.8347761921445983,
+          "top20": 0.8640576033664635
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "就在温以宁决定放手时，裴聿之的真诚求婚如一道闪电划破天际",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 12,
+        "system_episode": 2,
+        "system_source_score": 0.003479,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9318174454853341,
+          "top5": 0.9391736256806318,
+          "top10": 0.8956270805952667,
+          "top20": 0.8919163096899133
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "她没有犹豫，答应了这个突如其来的求婚，泪水却不由自主地滑落",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 12,
+        "system_episode": 2,
+        "system_source_score": 0.004333,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 18,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 32,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.2,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.8444444444444444,
+          "top3": 0.8765770208645591,
+          "top5": 0.9081121556707967,
+          "top10": 0.9018280524646891,
+          "top20": 0.8842260042195584
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "而另一边，顾西洲在赛车场上一次次夺冠，将温以宁的付出抛诸脑后",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 12,
+        "system_episode": 1,
+        "system_source_score": 0.847656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 4.45,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.89,
+          "top3": 0.9707556252544148,
+          "top5": 0.9242720307554941,
+          "top10": 0.9180187751688459,
+          "top20": 0.9566558100385091
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "当温以宁终于鼓起勇气表白，等待她的却是顾西洲的伤病和冷漠的拒绝",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 23,
+        "system_episode": 1,
+        "system_source_score": 0.06543,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.8,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 33,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.878048780487805,
+          "top3": 0.9247407491584324,
+          "top5": 0.930505454061767,
+          "top10": 0.9492987861923393,
+          "top20": 0.9314978738197595
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "在机场，温以宁做出了决定，离开顾西洲，去接受裴聿之的求婚",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 28,
+        "system_episode": 2,
+        "system_source_score": 0.007812,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.8,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 28,
+        "judge_best_episode": 2,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.4,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8804997897133136,
+          "top5": 0.8995289927522424,
+          "top10": 0.8869152038678115,
+          "top20": 0.9180188224197965
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "顾西洲在生死赛中获胜，却不知道温以宁已经选择了离开，他的世界里，永远失去了那个为他付出一切的女人",
+        "episode_target": 10,
+        "n_candidates": 32,
+        "system_segment_id": 14,
+        "system_episode": 10,
+        "system_source_score": 0.12793,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 27,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 30,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.75,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.55
+        },
+        "ndcg": {
+          "top1": 0.35294117647058826,
+          "top3": 0.4776526487513104,
+          "top5": 0.5492655325999749,
+          "top10": 0.6722879872804836,
+          "top20": 0.7465892678008502
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "就在顾西洲站在领奖台上接受祝贺，温以宁却已经与裴聿之举行了婚礼",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 25,
+        "system_episode": 2,
+        "system_source_score": 0.00193,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 2,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.7435897435897436,
+          "top3": 0.9137748698797863,
+          "top5": 0.933533630925307,
+          "top10": 0.9349345538890348,
+          "top20": 0.9426429617051525
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "顾西洲看着远处，那个曾为他付出一切的女人，如今已是他人妻子",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 29,
+        "system_episode": 2,
+        "system_source_score": 0.008057,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 28,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.582089552238806,
+          "top3": 0.8061041019949942,
+          "top5": 0.7272547967566695,
+          "top10": 0.7809958938591636,
+          "top20": 0.8168136546536894
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "他想要追回，却发现再也找不回那份曾经的温度，温以宁已经彻底离开他的世界",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 25,
+        "system_episode": 1,
+        "system_source_score": 0.017456,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.8,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 41,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.65,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.5217391304347826,
+          "top3": 0.8291333498770309,
+          "top5": 0.8265662655514715,
+          "top10": 0.8707209492873459,
+          "top20": 0.8852220964663656
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

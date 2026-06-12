@@ -1,0 +1,2091 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "qingmeiyibzmni",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/qingmeiyibzmni/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qingmeiyibzmni/1_10_20260514_022047_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 445,
+    "script_count": 27,
+    "mean": 2.399887640449438,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 1067.9500000000003,
+    "dimension_sums": {
+      "entity_match": 1531.0,
+      "event_match": 773.0,
+      "scene_match": 1525.0,
+      "tone_match": 894.0,
+      "editing_suitability": 776.0
+    },
+    "dimension_counts": {
+      "entity_match": 445,
+      "event_match": 445,
+      "scene_match": 445,
+      "tone_match": 445,
+      "editing_suitability": 445
+    },
+    "dimension_means": {
+      "entity_match": 3.440449438202247,
+      "event_match": 1.7370786516853933,
+      "scene_match": 3.4269662921348316,
+      "tone_match": 2.0089887640449438,
+      "editing_suitability": 1.743820224719101
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 55,
+        "total": 445,
+        "rate": 0.12359550561797752
+      },
+      "ge_4_5": {
+        "count": 34,
+        "total": 445,
+        "rate": 0.07640449438202247
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.12359550561797752,
+      "ge_4_5": 0.07640449438202247
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 28,
+        "best_score": 4.15,
+        "mean_score": 2.1589285714285715,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 28,
+            "rate": 0.03571428571428571
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03571428571428571,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 2.7517857142857145,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 28,
+            "rate": 0.21428571428571427
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 28,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21428571428571427,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 2.6982142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 28,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 28,
+            "rate": 0.21428571428571427
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.21428571428571427
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 2.0482142857142858,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 28,
+            "rate": 0.07142857142857142
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 28,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07142857142857142,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 16,
+        "best_score": 2.75,
+        "mean_score": 2.384375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 2.7410714285714284,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 28,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 28,
+            "rate": 0.21428571428571427
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.21428571428571427
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 16,
+        "best_score": 4.7,
+        "mean_score": 3.00625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 16,
+            "rate": 0.3125
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3125,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 16,
+        "best_score": 3.75,
+        "mean_score": 2.625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 16,
+        "best_score": 4.7,
+        "mean_score": 2.725,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 16,
+            "rate": 0.1875
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1875,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 17,
+        "best_score": 4.85,
+        "mean_score": 2.7205882352941178,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 17,
+            "rate": 0.17647058823529413
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.17647058823529413,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 17,
+        "best_score": 5.0,
+        "mean_score": 4.044117647058823,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 17,
+            "rate": 0.5294117647058824
+          },
+          "ge_4_5": {
+            "count": 7,
+            "total": 17,
+            "rate": 0.4117647058823529
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.5294117647058824,
+          "ge_4_5": 0.4117647058823529
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 13,
+        "best_score": 4.55,
+        "mean_score": 2.3038461538461537,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07692307692307693,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 13,
+        "best_score": 4.8,
+        "mean_score": 2.6115384615384616,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 13,
+            "rate": 0.23076923076923078
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23076923076923078,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 13,
+        "best_score": 5.0,
+        "mean_score": 2.2346153846153847,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 13,
+            "rate": 0.15384615384615385
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 13,
+            "rate": 0.15384615384615385
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15384615384615385,
+          "ge_4_5": 0.15384615384615385
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 13,
+        "best_score": 2.55,
+        "mean_score": 1.5884615384615384,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 14,
+        "best_score": 4.05,
+        "mean_score": 2.5142857142857142,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 14,
+            "rate": 0.14285714285714285
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14285714285714285,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 14,
+        "best_score": 5.0,
+        "mean_score": 1.8892857142857142,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07142857142857142,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 14,
+        "best_score": 4.6,
+        "mean_score": 2.617857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07142857142857142,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 14,
+        "best_score": 3.2,
+        "mean_score": 2.4357142857142855,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 13,
+        "best_score": 2.45,
+        "mean_score": 1.6346153846153846,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 21,
+        "n_candidates": 13,
+        "best_score": 3.0,
+        "mean_score": 1.8384615384615384,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 22,
+        "n_candidates": 13,
+        "best_score": 3.6,
+        "mean_score": 2.3615384615384616,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 23,
+        "n_candidates": 12,
+        "best_score": 3.8,
+        "mean_score": 2.0833333333333335,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 24,
+        "n_candidates": 12,
+        "best_score": 4.55,
+        "mean_score": 1.9625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.08333333333333333
+        }
+      },
+      {
+        "segment_sequence": 25,
+        "n_candidates": 12,
+        "best_score": 3.3,
+        "mean_score": 1.675,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 26,
+        "n_candidates": 12,
+        "best_score": 3.25,
+        "mean_score": 1.6291666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 27,
+        "n_candidates": 12,
+        "best_score": 4.65,
+        "mean_score": 1.9916666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.08333333333333333
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qingmeiyibzmni/1_10_20260514_022047_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 27,
+      "ranked_script_count": 27,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5555555555555556,
+        "top3": 0.8148148148148148,
+        "top5": 0.8518518518518519,
+        "top10": 0.9259259259259259,
+        "top20": 1.0
+      },
+      "mean_rank": 3.111111111111111,
+      "median_rank": 1,
+      "mean_system_judge_score": 3.727777777777778,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.148148148148148,
+        "event_match": 3.4074074074074074,
+        "scene_match": 4.148148148148148,
+        "tone_match": 3.5925925925925926,
+        "editing_suitability": 3.5555555555555554
+      },
+      "mean_gap_to_judge_best": 0.42962962962962964,
+      "system_score_rate": {
+        "ge_4_0": 0.5185185185185185,
+        "ge_4_5": 0.4074074074074074
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 17,
+          "scripts_with_any_rate": 0.6296296296296297,
+          "system_best_score_count": 14,
+          "system_best_score_rate": 0.5185185185185185
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 15,
+          "scripts_with_any_rate": 0.5555555555555556,
+          "system_best_score_count": 11,
+          "system_best_score_rate": 0.4074074074074074
+        }
+      },
+      "recall": {
+        "top1": 0.5555555555555556,
+        "top3": 0.5061728395061729,
+        "top5": 0.6370370370370371,
+        "top10": 0.8074074074074075,
+        "top20": 0.81
+      },
+      "ndcg": {
+        "top1": 0.8982377562121863,
+        "top3": 0.8916393743474043,
+        "top5": 0.9055193063152762,
+        "top10": 0.9402167797134192,
+        "top20": 0.9586646536417173
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "相恋七年的女友竟然和别人领了结婚证，理由居然是为了让别人的绝症母亲安心",
+        "episode_target": 1,
+        "n_candidates": 28,
+        "system_segment_id": 22,
+        "system_episode": 1,
+        "system_source_score": 0.828125,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.15,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9164983308600317,
+          "top5": 0.9118532879394753,
+          "top10": 0.9575693036675667,
+          "top20": 0.9318222846275238
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "顾川看着眼前的苏妍，只觉得无比陌生",
+        "episode_target": 1,
+        "n_candidates": 28,
+        "system_segment_id": 28,
+        "system_episode": 1,
+        "system_source_score": 0.648438,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 25,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.8800000000000001,
+          "top3": 0.8906537305935345,
+          "top5": 0.9024992827230973,
+          "top10": 0.9077708129032396,
+          "top20": 0.9441582798257896
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "就在不久前，他发现苏妍在两人七周年纪念日这天，偷偷和别人领了证",
+        "episode_target": 1,
+        "n_candidates": 28,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.957031,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.988401825153076,
+          "top5": 0.992564445264019,
+          "top10": 0.9776513181581111,
+          "top20": 0.9689573633219176
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "心灰意冷的顾川当即联系了大学教授，决定一周后远赴伦敦参与海外项目",
+        "episode_target": 1,
+        "n_candidates": 28,
+        "system_segment_id": 15,
+        "system_episode": 1,
+        "system_source_score": 0.917969,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9950176099984893,
+          "top10": 0.9818596729576691,
+          "top20": 0.9827976045782794
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "面对顾川提出的分手，苏妍却显得理直气壮，声称和李辰只是假结婚，全是为了让李辰患绝症的母亲走得安心",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 14,
+        "system_episode": 2,
+        "system_source_score": 0.003708,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.25,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8181818181818182,
+          "top3": 0.8879988209687593,
+          "top5": 0.9503709304678133,
+          "top10": 0.9509300011277706,
+          "top20": 0.9744050664108093
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "甚至还责怪顾川不够理性，让他不要无理取闹",
+        "episode_target": 1,
+        "n_candidates": 28,
+        "system_segment_id": 24,
+        "system_episode": 1,
+        "system_source_score": 0.957031,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9812288509590896,
+          "top5": 0.9951164480280418,
+          "top10": 0.9922203539099134,
+          "top20": 0.9800427803491795
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "顾川彻底看透了这个女人，决定在离开前安静度过最后几天",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 8,
+        "system_episode": 2,
+        "system_source_score": 0.632812,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8732465242384859,
+          "top5": 0.8363068846211019,
+          "top10": 0.8892938332618886,
+          "top20": 0.9564620628400553
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "当苏妍胃疼发作时，顾川还是习惯性地为她熬了最爱的鲫鱼豆腐汤",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.15625,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.84,
+          "top3": 0.8690987680366268,
+          "top5": 0.8845323511818689,
+          "top10": 0.9578730346538051,
+          "top20": 0.9651910114644757
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "可汤还没喝完，苏妍一接到李辰的电话，便毫不犹豫地抛下顾川，匆匆赶去照顾李辰的母亲",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 15,
+        "system_episode": 2,
+        "system_source_score": 0.925781,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.929381404275361,
+          "top5": 0.9207218490283929,
+          "top10": 0.9462175863911994,
+          "top20": 0.975384666443413
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "顾川独自来到两人常去的酒吧，意外遇到了仰慕自己多年的学妹宋暖玉",
+        "episode_target": 4,
+        "n_candidates": 17,
+        "system_segment_id": 17,
+        "system_episode": 4,
+        "system_source_score": 0.816406,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 17,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 3.35,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.30927835051546393,
+          "top3": 0.6926105214029517,
+          "top5": 0.7140041710557896,
+          "top10": 0.8138464995422029,
+          "top20": 0.8821202345289041
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "他平静地告诉学妹自己即将出国，以及苏妍已经结婚的事实",
+        "episode_target": 4,
+        "n_candidates": 17,
+        "system_segment_id": 6,
+        "system_episode": 4,
+        "system_source_score": 0.917969,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 7
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9564247554107965,
+          "top5": 0.972661657442991,
+          "top10": 0.9849409157286354,
+          "top20": 0.9887289770571707
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "没想到就在这时，苏妍竟然带着李辰也来到了酒吧",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 7,
+        "system_episode": 5,
+        "system_source_score": 0.155273,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.95,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5714285714285715,
+          "top3": 0.7453976007388293,
+          "top5": 0.793984180169489,
+          "top10": 0.8726424003616637,
+          "top20": 0.8985547493062235
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "看到顾川身边的宋暖玉，苏妍不仅没有半点愧疚，反而倒打一耙，厉声质问顾川为何跟别的女人喝酒",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 6,
+        "system_episode": 5,
+        "system_source_score": 0.882812,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8805000172594042,
+          "top5": 0.8826490601685697,
+          "top10": 0.9443533692926303,
+          "top20": 0.9629847698475291
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "甚至还堂而皇之地向顾川介绍李辰是江大的高材生",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 8,
+        "system_episode": 5,
+        "system_source_score": 0.863281,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 5,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.972438823605024,
+          "top5": 0.9888021727225684,
+          "top10": 0.976787381131766,
+          "top20": 0.9927973680736524
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "顾川懒得争辩，借着酒意转身离开",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 2,
+        "system_episode": 5,
+        "system_source_score": 0.084961,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 5,
+        "judge_best_score": 2.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7647058823529412,
+          "top3": 0.9061171901765966,
+          "top5": 0.9266574811368519,
+          "top10": 0.9484822517956478,
+          "top20": 0.9657147462106157
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "第二天，苏妍不仅要求顾川以后不准再见宋暖玉，还得意地坦白当年曾截胡过宋暖玉写给顾川的情书",
+        "episode_target": 7,
+        "n_candidates": 14,
+        "system_segment_id": 4,
+        "system_episode": 7,
+        "system_source_score": 0.800781,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.0,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.05,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9876543209876544,
+          "top3": 0.9830707730478696,
+          "top5": 0.9657833694196869,
+          "top10": 0.9893085256737525,
+          "top20": 0.9912064023144922
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "她看着家里空荡荡的角落，随口询问少了什么",
+        "episode_target": 7,
+        "n_candidates": 14,
+        "system_segment_id": 7,
+        "system_episode": 7,
+        "system_source_score": 0.9375,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 7,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8948040935238873,
+          "top5": 0.909859184850465,
+          "top10": 0.9187329845610235,
+          "top20": 0.9622975452841109
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 18,
+        "script_text": "顾川只是淡淡地敷衍，说把没用的东西都扔了",
+        "episode_target": 7,
+        "n_candidates": 14,
+        "system_segment_id": 8,
+        "system_episode": 7,
+        "system_source_score": 0.585938,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.841610447565281,
+          "top5": 0.8857086140184709,
+          "top10": 0.9369291589838086,
+          "top20": 0.9630875744021886
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 19,
+        "script_text": "苏妍根本没有察觉，顾川扔掉的，全是他自己在这个家里的生活痕迹",
+        "episode_target": 7,
+        "n_candidates": 14,
+        "system_segment_id": 7,
+        "system_episode": 7,
+        "system_source_score": 0.08252,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.84375,
+          "top3": 0.8376593710796212,
+          "top5": 0.8138286104636566,
+          "top10": 0.8973273693444068,
+          "top20": 0.9419478144999658
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 20,
+        "script_text": "几天后，顾川准备去公司办理离职手续",
+        "episode_target": 8,
+        "n_candidates": 13,
+        "system_segment_id": 4,
+        "system_episode": 8,
+        "system_source_score": 0.040771,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.45,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 8,
+        "judge_best_score": 2.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9949826247501277,
+          "top5": 0.9663578533306081,
+          "top10": 0.9833590359842705,
+          "top20": 0.9945209648931881
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 21,
+        "script_text": "刚出门，就撞见李辰特意跑来给苏妍送早餐",
+        "episode_target": 8,
+        "n_candidates": 13,
+        "system_segment_id": 12,
+        "system_episode": 8,
+        "system_source_score": 0.164062,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.0,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 8,
+        "judge_best_score": 3.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.903094639914615,
+          "top5": 0.894307999175785,
+          "top10": 0.9464332949037592,
+          "top20": 0.9693646267609983
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 22,
+        "script_text": "看着两人手上刺眼的对戒，顾川心中再无波澜，径直离开",
+        "episode_target": 8,
+        "n_candidates": 13,
+        "system_segment_id": 9,
+        "system_episode": 8,
+        "system_source_score": 0.095215,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 8,
+        "judge_best_score": 3.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9510330755499109,
+          "top5": 0.9635715449536656,
+          "top10": 0.9709045628256949,
+          "top20": 0.9857005205837043
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 23,
+        "script_text": "当晚，顾川和几个好兄弟在餐厅聚餐，做着最后的告别",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.176758,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.7,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9736842105263159,
+          "top3": 0.9005691837526801,
+          "top5": 0.9186853609454678,
+          "top10": 0.9636028730313658,
+          "top20": 0.9653108053222594
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 24,
+        "script_text": "就在众人举杯为顾川送行时，桌上的手机突然疯狂震动起来",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.041504,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 3.35,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.26373626373626374,
+          "top3": 0.5244579067318549,
+          "top5": 0.6043157261906325,
+          "top10": 0.7643514615972514,
+          "top20": 0.801424609776374
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 25,
+        "script_text": "屏幕上闪烁着苏妍的名字，显然是来兴师问罪的",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 7,
+        "system_episode": 10,
+        "system_source_score": 0.202148,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9306450866663383,
+          "top5": 0.94114915221019,
+          "top10": 0.9728023068115429,
+          "top20": 0.9797825030510484
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 26,
+        "script_text": "顾川冷冷地扫了一眼，毫不犹豫地按下了挂断键",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 7,
+        "system_episode": 10,
+        "system_source_score": 0.148438,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9072167578773808,
+          "top5": 0.9480603604797644,
+          "top10": 0.9792310746354097,
+          "top20": 0.980581253437226
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 27,
+        "script_text": "电话那头的苏妍气急败坏，根本不知道，那个爱了她七年的男人，明天一早就会彻底消失在她的世界里",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 7,
+        "system_episode": 10,
+        "system_source_score": 0.460938,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9151219832417817,
+          "top5": 0.9696516825255053,
+          "top10": 0.960431669026324,
+          "top20": 0.9785990631152707
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

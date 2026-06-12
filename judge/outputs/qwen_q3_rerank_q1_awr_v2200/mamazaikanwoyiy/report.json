@@ -1,0 +1,923 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:44:40",
+  "canonical_variant": "canonical",
+  "dj": "mamazaikanwoyiy",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/mamazaikanwoyiy/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/mamazaikanwoyiy/1_10_20260514_003426_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 153,
+    "script_count": 11,
+    "mean": 2.1127450980392157,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 323.25,
+    "dimension_sums": {
+      "entity_match": 370.0,
+      "event_match": 264.0,
+      "scene_match": 409.0,
+      "tone_match": 326.0,
+      "editing_suitability": 272.0
+    },
+    "dimension_counts": {
+      "entity_match": 153,
+      "event_match": 153,
+      "scene_match": 153,
+      "tone_match": 153,
+      "editing_suitability": 153
+    },
+    "dimension_means": {
+      "entity_match": 2.418300653594771,
+      "event_match": 1.7254901960784315,
+      "scene_match": 2.673202614379085,
+      "tone_match": 2.130718954248366,
+      "editing_suitability": 1.7777777777777777
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 16,
+        "total": 153,
+        "rate": 0.10457516339869281
+      },
+      "ge_4_5": {
+        "count": 10,
+        "total": 153,
+        "rate": 0.06535947712418301
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.10457516339869281,
+      "ge_4_5": 0.06535947712418301
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 18,
+        "best_score": 5.0,
+        "mean_score": 2.3472222222222223,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 18,
+            "rate": 0.16666666666666666
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.16666666666666666,
+          "ge_4_5": 0.1111111111111111
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 18,
+        "best_score": 5.0,
+        "mean_score": 2.922222222222222,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 18,
+            "rate": 0.2777777777777778
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2777777777777778,
+          "ge_4_5": 0.1111111111111111
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 17,
+        "best_score": 5.0,
+        "mean_score": 2.5558823529411763,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 17,
+            "rate": 0.17647058823529413
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 17,
+            "rate": 0.17647058823529413
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.17647058823529413,
+          "ge_4_5": 0.17647058823529413
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 12,
+        "best_score": 4.5,
+        "mean_score": 2.7541666666666664,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.08333333333333333
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 14,
+        "best_score": 4.7,
+        "mean_score": 2.632142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 14,
+            "rate": 0.21428571428571427
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 14,
+            "rate": 0.14285714285714285
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21428571428571427,
+          "ge_4_5": 0.14285714285714285
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 12,
+        "best_score": 1.65,
+        "mean_score": 1.2083333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 12,
+        "best_score": 2.15,
+        "mean_score": 1.4708333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 12,
+        "best_score": 1.9,
+        "mean_score": 1.175,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 12,
+        "best_score": 2.85,
+        "mean_score": 1.3625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 12,
+        "best_score": 4.15,
+        "mean_score": 2.279166666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 14,
+        "best_score": 3.85,
+        "mean_score": 1.792857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/mamazaikanwoyiy/1_10_20260514_003426_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 11,
+      "ranked_script_count": 11,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.18181818181818182,
+        "top3": 0.5454545454545454,
+        "top5": 0.8181818181818182,
+        "top10": 0.9090909090909091,
+        "top20": 1.0
+      },
+      "mean_rank": 3.909090909090909,
+      "median_rank": 3,
+      "mean_system_judge_score": 2.8318181818181816,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.090909090909091,
+        "event_match": 2.6363636363636362,
+        "scene_match": 3.4545454545454546,
+        "tone_match": 2.6363636363636362,
+        "editing_suitability": 2.4545454545454546
+      },
+      "mean_gap_to_judge_best": 0.8727272727272728,
+      "system_score_rate": {
+        "ge_4_0": 0.18181818181818182,
+        "ge_4_5": 0.18181818181818182
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 0.5454545454545454,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.18181818181818182
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 5,
+          "scripts_with_any_rate": 0.45454545454545453,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.18181818181818182
+        }
+      },
+      "recall": {
+        "top1": 0.18181818181818182,
+        "top3": 0.5151515151515151,
+        "top5": 0.6363636363636364,
+        "top10": 0.8363636363636364,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.764318833840669,
+        "top3": 0.8428832276050671,
+        "top5": 0.8563316885760058,
+        "top10": 0.9129065445375288,
+        "top20": 0.9393117509485146
+      },
+      "max_top_matches": 18
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "母女俩无依无靠相依为命，却不知闺蜜为赌债卖掉了女儿",
+        "episode_target": 1,
+        "n_candidates": 18,
+        "system_segment_id": 5,
+        "system_episode": 1,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.05,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.79,
+          "top3": 0.9149095794428606,
+          "top5": 0.9085681164205863,
+          "top10": 0.9234845357203838,
+          "top20": 0.9563636742499794
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "为了帮老公还赌债，杜金花联系了人贩子，将张曦月卖给了陌生人",
+        "episode_target": 1,
+        "n_candidates": 18,
+        "system_segment_id": 5,
+        "system_episode": 1,
+        "system_source_score": 0.695312,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.96,
+          "top3": 0.8389219758114465,
+          "top5": 0.9060539601709888,
+          "top10": 0.9372405164965092,
+          "top20": 0.9589565314974887
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "十五年来，杨复娟每天都在重复着同一句话：‘月月，妈妈好想你",
+        "episode_target": 6,
+        "n_candidates": 17,
+        "system_segment_id": 3,
+        "system_episode": 6,
+        "system_source_score": 0.90625,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 6,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8897248789045348,
+          "top5": 0.7934675558297065,
+          "top10": 0.9441803117512787,
+          "top20": 0.9563541646642827
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "’就在母女相认的喜极而泣时，一个穿着名牌的女子突然出现，宣称自己是张曦月的亲生母亲",
+        "episode_target": 8,
+        "n_candidates": 12,
+        "system_segment_id": 8,
+        "system_episode": 8,
+        "system_source_score": 0.648438,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7888888888888889,
+          "top3": 0.9284544973341794,
+          "top5": 0.9452044843041374,
+          "top10": 0.947044953700433,
+          "top20": 0.9657750850155081
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "杨复娟愣在原地，十五年的寻找，换来的却是这样一个荒唐的结果",
+        "episode_target": 9,
+        "n_candidates": 14,
+        "system_segment_id": 9,
+        "system_episode": 9,
+        "system_source_score": 0.347656,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 3.35,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.2872340425531915,
+          "top3": 0.5360591579197915,
+          "top5": 0.5374336838567683,
+          "top10": 0.6759575678936159,
+          "top20": 0.812482156381304
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "在真假母亲的对峙中，一个意想不到的人出现了——杨复娟的男朋友江星宇，他宣布将收养张曦月",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 5,
+        "system_episode": 10,
+        "system_source_score": 0.570312,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7272727272727273,
+          "top3": 0.845666907293944,
+          "top5": 0.8835944454945759,
+          "top10": 0.9416821779544461,
+          "top20": 0.9465344720401019
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "最后，假母亲被揭穿，真母亲杨复娟终于与女儿张曦月相认",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 3,
+        "system_episode": 10,
+        "system_source_score": 0.087402,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6976744186046512,
+          "top3": 0.813740109113776,
+          "top5": 0.8593981402753941,
+          "top10": 0.9270332684465088,
+          "top20": 0.936873974931385
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "就在杨复娟抱紧张曦月准备离开时，杜金花突然挡在面前，冷笑一声：‘你以为这样就结束了",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.005737,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9304769326993909,
+          "top5": 0.917731459690846,
+          "top10": 0.9656338394441184,
+          "top20": 0.9747812254100293
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "月月的身世之谜还远未解开封印",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 11,
+        "system_episode": 10,
+        "system_source_score": 0.008606,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6842105263157895,
+          "top3": 0.9006936896029654,
+          "top5": 0.9022216494976723,
+          "top10": 0.9319417079196928,
+          "top20": 0.9498890257223378
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "’杨复娟看着杜金花，又看向身边的江星宇，心中百感交集",
+        "episode_target": 10,
+        "n_candidates": 12,
+        "system_segment_id": 5,
+        "system_episode": 10,
+        "system_source_score": 0.194336,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9397590361445782,
+          "top3": 0.8050791953687116,
+          "top5": 0.9229571089106328,
+          "top10": 0.9520808087356009,
+          "top20": 0.9585237113141329
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "而镜头最后定格在那枚钻石项链上，正是这枚项链，成为了母女相认的关键证据",
+        "episode_target": 9,
+        "n_candidates": 14,
+        "system_segment_id": 7,
+        "system_episode": 9,
+        "system_source_score": 0.412109,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5324675324675324,
+          "top3": 0.8679885801641367,
+          "top5": 0.8430179698847564,
+          "top10": 0.8956923018502293,
+          "top20": 0.9158952392071111
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

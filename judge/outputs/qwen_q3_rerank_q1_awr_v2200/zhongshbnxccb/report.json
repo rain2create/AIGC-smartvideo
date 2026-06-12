@@ -1,0 +1,1580 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "zhongshbnxccb",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/zhongshbnxccb/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/zhongshbnxccb/1_10_20260516_221342_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 396,
+    "script_count": 20,
+    "mean": 2.480808080808081,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 982.4000000000004,
+    "dimension_sums": {
+      "entity_match": 1156.0,
+      "event_match": 805.0,
+      "scene_match": 1209.0,
+      "tone_match": 987.0,
+      "editing_suitability": 816.0
+    },
+    "dimension_counts": {
+      "entity_match": 396,
+      "event_match": 396,
+      "scene_match": 396,
+      "tone_match": 396,
+      "editing_suitability": 396
+    },
+    "dimension_means": {
+      "entity_match": 2.919191919191919,
+      "event_match": 2.032828282828283,
+      "scene_match": 3.053030303030303,
+      "tone_match": 2.492424242424242,
+      "editing_suitability": 2.0606060606060606
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 72,
+        "total": 396,
+        "rate": 0.18181818181818182
+      },
+      "ge_4_5": {
+        "count": 58,
+        "total": 396,
+        "rate": 0.14646464646464646
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.18181818181818182,
+      "ge_4_5": 0.14646464646464646
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 30,
+        "best_score": 4.65,
+        "mean_score": 3.2016666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 30,
+            "rate": 0.23333333333333334
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 30,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23333333333333334,
+          "ge_4_5": 0.1
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 30,
+        "best_score": 5.0,
+        "mean_score": 4.085,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 21,
+            "total": 30,
+            "rate": 0.7
+          },
+          "ge_4_5": {
+            "count": 20,
+            "total": 30,
+            "rate": 0.6666666666666666
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.7,
+          "ge_4_5": 0.6666666666666666
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 30,
+        "best_score": 4.2,
+        "mean_score": 1.515,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 30,
+            "rate": 0.03333333333333333
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03333333333333333,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 20,
+        "best_score": 4.4,
+        "mean_score": 1.725,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 20,
+        "best_score": 3.9,
+        "mean_score": 1.7675,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 20,
+        "best_score": 3.8,
+        "mean_score": 2.1975000000000002,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 22,
+        "best_score": 5.0,
+        "mean_score": 4.2295454545454545,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 16,
+            "total": 22,
+            "rate": 0.7272727272727273
+          },
+          "ge_4_5": {
+            "count": 15,
+            "total": 22,
+            "rate": 0.6818181818181818
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.7272727272727273,
+          "ge_4_5": 0.6818181818181818
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 22,
+        "best_score": 5.0,
+        "mean_score": 3.668181818181818,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 10,
+            "total": 22,
+            "rate": 0.45454545454545453
+          },
+          "ge_4_5": {
+            "count": 10,
+            "total": 22,
+            "rate": 0.45454545454545453
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.45454545454545453,
+          "ge_4_5": 0.45454545454545453
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 17,
+        "best_score": 5.0,
+        "mean_score": 3.55,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 17,
+            "rate": 0.29411764705882354
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 17,
+            "rate": 0.23529411764705882
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.29411764705882354,
+          "ge_4_5": 0.23529411764705882
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 25,
+        "best_score": 4.85,
+        "mean_score": 2.626,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 25,
+            "rate": 0.12
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 25,
+            "rate": 0.08
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.12,
+          "ge_4_5": 0.08
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 16,
+        "best_score": 4.35,
+        "mean_score": 2.453125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 16,
+            "rate": 0.1875
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1875,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 16,
+        "best_score": 5.0,
+        "mean_score": 1.925,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0625,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 16,
+        "best_score": 3.35,
+        "mean_score": 2.284375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 16,
+        "best_score": 4.8,
+        "mean_score": 2.5375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 16,
+            "rate": 0.125
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 16,
+            "rate": 0.125
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.125,
+          "ge_4_5": 0.125
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 16,
+        "best_score": 4.7,
+        "mean_score": 2.18125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0625,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 16,
+        "best_score": 4.4,
+        "mean_score": 2.10625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0625,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 16,
+        "best_score": 1.85,
+        "mean_score": 1.290625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 16,
+        "best_score": 2.7,
+        "mean_score": 1.284375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 16,
+        "best_score": 2.25,
+        "mean_score": 1.503125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 16,
+        "best_score": 2.05,
+        "mean_score": 1.484375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/zhongshbnxccb/1_10_20260516_221342_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 20,
+      "ranked_script_count": 20,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.25,
+        "top3": 0.45,
+        "top5": 0.5,
+        "top10": 0.9,
+        "top20": 1.0
+      },
+      "mean_rank": 5.6,
+      "median_rank": 5.0,
+      "mean_system_judge_score": 3.33,
+      "min_system_judge_score": 1.35,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.75,
+        "event_match": 3.0,
+        "scene_match": 3.7,
+        "tone_match": 3.3,
+        "editing_suitability": 3.0
+      },
+      "mean_gap_to_judge_best": 0.7325,
+      "system_score_rate": {
+        "ge_4_0": 0.45,
+        "ge_4_5": 0.35
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 13,
+          "scripts_with_any_rate": 0.65,
+          "system_best_score_count": 9,
+          "system_best_score_rate": 0.45
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 9,
+          "scripts_with_any_rate": 0.45,
+          "system_best_score_count": 7,
+          "system_best_score_rate": 0.35
+        }
+      },
+      "recall": {
+        "top1": 0.25,
+        "top3": 0.31666666666666665,
+        "top5": 0.49,
+        "top10": 0.665,
+        "top20": 0.8666666666666667
+      },
+      "ndcg": {
+        "top1": 0.8018078816508029,
+        "top3": 0.8132797225675099,
+        "top5": 0.8431571800621326,
+        "top10": 0.8803436336407795,
+        "top20": 0.9254103456550621
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女首富被恶毒女婿折磨致死，为她披麻戴孝的，竟是被她赶出家门的废柴前女婿",
+        "episode_target": 1,
+        "n_candidates": 30,
+        "system_segment_id": 26,
+        "system_episode": 1,
+        "system_source_score": 0.507812,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 16,
+        "system_judge_score": 3.4,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.7311827956989246,
+          "top3": 0.6845135469833074,
+          "top5": 0.7107857938397544,
+          "top10": 0.8027549219783724,
+          "top20": 0.8601244041327121
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "前世的沈晓梅错信豺狼，落得家破人亡的悲惨下场",
+        "episode_target": 1,
+        "n_candidates": 30,
+        "system_segment_id": 22,
+        "system_episode": 1,
+        "system_source_score": 0.9375,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 4.9,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 21,
+          "ge_4_5": 20
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.9800000000000001,
+          "top3": 0.9906144254795449,
+          "top5": 0.9932167958945277,
+          "top10": 0.9048844288061945,
+          "top20": 0.8836450029640543
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "而那个被她百般羞辱的叶风，却以华尔街之王的身份，为她守灵三年",
+        "episode_target": 1,
+        "n_candidates": 30,
+        "system_segment_id": 24,
+        "system_episode": 1,
+        "system_source_score": 0.890625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 24,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.5,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8587788706623389,
+          "top5": 0.8909442164262444,
+          "top10": 0.8800231433357871,
+          "top20": 0.9012582185196887
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "带着满腔悔恨，沈晓梅竟然重生回到了三年前的订婚宴上",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.006287,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.836460097084687,
+          "top5": 0.8467467260955226,
+          "top10": 0.9077047274925079,
+          "top20": 0.9490301760266987
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "这一世，她暗暗发誓，一定要把这个金龟婿宠上天",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 13,
+        "system_episode": 2,
+        "system_source_score": 0.049561,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.44871794871794873,
+          "top3": 0.6368305835438179,
+          "top5": 0.6920422335249609,
+          "top10": 0.8221036735445767,
+          "top20": 0.8876863476321151
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "此时的皇冠酒店里，一场阴谋正在上演",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 15,
+        "system_episode": 2,
+        "system_source_score": 0.294922,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.4,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.5,
+          "top3": 0.500867640536483,
+          "top5": 0.5110453805039116,
+          "top10": 0.6653256752844943,
+          "top20": 0.8386284312498747
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "恶少郑天川不仅抢了叶风救下沈莹莹的功劳，还当众羞辱叶风是个乡巴佬",
+        "episode_target": 4,
+        "n_candidates": 22,
+        "system_segment_id": 18,
+        "system_episode": 4,
+        "system_source_score": 0.945312,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 4,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 16,
+          "ge_4_5": 15
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.97,
+          "top3": 0.870948350343742,
+          "top5": 0.9067309435497556,
+          "top10": 0.9341824756980033,
+          "top20": 0.952840137961593
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "不明真相的沈莹莹更是对叶风百般嫌弃，执意要当场解除婚约",
+        "episode_target": 4,
+        "n_candidates": 22,
+        "system_segment_id": 19,
+        "system_episode": 4,
+        "system_source_score": 0.953125,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 4,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 10,
+          "ge_4_5": 10
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9448938674448164,
+          "top10": 0.9317112313136022,
+          "top20": 0.9632012985202991
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "为了彻底赶走叶风，郑天川甚至倒打一耙，诬陷叶风偷了价值千万的祖传玉佩",
+        "episode_target": 6,
+        "n_candidates": 17,
+        "system_segment_id": 3,
+        "system_episode": 6,
+        "system_source_score": 0.957031,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 6,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8530721273977243,
+          "top5": 0.8813671780103084,
+          "top10": 0.915330781621414,
+          "top20": 0.9665543022029892
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "更过分的是，他们强行按住叶风，逼迫他签下屈辱的认罪书",
+        "episode_target": 9,
+        "n_candidates": 25,
+        "system_segment_id": 8,
+        "system_episode": 9,
+        "system_source_score": 0.878906,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8158437281438325,
+          "top5": 0.8714567124536984,
+          "top10": 0.9376154434274847,
+          "top20": 0.9317570980131914
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "就在这千钧一发之际，沈晓梅霸气登场",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 8,
+        "system_episode": 10,
+        "system_source_score": 0.378906,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9080459770114944,
+          "top3": 0.7957941484431875,
+          "top5": 0.796713550709556,
+          "top10": 0.8560893435746872,
+          "top20": 0.9274971349670648
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "郑天川本以为丈母娘会替自己撑腰，连忙上前献媚讨好",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 6,
+        "system_episode": 10,
+        "system_source_score": 0.621094,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8873944924545796,
+          "top5": 0.9331807056340254,
+          "top10": 0.9535327648364544,
+          "top20": 0.9745917393771245
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "可下一秒，沈晓梅直接甩出百亿黑卡和楼王别墅",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 8,
+        "system_episode": 10,
+        "system_source_score": 0.005371,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.25,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6716417910447761,
+          "top3": 0.7171821455400015,
+          "top5": 0.7564338172168784,
+          "top10": 0.7981661213317502,
+          "top20": 0.9072332454832461
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "她当众宣布，这些天价珠宝全都是送给叶风的聘礼",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 10,
+        "system_episode": 10,
+        "system_source_score": 0.871094,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9375,
+          "top3": 0.9096016712812618,
+          "top5": 0.9521742246950138,
+          "top10": 0.9306953354201166,
+          "top20": 0.964679232973818
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "全场瞬间死一般寂静",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.298828,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.65,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.4361702127659574,
+          "top3": 0.8010132260420367,
+          "top5": 0.8564768798275559,
+          "top10": 0.8779859895559112,
+          "top20": 0.9172067014808958
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "沈晓梅没有停手，她立刻下令清算郑天川这个前世的仇人",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 3,
+        "system_episode": 10,
+        "system_source_score": 0.535156,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.3,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.1,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5227272727272726,
+          "top3": 0.7998535765246504,
+          "top5": 0.8299277214944192,
+          "top10": 0.8742955499441505,
+          "top20": 0.907866653428001
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "看着眼前发生的一切，沈莹莹终于意识到了自己的愚蠢",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 14,
+        "system_episode": 10,
+        "system_source_score": 0.002716,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.85,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8600178125227382,
+          "top5": 0.9294039910915163,
+          "top10": 0.9490198656034279,
+          "top20": 0.9702786688013664
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 18,
+        "script_text": "她流着泪走向叶风，想要挽回这段姻缘",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.044678,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5740740740740741,
+          "top3": 0.8618897121710726,
+          "top5": 0.8791897562974528,
+          "top10": 0.9025709334086276,
+          "top20": 0.9296649821274761
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 19,
+        "script_text": "然而叶风只是冷冷地看着她",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 16,
+        "system_episode": 10,
+        "system_source_score": 0.004456,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6000000000000001,
+          "top3": 0.7344286312083552,
+          "top5": 0.7661588720711203,
+          "top10": 0.8571708414197821,
+          "top20": 0.9177376902801726
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 20,
+        "script_text": "面对迟来的醒悟，这个曾经被踩在脚底的男人，缓缓抬起了手",
+        "episode_target": 10,
+        "n_candidates": 16,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.003372,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7560975609756099,
+          "top3": 0.8504896649868372,
+          "top5": 0.9142542344616142,
+          "top10": 0.9057094252182455,
+          "top20": 0.9567254469588604
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1069 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "baobeidengwf",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/baobeidengwf/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/baobeidengwf/1_10_20260513_084642_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 231,
+    "script_count": 13,
+    "mean": 2.1413419913419913,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 494.65000000000003,
+    "dimension_sums": {
+      "entity_match": 650.0,
+      "event_match": 363.0,
+      "scene_match": 582.0,
+      "tone_match": 531.0,
+      "editing_suitability": 357.0
+    },
+    "dimension_counts": {
+      "entity_match": 231,
+      "event_match": 231,
+      "scene_match": 231,
+      "tone_match": 231,
+      "editing_suitability": 231
+    },
+    "dimension_means": {
+      "entity_match": 2.813852813852814,
+      "event_match": 1.5714285714285714,
+      "scene_match": 2.5194805194805197,
+      "tone_match": 2.2987012987012987,
+      "editing_suitability": 1.5454545454545454
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 20,
+        "total": 231,
+        "rate": 0.08658008658008658
+      },
+      "ge_4_5": {
+        "count": 12,
+        "total": 231,
+        "rate": 0.05194805194805195
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.08658008658008658,
+      "ge_4_5": 0.05194805194805195
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 17,
+        "best_score": 2.65,
+        "mean_score": 1.2970588235294118,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 19,
+        "best_score": 5.0,
+        "mean_score": 3.8526315789473684,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 12,
+            "total": 19,
+            "rate": 0.631578947368421
+          },
+          "ge_4_5": {
+            "count": 8,
+            "total": 19,
+            "rate": 0.42105263157894735
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.631578947368421,
+          "ge_4_5": 0.42105263157894735
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 26,
+        "best_score": 2.05,
+        "mean_score": 1.5076923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 20,
+        "best_score": 4.1,
+        "mean_score": 1.7475,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 26,
+        "best_score": 3.0,
+        "mean_score": 1.9384615384615385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 11,
+        "best_score": 2.45,
+        "mean_score": 1.440909090909091,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 11,
+        "best_score": 5.0,
+        "mean_score": 2.8636363636363638,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 11,
+            "rate": 0.18181818181818182
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.18181818181818182,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 15,
+        "best_score": 3.55,
+        "mean_score": 2.6066666666666665,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 17,
+        "best_score": 3.1,
+        "mean_score": 1.988235294117647,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 17,
+        "best_score": 4.6,
+        "mean_score": 2.5029411764705882,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.058823529411764705,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 15,
+        "best_score": 3.75,
+        "mean_score": 1.95,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 20,
+        "best_score": 4.15,
+        "mean_score": 1.825,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 17,
+        "best_score": 4.55,
+        "mean_score": 2.723529411764706,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.11764705882352941,
+          "ge_4_5": 0.11764705882352941
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/baobeidengwf/1_10_20260513_084642_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 13,
+      "ranked_script_count": 13,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.3076923076923077,
+        "top3": 0.5384615384615384,
+        "top5": 0.7692307692307693,
+        "top10": 0.9230769230769231,
+        "top20": 1.0
+      },
+      "mean_rank": 4.076923076923077,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.2192307692307693,
+      "min_system_judge_score": 1.4,
+      "max_system_judge_score": 4.65,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6153846153846154,
+        "event_match": 2.6923076923076925,
+        "scene_match": 3.6923076923076925,
+        "tone_match": 3.4615384615384617,
+        "editing_suitability": 2.6923076923076925
+      },
+      "mean_gap_to_judge_best": 0.46923076923076923,
+      "system_score_rate": {
+        "ge_4_0": 0.3076923076923077,
+        "ge_4_5": 0.23076923076923078
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 0.46153846153846156,
+          "system_best_score_count": 4,
+          "system_best_score_rate": 0.3076923076923077
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.3076923076923077,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.23076923076923078
+        }
+      },
+      "recall": {
+        "top1": 0.3076923076923077,
+        "top3": 0.3846153846153846,
+        "top5": 0.5846153846153846,
+        "top10": 0.7615384615384615,
+        "top20": 0.9375
+      },
+      "ndcg": {
+        "top1": 0.8567301981223177,
+        "top3": 0.8429484342756042,
+        "top5": 0.8773997438891602,
+        "top10": 0.9125153941981754,
+        "top20": 0.9483347483100834
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "六岁患病女孩被老师关进小黑屋，亲生父亲却嫌弃她在撒谎",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 8,
+        "system_episode": 9,
+        "system_source_score": 0.006104,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 1.4,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 9,
+        "judge_best_score": 2.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5283018867924528,
+          "top3": 0.6818967670407492,
+          "top5": 0.8273737912297017,
+          "top10": 0.8663490919796628,
+          "top20": 0.9106770742791013
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "就在刚刚，身为集团总裁的女人接到女儿的求救电话",
+        "episode_target": 8,
+        "n_candidates": 19,
+        "system_segment_id": 2,
+        "system_episode": 8,
+        "system_source_score": 0.839844,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 8,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 12,
+          "ge_4_5": 8
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.93,
+          "top3": 0.9490267646965886,
+          "top5": 0.9500137790379595,
+          "top10": 0.9757480651377978,
+          "top20": 0.985851730836889
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "得知女儿仅仅因为画了一辆自行车，就被势利眼老师歧视，甚至被赶出教室",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 23,
+        "system_episode": 1,
+        "system_source_score": 0.722656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.8048780487804879,
+          "top3": 0.9015360636988622,
+          "top5": 0.9318144153440004,
+          "top10": 0.9442487381108167,
+          "top20": 0.9703375560774484
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "更要命的是，患有心脏病且怕黑的女儿，为了避雨躲进屋子，却被意外反锁",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 5,
+        "system_episode": 2,
+        "system_source_score": 0.211914,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 20,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9390243902439025,
+          "top3": 0.8184377854323736,
+          "top5": 0.9128182463324942,
+          "top10": 0.9314709018732537,
+          "top20": 0.9606489659053913
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "女人当机立断，直接放弃关乎集团未来三年发展的合作，疯了一般赶往培训中心",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.160156,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.7333333333333334,
+          "top3": 0.6020879962598981,
+          "top5": 0.6536312555397576,
+          "top10": 0.7385286271583129,
+          "top20": 0.8355533529281747
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "途中，女儿再次打来电话，说自己找到了光，躲进了一个冰箱里，可是门却不小心关上，怎么推也推不开",
+        "episode_target": 4,
+        "n_candidates": 11,
+        "system_segment_id": 10,
+        "system_episode": 4,
+        "system_source_score": 0.490234,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.45,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 4,
+        "judge_best_score": 2.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8860241753864848,
+          "top5": 0.8668520195776793,
+          "top10": 0.9508116468425392,
+          "top20": 0.9615323532865583
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "女人终于赶到现场，却不小心撞毁了其他家长送给老师的昂贵土特产",
+        "episode_target": 5,
+        "n_candidates": 11,
+        "system_segment_id": 7,
+        "system_episode": 5,
+        "system_source_score": 0.388672,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.05,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 5,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8099999999999999,
+          "top3": 0.7548016726074787,
+          "top5": 0.7816867742070587,
+          "top10": 0.8907180783100191,
+          "top20": 0.9135984789066535
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "被打的老师捂着脸疯狂叫嚣，扬言这家培训中心是纵合集团总裁投资的，除了校长没人能开除她",
+        "episode_target": 7,
+        "n_candidates": 15,
+        "system_segment_id": 15,
+        "system_episode": 7,
+        "system_source_score": 0.871094,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9982310872062797,
+          "top5": 0.980943470608388,
+          "top10": 0.9808843134355428,
+          "top20": 0.9933372693646733
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "看着嚣张跋扈的老师，女人再也按捺不住心中的怒火，直接一巴掌扇了过去",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 1,
+        "system_episode": 9,
+        "system_source_score": 0.126953,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 1.85,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5967741935483871,
+          "top3": 0.7266867972648278,
+          "top5": 0.8413716124236069,
+          "top10": 0.8881151025126977,
+          "top20": 0.9277151537625726
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "趁着混乱，女人找到一间紧锁的屋子，拼命想要撞开，却被周围的家长死死拦住",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 17,
+        "system_episode": 9,
+        "system_source_score": 0.388672,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9625880947555868,
+          "top5": 0.9611271977228055,
+          "top10": 0.9568351037475187,
+          "top20": 0.9865456126501643
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "面对质问，老师大言不惭地承认，自己就是借着布置作业搞家庭摸底，目的就是为了把那些家里只开得起自行车的低贱货色清理出去",
+        "episode_target": 7,
+        "n_candidates": 15,
+        "system_segment_id": 7,
+        "system_episode": 7,
+        "system_source_score": 0.075684,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.75,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8939262838149316,
+          "top5": 0.9002864264275551,
+          "top10": 0.9417576295574089,
+          "top20": 0.9692541057155698
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "时间一分一秒地流逝，被困在冰冷冰箱里的女孩随时都会心脏病发作",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 5,
+        "system_episode": 2,
+        "system_source_score": 0.363281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.7951807228915662,
+          "top3": 0.938139315370637,
+          "top5": 0.9487976453432054,
+          "top10": 0.9332121225646858,
+          "top20": 0.9649887334647188
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "面对众人的围堵和即将到来的执法队，这位总裁母亲究竟该如何破局",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 6,
+        "system_episode": 9,
+        "system_source_score": 0.601562,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8449468420481561,
+          "top5": 0.8494800367648702,
+          "top10": 0.8640207033460235,
+          "top20": 0.948311340853169
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

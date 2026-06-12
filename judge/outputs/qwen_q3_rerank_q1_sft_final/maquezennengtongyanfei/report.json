@@ -1,0 +1,515 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "maquezennengtongyanfei",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/maquezennengtongyanfei/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/maquezennengtongyanfei/1_10_20260519_095357_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 99,
+    "script_count": 11,
+    "mean": 1.8242424242424242,
+    "min": 1.0,
+    "max": 4.25,
+    "score_sum": 180.6,
+    "dimension_sums": {
+      "entity_match": 258.0,
+      "event_match": 125.0,
+      "scene_match": 277.0,
+      "tone_match": 151.0,
+      "editing_suitability": 122.0
+    },
+    "dimension_counts": {
+      "entity_match": 99,
+      "event_match": 99,
+      "scene_match": 99,
+      "tone_match": 99,
+      "editing_suitability": 99
+    },
+    "dimension_means": {
+      "entity_match": 2.606060606060606,
+      "event_match": 1.2626262626262625,
+      "scene_match": 2.797979797979798,
+      "tone_match": 1.5252525252525253,
+      "editing_suitability": 1.2323232323232323
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 1,
+        "total": 99,
+        "rate": 0.010101010101010102
+      },
+      "ge_4_5": {
+        "count": 0,
+        "total": 99,
+        "rate": 0.0
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.010101010101010102,
+      "ge_4_5": 0.0
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 9,
+        "best_score": 3.85,
+        "mean_score": 2.927777777777778,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 9,
+        "best_score": 4.25,
+        "mean_score": 2.25,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 9,
+            "rate": 0.1111111111111111
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1111111111111111,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 9,
+        "best_score": 2.15,
+        "mean_score": 1.7777777777777777,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 9,
+        "best_score": 2.1,
+        "mean_score": 1.3333333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 9,
+        "best_score": 1.95,
+        "mean_score": 1.7277777777777779,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 9,
+        "best_score": 3.15,
+        "mean_score": 2.0277777777777777,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 9,
+        "best_score": 1.5,
+        "mean_score": 1.2833333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 9,
+        "best_score": 2.2,
+        "mean_score": 1.6277777777777778,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 9,
+        "best_score": 2.3,
+        "mean_score": 1.8833333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 9,
+        "best_score": 1.6,
+        "mean_score": 1.288888888888889,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 9,
+        "best_score": 3.25,
+        "mean_score": 1.9388888888888889,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/maquezennengtongyanfei/1_10_20260519_095357_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 3,
+      "ranked_script_count": 3,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.6666666666666666,
+        "top5": 0.6666666666666666,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 4,
+      "median_rank": 3,
+      "mean_system_judge_score": 2.55,
+      "min_system_judge_score": 1.9,
+      "max_system_judge_score": 2.9,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6666666666666665,
+        "event_match": 1.6666666666666667,
+        "scene_match": 4.333333333333333,
+        "tone_match": 2.0,
+        "editing_suitability": 1.6666666666666667
+      },
+      "mean_gap_to_judge_best": 0.8666666666666667,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 0,
+          "scripts_with_any_rate": 0.0,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.3333333333333333,
+        "top5": 0.8,
+        "top10": null,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.7687778705562563,
+        "top3": 0.8186411581224577,
+        "top5": 0.9137100049872986,
+        "top10": 0.9414599531106708,
+        "top20": 0.9414599531106708
+      },
+      "max_top_matches": 9
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "光耀医药集团上市了，可江光耀的孝顺，却在医院遭遇了前所未有的考验",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 5,
+        "system_episode": 9,
+        "system_source_score": 0.419922,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.85,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7402597402597403,
+          "top3": 0.8025795697123651,
+          "top5": 0.902655366558794,
+          "top10": 0.9407489463959322,
+          "top20": 0.9407489463959322
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "他刚为母亲安排好特级病房，准备尽尽孝道，可没想到这竟成了陈家的嚣张跋扈的导火索",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 5,
+        "system_episode": 9,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.9,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.35,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6823529411764706,
+          "top3": 0.7335156144902361,
+          "top5": 0.8866527445215295,
+          "top10": 0.911009581852533,
+          "top20": 0.911009581852533
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "陈冉冉一家趾高气昂地来到医院，目标直指那间特级病房，院长亲自安排的，岂是那么容易更改的",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 6,
+        "system_episode": 9,
+        "system_source_score": 0.241211,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 9,
+        "judge_best_score": 2.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8837209302325582,
+          "top3": 0.919828290164772,
+          "top5": 0.9518219038815723,
+          "top10": 0.972621331083547,
+          "top20": 0.972621331083547
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

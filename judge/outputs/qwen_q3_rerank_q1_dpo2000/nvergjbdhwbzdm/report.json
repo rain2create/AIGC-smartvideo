@@ -1,0 +1,923 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "nvergjbdhwbzdm",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/nvergjbdhwbzdm/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/nvergjbdhwbzdm/1_10_20260514_012448_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 193,
+    "script_count": 11,
+    "mean": 2.2577720207253886,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 435.7499999999997,
+    "dimension_sums": {
+      "entity_match": 521.0,
+      "event_match": 329.0,
+      "scene_match": 635.0,
+      "tone_match": 416.0,
+      "editing_suitability": 336.0
+    },
+    "dimension_counts": {
+      "entity_match": 193,
+      "event_match": 193,
+      "scene_match": 193,
+      "tone_match": 193,
+      "editing_suitability": 193
+    },
+    "dimension_means": {
+      "entity_match": 2.699481865284974,
+      "event_match": 1.7046632124352332,
+      "scene_match": 3.290155440414508,
+      "tone_match": 2.155440414507772,
+      "editing_suitability": 1.7409326424870466
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 19,
+        "total": 193,
+        "rate": 0.09844559585492228
+      },
+      "ge_4_5": {
+        "count": 9,
+        "total": 193,
+        "rate": 0.046632124352331605
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.09844559585492228,
+      "ge_4_5": 0.046632124352331605
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 18,
+        "best_score": 5.0,
+        "mean_score": 2.283333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 18,
+            "rate": 0.2222222222222222
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2222222222222222,
+          "ge_4_5": 0.1111111111111111
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 18,
+        "best_score": 3.6,
+        "mean_score": 1.961111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 22,
+        "best_score": 4.65,
+        "mean_score": 2.797727272727273,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 22,
+            "rate": 0.22727272727272727
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.22727272727272727,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 22,
+        "best_score": 4.7,
+        "mean_score": 2.202272727272727,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.045454545454545456,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 24,
+        "best_score": 3.45,
+        "mean_score": 1.7791666666666668,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 24,
+        "best_score": 1.8,
+        "mean_score": 1.2416666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 16,
+        "best_score": 4.3,
+        "mean_score": 2.53125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0625,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 12,
+        "best_score": 5.0,
+        "mean_score": 3.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 12,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 12,
+            "rate": 0.08333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.08333333333333333
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 8,
+        "best_score": 5.0,
+        "mean_score": 3.65,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 8,
+            "rate": 0.375
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 8,
+            "rate": 0.25
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.375,
+          "ge_4_5": 0.25
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 16,
+        "best_score": 4.7,
+        "mean_score": 2.49375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 16,
+            "rate": 0.125
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 16,
+            "rate": 0.125
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.125,
+          "ge_4_5": 0.125
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 13,
+        "best_score": 3.75,
+        "mean_score": 2.4038461538461537,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/nvergjbdhwbzdm/1_10_20260514_012448_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 11,
+      "ranked_script_count": 11,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.45454545454545453,
+        "top3": 0.5454545454545454,
+        "top5": 0.6363636363636364,
+        "top10": 0.9090909090909091,
+        "top20": 0.9090909090909091
+      },
+      "mean_rank": 5,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.4954545454545456,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6363636363636362,
+        "event_match": 3.0,
+        "scene_match": 4.0,
+        "tone_match": 3.727272727272727,
+        "editing_suitability": 3.3636363636363638
+      },
+      "mean_gap_to_judge_best": 0.6818181818181818,
+      "system_score_rate": {
+        "ge_4_0": 0.36363636363636365,
+        "ge_4_5": 0.36363636363636365
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 7,
+          "scripts_with_any_rate": 0.6363636363636364,
+          "system_best_score_count": 4,
+          "system_best_score_rate": 0.36363636363636365
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 0.5454545454545454,
+          "system_best_score_count": 4,
+          "system_best_score_rate": 0.36363636363636365
+        }
+      },
+      "recall": {
+        "top1": 0.45454545454545453,
+        "top3": 0.5151515151515151,
+        "top5": 0.5272727272727273,
+        "top10": 0.73,
+        "top20": 0.8875
+      },
+      "ndcg": {
+        "top1": 0.8219948620294983,
+        "top3": 0.8589775256725424,
+        "top5": 0.8509192352436127,
+        "top10": 0.9010110009982438,
+        "top20": 0.938990228365918
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "洛南音骑着小电驴送女儿去领奖，路上却被一辆豪车车主嘲讽招眼红",
+        "episode_target": 1,
+        "n_candidates": 18,
+        "system_segment_id": 5,
+        "system_episode": 1,
+        "system_source_score": 0.746094,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.85,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.63,
+          "top3": 0.7811572855013875,
+          "top5": 0.7964826956109696,
+          "top10": 0.9130951574025871,
+          "top20": 0.9236686030570449
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "洛周周在超域世界机器人大赛上获得第一名，却差点与张蓉的新车相撞",
+        "episode_target": 1,
+        "n_candidates": 18,
+        "system_segment_id": 9,
+        "system_episode": 1,
+        "system_source_score": 0.039062,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.6,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9513895370056042,
+          "top5": 0.9305675190502387,
+          "top10": 0.9614483013693722,
+          "top20": 0.9796447401568239
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "张蓉嚣张地提出捐款新规则，要为儿子抢夺积分",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 6,
+        "system_episode": 2,
+        "system_source_score": 0.546875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.937136863417223,
+          "top5": 0.8337568112102233,
+          "top10": 0.8075653153945522,
+          "top20": 0.9090526053920476
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "洛南音认出张蓉的黑卡是自己给老公的副卡，心中泛起一丝冷笑",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 10,
+        "system_episode": 2,
+        "system_source_score": 0.519531,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.05,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.5638297872340425,
+          "top3": 0.7056878966925936,
+          "top5": 0.8235277660592091,
+          "top10": 0.868580286314743,
+          "top20": 0.8817517910804094
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "张蓉卡被锁无法刷出钱，疯狂打电话让老公转账500万",
+        "episode_target": 4,
+        "n_candidates": 24,
+        "system_segment_id": 5,
+        "system_episode": 4,
+        "system_source_score": 0.124023,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.45,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 4,
+        "judge_best_score": 3.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.936095149541164,
+          "top5": 0.8786749140559523,
+          "top10": 0.9069727632199414,
+          "top20": 0.9576288588095957
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "洛南音暗中观察，果然是渣男裴斯年",
+        "episode_target": 4,
+        "n_candidates": 24,
+        "system_segment_id": 18,
+        "system_episode": 4,
+        "system_source_score": 0.15332,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 23,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 4,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.5555555555555556,
+          "top3": 0.7084428549463563,
+          "top5": 0.7328089857590296,
+          "top10": 0.8094029675135421,
+          "top20": 0.886197545650846
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "洛南音捐款500万、1000万、2000万，每次捐款都让张蓉更加狂妄",
+        "episode_target": 5,
+        "n_candidates": 16,
+        "system_segment_id": 9,
+        "system_episode": 5,
+        "system_source_score": 0.361328,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.15,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7325581395348837,
+          "top3": 0.813643817682305,
+          "top5": 0.7956177173005481,
+          "top10": 0.8638400343453614,
+          "top20": 0.9316946914696721
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "张蓉宣布捐出中海集团的股份，以为这样就能胜过洛南音",
+        "episode_target": 7,
+        "n_candidates": 12,
+        "system_segment_id": 6,
+        "system_episode": 7,
+        "system_source_score": 0.6875,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 7,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8958814186382309,
+          "top5": 0.8739563369086346,
+          "top10": 0.9373865318066146,
+          "top20": 0.9692631332618401
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "洛南音手机壁纸上的男人竟是裴斯年，张蓉见状疯狂指责是小三",
+        "episode_target": 8,
+        "n_candidates": 8,
+        "system_segment_id": 2,
+        "system_episode": 8,
+        "system_source_score": 0.5625,
+        "system_status": "success",
+        "system_top_matches_count": 8,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 8,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9651366083341418,
+          "top5": 0.9666734691685395,
+          "top10": 0.9949615506939302,
+          "top20": 0.9949615506939302
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "张蓉动手打人却没站稳摔倒，真相被彻底揭露",
+        "episode_target": 9,
+        "n_candidates": 16,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.263672,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9329065822812054,
+          "top5": 0.8960531069512229,
+          "top10": 0.9388151613234067,
+          "top20": 0.9701963498138052
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "裴斯年带领周海高层霸气出场，洛南音站出来直呼他的名字",
+        "episode_target": 10,
+        "n_candidates": 13,
+        "system_segment_id": 12,
+        "system_episode": 10,
+        "system_source_score": 0.53125,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.65,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.56,
+          "top3": 0.8212747683577541,
+          "top5": 0.8319922656051713,
+          "top10": 0.9090529415966309,
+          "top20": 0.9248326426390827
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

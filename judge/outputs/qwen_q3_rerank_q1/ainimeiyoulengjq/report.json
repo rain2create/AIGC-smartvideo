@@ -1,0 +1,478 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:08:42",
+  "canonical_variant": "canonical",
+  "dj": "ainimeiyoulengjq",
+  "variant": "qwen_q3_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/ainimeiyoulengjq/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/ainimeiyoulengjq/1_10_20260513_073520_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 140,
+    "script_count": 7,
+    "mean": 1.6267857142857143,
+    "min": 1.0,
+    "max": 4.7,
+    "score_sum": 227.75000000000006,
+    "dimension_sums": {
+      "entity_match": 289.0,
+      "event_match": 190.0,
+      "scene_match": 309.0,
+      "tone_match": 194.0,
+      "editing_suitability": 181.0
+    },
+    "dimension_counts": {
+      "entity_match": 140,
+      "event_match": 140,
+      "scene_match": 140,
+      "tone_match": 140,
+      "editing_suitability": 140
+    },
+    "dimension_means": {
+      "entity_match": 2.0642857142857145,
+      "event_match": 1.3571428571428572,
+      "scene_match": 2.2071428571428573,
+      "tone_match": 1.3857142857142857,
+      "editing_suitability": 1.292857142857143
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 6,
+        "total": 140,
+        "rate": 0.04285714285714286
+      },
+      "ge_4_5": {
+        "count": 2,
+        "total": 140,
+        "rate": 0.014285714285714285
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.04285714285714286,
+      "ge_4_5": 0.014285714285714285
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 20,
+        "best_score": 4.7,
+        "mean_score": 2.21,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 20,
+            "rate": 0.2
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2,
+          "ge_4_5": 0.05
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 23,
+        "best_score": 4.7,
+        "mean_score": 2.1130434782608694,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 23,
+            "rate": 0.043478260869565216
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 23,
+            "rate": 0.043478260869565216
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.043478260869565216,
+          "ge_4_5": 0.043478260869565216
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 20,
+        "best_score": 4.4,
+        "mean_score": 2.1575,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 20,
+        "best_score": 1.8,
+        "mean_score": 1.3,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 19,
+        "best_score": 1.15,
+        "mean_score": 1.031578947368421,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 19,
+        "best_score": 2.35,
+        "mean_score": 1.3789473684210527,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 19,
+        "best_score": 1.35,
+        "mean_score": 1.0526315789473684,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/ainimeiyoulengjq/1_10_20260513_073520_structured_qwen_q3_rerank_q1.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5,
+        "top3": 0.5,
+        "top5": 0.5,
+        "top10": 0.75,
+        "top20": 1.0
+      },
+      "mean_rank": 5.5,
+      "median_rank": 4.5,
+      "mean_system_judge_score": 3.2,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 4.7,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.0,
+        "event_match": 2.75,
+        "scene_match": 3.5,
+        "tone_match": 3.0,
+        "editing_suitability": 3.0
+      },
+      "mean_gap_to_judge_best": 0.7000000000000001,
+      "system_score_rate": {
+        "ge_4_0": 0.5,
+        "ge_4_5": 0.5
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.75,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        }
+      },
+      "recall": {
+        "top1": 0.5,
+        "top3": 0.3333333333333333,
+        "top5": 0.5,
+        "top10": 0.65,
+        "top20": 1.0
+      },
+      "ndcg": {
+        "top1": 0.7916666666666666,
+        "top3": 0.7599007971008047,
+        "top5": 0.802493826176234,
+        "top10": 0.8642200998357559,
+        "top20": 0.9294078340191076
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "新婚夫妇争吵后决定离婚，并进入30天冷静期",
+        "episode_target": 6,
+        "n_candidates": 20,
+        "system_segment_id": 6,
+        "system_episode": 6,
+        "system_source_score": 0.061768,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.6,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8396027082802963,
+          "top5": 0.886050849905412,
+          "top10": 0.8987285077962213,
+          "top20": 0.9536531732615189
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "离婚路上，两人遭遇车祸，醒来后发现自己忘了所有烦恼",
+        "episode_target": 7,
+        "n_candidates": 23,
+        "system_segment_id": 1,
+        "system_episode": 7,
+        "system_source_score": 0.150391,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8071165126004722,
+          "top5": 0.8147492888465229,
+          "top10": 0.8445258630205215,
+          "top20": 0.9398268950346657
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "父母赶到医院探病，不是安慰子女，而是开始疯狂吐槽，画风突变搞笑",
+        "episode_target": 9,
+        "n_candidates": 20,
+        "system_segment_id": 7,
+        "system_episode": 9,
+        "system_source_score": 0.169922,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.2,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.5,
+          "top3": 0.6428012534190175,
+          "top5": 0.7204121602567953,
+          "top10": 0.8638217280849361,
+          "top20": 0.8963294163166057
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "在混乱中，王美娜拍着胸脯对孙大胜保证，要'征服岳母'，自信满满",
+        "episode_target": 1,
+        "n_candidates": 20,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.103516,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.6666666666666666,
+          "top3": 0.7500827141034329,
+          "top5": 0.7887630056962055,
+          "top10": 0.8498043004413449,
+          "top20": 0.9278218514636406
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

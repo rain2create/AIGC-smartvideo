@@ -1,0 +1,874 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "baifengshanmiwu",
+  "variant": "qwen_q3_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/baifengshanmiwu/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/baifengshanmiwu/1_10_20260513_073529_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 391,
+    "script_count": 25,
+    "mean": 1.9975703324808185,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 781.0499999999994,
+    "dimension_sums": {
+      "entity_match": 998.0,
+      "event_match": 646.0,
+      "scene_match": 847.0,
+      "tone_match": 798.0,
+      "editing_suitability": 611.0
+    },
+    "dimension_counts": {
+      "entity_match": 391,
+      "event_match": 391,
+      "scene_match": 391,
+      "tone_match": 391,
+      "editing_suitability": 391
+    },
+    "dimension_means": {
+      "entity_match": 2.5524296675191818,
+      "event_match": 1.6521739130434783,
+      "scene_match": 2.166240409207161,
+      "tone_match": 2.040920716112532,
+      "editing_suitability": 1.5626598465473145
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 30,
+        "total": 391,
+        "rate": 0.07672634271099744
+      },
+      "ge_4_5": {
+        "count": 20,
+        "total": 391,
+        "rate": 0.05115089514066496
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.07672634271099744,
+      "ge_4_5": 0.05115089514066496
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 14,
+        "best_score": 1.75,
+        "mean_score": 1.4428571428571428,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 24,
+        "best_score": 2.3,
+        "mean_score": 1.3791666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 21,
+        "best_score": 4.3,
+        "mean_score": 2.45,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 21,
+            "rate": 0.09523809523809523
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.09523809523809523,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 24,
+        "best_score": 4.7,
+        "mean_score": 2.4229166666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 24,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 24,
+        "best_score": 2.7,
+        "mean_score": 1.45625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 24,
+        "best_score": 5.0,
+        "mean_score": 1.9208333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 24,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 14,
+        "best_score": 4.5,
+        "mean_score": 1.9464285714285714,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07142857142857142,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 14,
+        "best_score": 3.5,
+        "mean_score": 1.9285714285714286,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 14,
+        "best_score": 2.45,
+        "mean_score": 1.3678571428571429,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 17,
+        "best_score": 2.0,
+        "mean_score": 1.7411764705882353,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 17,
+        "best_score": 3.5,
+        "mean_score": 2.3323529411764707,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 17,
+        "best_score": 4.85,
+        "mean_score": 2.2411764705882353,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.11764705882352941,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 14,
+        "best_score": 4.5,
+        "mean_score": 2.4714285714285715,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 14,
+            "rate": 0.14285714285714285
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14285714285714285,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 14,
+        "best_score": 3.7,
+        "mean_score": 1.7214285714285715,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 14,
+        "best_score": 3.95,
+        "mean_score": 1.575,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 20,
+        "best_score": 4.7,
+        "mean_score": 3.355,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 20,
+            "rate": 0.35
+          },
+          "ge_4_5": {
+            "count": 7,
+            "total": 20,
+            "rate": 0.35
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.35,
+          "ge_4_5": 0.35
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 13,
+        "best_score": 3.9,
+        "mean_score": 1.9307692307692308,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 13,
+        "best_score": 4.85,
+        "mean_score": 3.1884615384615382,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 13,
+            "rate": 0.5384615384615384
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 13,
+            "rate": 0.38461538461538464
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.5384615384615384,
+          "ge_4_5": 0.38461538461538464
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 13,
+        "best_score": 5.0,
+        "mean_score": 1.7038461538461538,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07692307692307693,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 11,
+        "best_score": 4.7,
+        "mean_score": 2.4545454545454546,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.09090909090909091,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 21,
+        "n_candidates": 11,
+        "best_score": 4.1,
+        "mean_score": 2.081818181818182,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.09090909090909091,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 22,
+        "n_candidates": 11,
+        "best_score": 4.6,
+        "mean_score": 2.0318181818181817,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 11,
+            "rate": 0.18181818181818182
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.18181818181818182,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 23,
+        "n_candidates": 11,
+        "best_score": 3.1,
+        "mean_score": 1.459090909090909,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 24,
+        "n_candidates": 11,
+        "best_score": 3.25,
+        "mean_score": 1.6727272727272726,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 25,
+        "n_candidates": 11,
+        "best_score": 2.05,
+        "mean_score": 1.190909090909091,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/baifengshanmiwu/1_10_20260513_073529_structured_qwen_q3_rerank_q1.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.25,
+        "top5": 0.25,
+        "top10": 0.75,
+        "top20": 1.0
+      },
+      "mean_rank": 8,
+      "median_rank": 6.0,
+      "mean_system_judge_score": 2.175,
+      "min_system_judge_score": 1.35,
+      "max_system_judge_score": 3.5,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.25,
+        "event_match": 1.75,
+        "scene_match": 1.5,
+        "tone_match": 2.5,
+        "editing_suitability": 1.5
+      },
+      "mean_gap_to_judge_best": 1.0875000000000001,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.25,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.25,
+        "top5": 0.30000000000000004,
+        "top10": 0.6,
+        "top20": 0.9333333333333333
+      },
+      "ndcg": {
+        "top1": 0.7176914908983623,
+        "top3": 0.7542810649976135,
+        "top5": 0.7805649031787876,
+        "top10": 0.8334642505223882,
+        "top20": 0.916043884086036
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女人一脚油门狠狠撞上面包车，随手甩出四万块钱，竟只为了换一张交警的谅解书",
+        "episode_target": 4,
+        "n_candidates": 14,
+        "system_segment_id": 2,
+        "system_episode": 4,
+        "system_source_score": 0.061768,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 4,
+        "judge_best_score": 1.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7714285714285715,
+          "top3": 0.8922574905777924,
+          "top5": 0.8902489344154413,
+          "top10": 0.94886601960952,
+          "top20": 0.96539159484178
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "上一世，身为幼儿园班主任的她请了病假，代班的绿茶同事却因为玩游戏弄丢了全班孩子",
+        "episode_target": 1,
+        "n_candidates": 24,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.037354,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.9130434782608696,
+          "top3": 0.7682560466427553,
+          "top5": 0.7879459828879156,
+          "top10": 0.840247005217993,
+          "top20": 0.913597896291727
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "更可恨的是，绿茶联合园长母亲，硬生生把这口黑锅扣在了她头上",
+        "episode_target": 2,
+        "n_candidates": 21,
+        "system_segment_id": 14,
+        "system_episode": 2,
+        "system_source_score": 0.052734,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 3.5,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 1.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 1.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.813953488372093,
+          "top3": 0.8306319401156639,
+          "top5": 0.8009279456402568,
+          "top10": 0.8431456239071383,
+          "top20": 0.9275368876464082
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "面对失去理智的家长，她百口莫辩，最终被活活打死",
+        "episode_target": 1,
+        "n_candidates": 24,
+        "system_segment_id": 9,
+        "system_episode": 1,
+        "system_source_score": 0.243164,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 18,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.95,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.3723404255319149,
+          "top3": 0.5259787826542422,
+          "top5": 0.6431367497715365,
+          "top10": 0.7015983533549013,
+          "top20": 0.8576491575642287
+        },
+        "diagnosis": "有好候选但错排"
+      }
+    ]
+  }
+}

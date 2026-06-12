@@ -1,0 +1,412 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-04T06:13:07",
+  "canonical_variant": "canonical",
+  "dj": "duibuqinidexiaohaishishebao",
+  "variant": "qwen_q3_rerank_q1_dpo_v2800",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/duibuqinidexiaohaishishebao/annotation_20260508_055352",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/duibuqinidexiaohaishishebao/1_10_20260423_155931_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 79,
+    "script_count": 4,
+    "mean": 2.0550632911392404,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 162.34999999999982,
+    "dimension_sums": {
+      "entity_match": 206.0,
+      "event_match": 131.0,
+      "scene_match": 174.0,
+      "tone_match": 167.0,
+      "editing_suitability": 140.0
+    },
+    "dimension_counts": {
+      "entity_match": 79,
+      "event_match": 79,
+      "scene_match": 79,
+      "tone_match": 79,
+      "editing_suitability": 79
+    },
+    "dimension_means": {
+      "entity_match": 2.607594936708861,
+      "event_match": 1.6582278481012658,
+      "scene_match": 2.2025316455696204,
+      "tone_match": 2.1139240506329116,
+      "editing_suitability": 1.7721518987341771
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 9,
+        "total": 79,
+        "rate": 0.11392405063291139
+      },
+      "ge_4_5": {
+        "count": 4,
+        "total": 79,
+        "rate": 0.05063291139240506
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.11392405063291139,
+      "ge_4_5": 0.05063291139240506
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 18,
+        "best_score": 3.2,
+        "mean_score": 1.9972222222222222,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 25,
+        "best_score": 5.0,
+        "mean_score": 2.334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 25,
+            "rate": 0.12
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 25,
+            "rate": 0.08
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.12,
+          "ge_4_5": 0.08
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 18,
+        "best_score": 4.55,
+        "mean_score": 2.3361111111111112,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 18,
+            "rate": 0.2777777777777778
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2777777777777778,
+          "ge_4_5": 0.1111111111111111
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 18,
+        "best_score": 4.25,
+        "mean_score": 1.4444444444444444,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05555555555555555,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/duibuqinidexiaohaishishebao/1_10_20260423_155931_structured_qwen_q3_rerank_q1_dpo_v2800.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5,
+        "top3": 0.75,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 2.5,
+      "median_rank": 2.0,
+      "mean_system_judge_score": 4.0625,
+      "min_system_judge_score": 2.65,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.75,
+        "event_match": 4.0,
+        "scene_match": 3.75,
+        "tone_match": 4.5,
+        "editing_suitability": 4.25
+      },
+      "mean_gap_to_judge_best": 0.1875,
+      "system_score_rate": {
+        "ge_4_0": 0.75,
+        "ge_4_5": 0.25
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.75,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.75
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.25
+        }
+      },
+      "recall": {
+        "top1": 0.5,
+        "top3": 0.5,
+        "top5": 0.5,
+        "top10": 0.7,
+        "top20": 0.9
+      },
+      "ndcg": {
+        "top1": 0.9460422390109889,
+        "top3": 0.9094409836289988,
+        "top5": 0.8949182425537379,
+        "top10": 0.9108083097197845,
+        "top20": 0.9571331465111361
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女人怀孕13个月还没生，世代养蛇的邻居摸了一把她的肚子，竟断言里面是一窝蛇胎",
+        "episode_target": 2,
+        "n_candidates": 18,
+        "system_segment_id": 4,
+        "system_episode": 2,
+        "system_source_score": 0.210938,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8281249999999999,
+          "top3": 0.9342483031718773,
+          "top5": 0.9123362634666362,
+          "top10": 0.8994081776583669,
+          "top20": 0.9604397683865002
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "起初，丈夫林涛根本不信，甚至当众发誓，就算老婆怀了个妖怪他也认",
+        "episode_target": 1,
+        "n_candidates": 25,
+        "system_segment_id": 9,
+        "system_episode": 1,
+        "system_source_score": 0.46875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8562986270339353,
+          "top5": 0.8124840868374751,
+          "top10": 0.8388953111761774,
+          "top20": 0.9203661660807979
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "可没过多久，诡异的事情接连发生",
+        "episode_target": 2,
+        "n_candidates": 18,
+        "system_segment_id": 16,
+        "system_episode": 2,
+        "system_source_score": 0.060059,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 4.35,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.956043956043956,
+          "top3": 0.9752352380550723,
+          "top5": 0.989781192176619,
+          "top10": 0.9803216776636501,
+          "top20": 0.9886139438777739
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "妻子不仅开始生吞带壳鸡蛋，冬天甚至一睡就是好几天",
+        "episode_target": 5,
+        "n_candidates": 18,
+        "system_segment_id": 17,
+        "system_episode": 5,
+        "system_source_score": 0.291016,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8719817662551103,
+          "top5": 0.8650714277342212,
+          "top10": 0.9246080723809437,
+          "top20": 0.9591127076994727
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

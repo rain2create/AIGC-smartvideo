@@ -1,0 +1,777 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "shangjienvhuans",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/shangjienvhuans/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/shangjienvhuans/1_10_20260520_023744_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 169,
+    "script_count": 9,
+    "mean": 2.2866863905325445,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 386.45000000000016,
+    "dimension_sums": {
+      "entity_match": 516.0,
+      "event_match": 285.0,
+      "scene_match": 554.0,
+      "tone_match": 347.0,
+      "editing_suitability": 279.0
+    },
+    "dimension_counts": {
+      "entity_match": 169,
+      "event_match": 169,
+      "scene_match": 169,
+      "tone_match": 169,
+      "editing_suitability": 169
+    },
+    "dimension_means": {
+      "entity_match": 3.0532544378698225,
+      "event_match": 1.6863905325443787,
+      "scene_match": 3.2781065088757395,
+      "tone_match": 2.0532544378698225,
+      "editing_suitability": 1.650887573964497
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 17,
+        "total": 169,
+        "rate": 0.10059171597633136
+      },
+      "ge_4_5": {
+        "count": 8,
+        "total": 169,
+        "rate": 0.047337278106508875
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.10059171597633136,
+      "ge_4_5": 0.047337278106508875
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 21,
+        "best_score": 3.0,
+        "mean_score": 1.7095238095238094,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 21,
+        "best_score": 3.25,
+        "mean_score": 1.7380952380952381,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 24,
+        "best_score": 4.25,
+        "mean_score": 2.404166666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.041666666666666664,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 25,
+        "best_score": 4.7,
+        "mean_score": 2.868,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 25,
+            "rate": 0.16
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 25,
+            "rate": 0.12
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.16,
+          "ge_4_5": 0.12
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 15,
+        "best_score": 4.55,
+        "mean_score": 3.3066666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 15,
+            "rate": 0.4
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 15,
+            "rate": 0.06666666666666667
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4,
+          "ge_4_5": 0.06666666666666667
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 14,
+        "best_score": 1.55,
+        "mean_score": 1.3357142857142859,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 19,
+        "best_score": 5.0,
+        "mean_score": 3.0710526315789473,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 19,
+            "rate": 0.3157894736842105
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 19,
+            "rate": 0.21052631578947367
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3157894736842105,
+          "ge_4_5": 0.21052631578947367
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 15,
+        "best_score": 3.75,
+        "mean_score": 2.27,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 15,
+        "best_score": 2.2,
+        "mean_score": 1.5966666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/shangjienvhuans/1_10_20260520_023744_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 9,
+      "ranked_script_count": 9,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.3333333333333333,
+        "top3": 0.4444444444444444,
+        "top5": 0.7777777777777778,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 3.7777777777777777,
+      "median_rank": 4,
+      "mean_system_judge_score": 3.111111111111111,
+      "min_system_judge_score": 1.55,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6666666666666665,
+        "event_match": 2.5555555555555554,
+        "scene_match": 3.888888888888889,
+        "tone_match": 3.0,
+        "editing_suitability": 2.7777777777777777
+      },
+      "mean_gap_to_judge_best": 0.4722222222222222,
+      "system_score_rate": {
+        "ge_4_0": 0.3333333333333333,
+        "ge_4_5": 0.1111111111111111
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.4444444444444444,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.3333333333333333
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.1111111111111111
+        }
+      },
+      "recall": {
+        "top1": 0.3333333333333333,
+        "top3": 0.37037037037037035,
+        "top5": 0.4222222222222222,
+        "top10": 0.7222222222222222,
+        "top20": 0.925
+      },
+      "ndcg": {
+        "top1": 0.8656132283791859,
+        "top3": 0.8399389886553487,
+        "top5": 0.8421011312158276,
+        "top10": 0.8880920279319678,
+        "top20": 0.9406807281162849
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "商业女皇以铁血手腕统治商界，却在儿子婚礼上展现出了柔情似水的一面",
+        "episode_target": 1,
+        "n_candidates": 21,
+        "system_segment_id": 2,
+        "system_episode": 1,
+        "system_source_score": 0.032471,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.0,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8734989947861388,
+          "top5": 0.7989989265666045,
+          "top10": 0.9240481257185676,
+          "top20": 0.9517288773573356
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "她从候选人中挑选出两位江山贵女，却在细节中看出了她们的不同",
+        "episode_target": 1,
+        "n_candidates": 21,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.051025,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.35,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.7230769230769231,
+          "top3": 0.8080305242630715,
+          "top5": 0.7722268752690805,
+          "top10": 0.8456485991368456,
+          "top20": 0.9159498377766466
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "其中一位谢清菡，不仅人美心善，更有胆识过人",
+        "episode_target": 5,
+        "n_candidates": 24,
+        "system_segment_id": 12,
+        "system_episode": 5,
+        "system_source_score": 0.863281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9045878447568593,
+          "top5": 0.8656387571515981,
+          "top10": 0.8712388662506116,
+          "top20": 0.9373769974300338
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "而另一位沈枝枝，却因傲慢无知，错认了冒牌货唐宝珠",
+        "episode_target": 2,
+        "n_candidates": 25,
+        "system_segment_id": 3,
+        "system_episode": 2,
+        "system_source_score": 0.621094,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 4.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.9042553191489361,
+          "top3": 0.8978882021139339,
+          "top5": 0.9216096817382329,
+          "top10": 0.9303339721019459,
+          "top20": 0.951300721988085
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "当真相大白，沈枝枝的假孕计划破产，谢清菡却因此成为了总裁继任者",
+        "episode_target": 10,
+        "n_candidates": 15,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.380859,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 3.7,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8131868131868133,
+          "top3": 0.7518151538243858,
+          "top5": 0.7724982034456486,
+          "top10": 0.8407025547539619,
+          "top20": 0.9182371057905173
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "在逆境中证明自己的谢清菡，最终选择了与苏云天共同面对未来",
+        "episode_target": 6,
+        "n_candidates": 14,
+        "system_segment_id": 6,
+        "system_episode": 6,
+        "system_source_score": 0.001068,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 6,
+        "judge_best_score": 1.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9001288035262959,
+          "top5": 0.9076269101023576,
+          "top10": 0.8780189286253509,
+          "top20": 0.9669304273047792
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "就在谢清菡以为一切尘埃落定，唐玉莲的突然出现，再次改变了局势",
+        "episode_target": 9,
+        "n_candidates": 19,
+        "system_segment_id": 12,
+        "system_episode": 9,
+        "system_source_score": 0.582031,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 9,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8165360636988623,
+          "top5": 0.8363029057170481,
+          "top10": 0.9042179752827079,
+          "top20": 0.9489638210460304
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "沈枝枝的假孕计划破产，而谢清菡却因此成为了总裁继任者",
+        "episode_target": 10,
+        "n_candidates": 15,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.069336,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6,
+          "top3": 0.7368166230365347,
+          "top5": 0.7759606087385748,
+          "top10": 0.846622266951373,
+          "top20": 0.9118229368061391
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "最终，在唐玉莲的见证下，谢清菡与苏云天完成了他们的婚礼",
+        "episode_target": 10,
+        "n_candidates": 15,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.001755,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7499999999999999,
+          "top3": 0.8701486878920554,
+          "top5": 0.9280473122133036,
+          "top10": 0.9519969625663459,
+          "top20": 0.9638158275469968
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

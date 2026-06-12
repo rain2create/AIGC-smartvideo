@@ -1,0 +1,1288 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "xindongzuobiaopiancha",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/xindongzuobiaopiancha/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xindongzuobiaopiancha/1_10_20260519_164104_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 189,
+    "script_count": 16,
+    "mean": 1.8,
+    "min": 1.0,
+    "max": 4.9,
+    "score_sum": 340.2,
+    "dimension_sums": {
+      "entity_match": 420.0,
+      "event_match": 279.0,
+      "scene_match": 502.0,
+      "tone_match": 286.0,
+      "editing_suitability": 257.0
+    },
+    "dimension_counts": {
+      "entity_match": 189,
+      "event_match": 189,
+      "scene_match": 189,
+      "tone_match": 189,
+      "editing_suitability": 189
+    },
+    "dimension_means": {
+      "entity_match": 2.2222222222222223,
+      "event_match": 1.4761904761904763,
+      "scene_match": 2.6560846560846563,
+      "tone_match": 1.5132275132275133,
+      "editing_suitability": 1.3597883597883598
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 10,
+        "total": 189,
+        "rate": 0.05291005291005291
+      },
+      "ge_4_5": {
+        "count": 5,
+        "total": 189,
+        "rate": 0.026455026455026454
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.05291005291005291,
+      "ge_4_5": 0.026455026455026454
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 9,
+        "best_score": 2.85,
+        "mean_score": 2.1333333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 11,
+        "best_score": 4.7,
+        "mean_score": 3.6681818181818184,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 11,
+            "rate": 0.36363636363636365
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 11,
+            "rate": 0.18181818181818182
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.36363636363636365,
+          "ge_4_5": 0.18181818181818182
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 14,
+        "best_score": 4.55,
+        "mean_score": 2.3035714285714284,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 14,
+            "rate": 0.21428571428571427
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21428571428571427,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 14,
+        "best_score": 1.85,
+        "mean_score": 1.4321428571428572,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 20,
+        "best_score": 3.75,
+        "mean_score": 1.2925,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 20,
+        "best_score": 4.1,
+        "mean_score": 1.53,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 13,
+        "best_score": 2.05,
+        "mean_score": 1.1961538461538461,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 12,
+        "best_score": 1.95,
+        "mean_score": 1.2208333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 13,
+        "best_score": 3.35,
+        "mean_score": 2.0076923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 13,
+        "best_score": 2.7,
+        "mean_score": 2.230769230769231,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 12,
+        "best_score": 2.8,
+        "mean_score": 1.4958333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 6,
+        "best_score": 1.8,
+        "mean_score": 1.2666666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 6,
+        "best_score": 2.15,
+        "mean_score": 1.45,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 6,
+        "best_score": 2.85,
+        "mean_score": 1.8916666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 11,
+        "best_score": 4.9,
+        "mean_score": 2.1636363636363636,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.09090909090909091,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 9,
+        "best_score": 4.85,
+        "mean_score": 1.911111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 9,
+            "rate": 0.1111111111111111
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 9,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1111111111111111,
+          "ge_4_5": 0.1111111111111111
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xindongzuobiaopiancha/1_10_20260519_164104_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 16,
+      "ranked_script_count": 16,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5625,
+        "top3": 0.875,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 1.8125,
+      "median_rank": 1.0,
+      "mean_system_judge_score": 2.88125,
+      "min_system_judge_score": 1.45,
+      "max_system_judge_score": 4.9,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.625,
+        "event_match": 2.5625,
+        "scene_match": 3.5,
+        "tone_match": 2.5,
+        "editing_suitability": 2.375
+      },
+      "mean_gap_to_judge_best": 0.31875,
+      "system_score_rate": {
+        "ge_4_0": 0.3125,
+        "ge_4_5": 0.1875
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 5,
+          "scripts_with_any_rate": 0.3125,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.3125
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.25,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.1875
+        }
+      },
+      "recall": {
+        "top1": 0.5625,
+        "top3": 0.6041666666666666,
+        "top5": 0.7125,
+        "top10": 0.8545454545454546,
+        "top20": 1.0
+      },
+      "ndcg": {
+        "top1": 0.8947550968768074,
+        "top3": 0.9062226704208858,
+        "top5": 0.9312538192935795,
+        "top10": 0.9605548295323285,
+        "top20": 0.9686518958509748
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "高考百日誓师，江源当众表白的粉色情书，成了他被全校通报的开始",
+        "episode_target": 1,
+        "n_candidates": 9,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.204102,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.719298245614035,
+          "top3": 0.7958133690039118,
+          "top5": 0.841578564966935,
+          "top10": 0.918986688237151,
+          "top20": 0.918986688237151
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "姜媛，那个全校第二名的江然，当众检讨自己向谢尘写了一封告白信，脸红如番茄，惹得全场窃窃私语",
+        "episode_target": 2,
+        "n_candidates": 11,
+        "system_segment_id": 4,
+        "system_episode": 2,
+        "system_source_score": 0.902344,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.939334927854259,
+          "top5": 0.9404814031786544,
+          "top10": 0.9878217489847464,
+          "top20": 0.9882880213048107
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "而姜媛，那个看似嚣张的女学生，其实暗地里帮江源代写情书，还一脸无所谓地说：“反正背锅又不掉块肉",
+        "episode_target": 3,
+        "n_candidates": 14,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.507812,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.945054945054945,
+          "top3": 0.923188293016512,
+          "top5": 0.9791542721361765,
+          "top10": 0.9769883782685244,
+          "top20": 0.9830648046963717
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "”江源的母亲在旁观这一切，她望着儿子，心里五味杂陈",
+        "episode_target": 3,
+        "n_candidates": 14,
+        "system_segment_id": 9,
+        "system_episode": 3,
+        "system_source_score": 0.002625,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.85,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 3,
+        "judge_best_score": 1.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 0.9871530814723666,
+          "top20": 0.9979228903919817
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "“妈，我保送明大了，”江源有一天突然说，“我想留在你身边",
+        "episode_target": 4,
+        "n_candidates": 20,
+        "system_segment_id": 3,
+        "system_episode": 4,
+        "system_source_score": 0.332031,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 2.3,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.38666666666666666,
+          "top3": 0.7833734976400545,
+          "top5": 0.8214026660199917,
+          "top10": 0.8614774512788725,
+          "top20": 0.9070044968545472
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "”母亲一愣，随即笑道：“好，等你挣钱了，妈就在古桥买个店面，咱们再也不分开",
+        "episode_target": 4,
+        "n_candidates": 20,
+        "system_segment_id": 4,
+        "system_episode": 4,
+        "system_source_score": 0.300781,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9565850169233179,
+          "top5": 0.9701673422722822,
+          "top10": 0.9901176984819037,
+          "top20": 0.9920411167325232
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "”然而，他们的平静生活被郑家的威胁打破",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 8,
+        "system_episode": 7,
+        "system_source_score": 0.000473,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8597747486722069,
+          "top5": 0.8543672887407762,
+          "top10": 0.950396256117043,
+          "top20": 0.9634886308185641
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "“江源，你最好离谢尘远点，不然…”郑家的人威胁道，手里晃着江源母亲的照片",
+        "episode_target": 8,
+        "n_candidates": 12,
+        "system_segment_id": 4,
+        "system_episode": 8,
+        "system_source_score": 0.020996,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.6,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 8,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8205128205128206,
+          "top3": 0.8820857577092646,
+          "top5": 0.8862506372458516,
+          "top10": 0.9333760741609303,
+          "top20": 0.9488194879088373
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "江源冷笑，坚定地说：“我不会因为任何人改变自己的人生轨迹",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 3,
+        "system_episode": 7,
+        "system_source_score": 0.699219,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.35,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9851887251127823,
+          "top10": 0.9939141264664711,
+          "top20": 0.997634543948096
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "”这句话如同投入平静湖面的石子，激起了层层浪花",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 13,
+        "system_episode": 7,
+        "system_source_score": 0.117676,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9746802941952573,
+          "top10": 0.9664520819394842,
+          "top20": 0.9924524444954883
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "就在郑家人以为自己的威胁起到了作用时，江源微笑着看向姜媛",
+        "episode_target": 8,
+        "n_candidates": 12,
+        "system_segment_id": 8,
+        "system_episode": 8,
+        "system_source_score": 0.005554,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.35,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 8,
+        "judge_best_score": 2.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8392857142857144,
+          "top3": 0.7187557520756723,
+          "top5": 0.84463721431088,
+          "top10": 0.9194110772769404,
+          "top20": 0.9243879283831835
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "他轻声说：“你知道吗，我从未想过要离开你，姜媛",
+        "episode_target": 9,
+        "n_candidates": 6,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.002319,
+        "system_status": "success",
+        "system_top_matches_count": 6,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 9,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8333333333333333,
+          "top3": 0.8303536504373474,
+          "top5": 0.945028741739559,
+          "top10": 0.9493133358778084,
+          "top20": 0.9493133358778084
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "”姜媛一惊，脸上原本的从容瞬间褪去，取而代之的是深深的担忧",
+        "episode_target": 9,
+        "n_candidates": 6,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.002258,
+        "system_status": "success",
+        "system_top_matches_count": 6,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.15,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 9,
+        "judge_best_score": 2.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9803736574589288,
+          "top5": 0.9978453828071092,
+          "top10": 0.9980139558625823,
+          "top20": 0.9980139558625823
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "“江源，你…”她刚想开口，却被江源抬手打断",
+        "episode_target": 9,
+        "n_candidates": 6,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.003174,
+        "system_status": "success",
+        "system_top_matches_count": 6,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 9,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7719298245614036,
+          "top3": 0.9528511169631761,
+          "top5": 0.9624054707657494,
+          "top10": 0.96522058014007,
+          "top20": 0.96522058014007
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "他走到她面前，低声说：“我有自己的计划，包括我们",
+        "episode_target": 6,
+        "n_candidates": 11,
+        "system_segment_id": 11,
+        "system_episode": 6,
+        "system_source_score": 0.229492,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.9,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9196831046851905,
+          "top5": 0.9329031430929665,
+          "top10": 0.9812740904767486,
+          "top20": 0.9828307604879676
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "”画面在此刻定格，留下未完的情愫和无数悬念，引导观众思考他们的未来",
+        "episode_target": 10,
+        "n_candidates": 9,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.384766,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9573898342943306,
+          "top5": 0.9639699621123012,
+          "top10": 0.9889606474756126,
+          "top20": 0.9889606474756126
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

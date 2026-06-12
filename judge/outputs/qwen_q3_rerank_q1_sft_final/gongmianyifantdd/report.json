@@ -1,0 +1,800 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "gongmianyifantdd",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/gongmianyifantdd/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/gongmianyifantdd/1_10_20260513_153142_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 463,
+    "script_count": 17,
+    "mean": 1.8667386609071275,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 864.3000000000012,
+    "dimension_sums": {
+      "entity_match": 1161.0,
+      "event_match": 745.0,
+      "scene_match": 1097.0,
+      "tone_match": 707.0,
+      "editing_suitability": 673.0
+    },
+    "dimension_counts": {
+      "entity_match": 463,
+      "event_match": 463,
+      "scene_match": 463,
+      "tone_match": 463,
+      "editing_suitability": 463
+    },
+    "dimension_means": {
+      "entity_match": 2.5075593952483803,
+      "event_match": 1.6090712742980562,
+      "scene_match": 2.3693304535637147,
+      "tone_match": 1.5269978401727862,
+      "editing_suitability": 1.4535637149028078
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 23,
+        "total": 463,
+        "rate": 0.04967602591792657
+      },
+      "ge_4_5": {
+        "count": 12,
+        "total": 463,
+        "rate": 0.02591792656587473
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.04967602591792657,
+      "ge_4_5": 0.02591792656587473
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 24,
+        "best_score": 4.45,
+        "mean_score": 1.8520833333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.041666666666666664,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 41,
+        "best_score": 4.75,
+        "mean_score": 1.7719512195121951,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 41,
+            "rate": 0.024390243902439025
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 41,
+            "rate": 0.024390243902439025
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.024390243902439025,
+          "ge_4_5": 0.024390243902439025
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 41,
+        "best_score": 5.0,
+        "mean_score": 2.274390243902439,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 41,
+            "rate": 0.21951219512195122
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 41,
+            "rate": 0.14634146341463414
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21951219512195122,
+          "ge_4_5": 0.14634146341463414
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 41,
+        "best_score": 4.75,
+        "mean_score": 1.920731707317073,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 41,
+            "rate": 0.04878048780487805
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 41,
+            "rate": 0.024390243902439025
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.04878048780487805,
+          "ge_4_5": 0.024390243902439025
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 41,
+        "best_score": 3.65,
+        "mean_score": 1.9109756097560975,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 41,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 41,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 11,
+        "best_score": 1.8,
+        "mean_score": 1.2818181818181817,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 24,
+        "best_score": 3.6,
+        "mean_score": 1.9979166666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 24,
+        "best_score": 3.95,
+        "mean_score": 1.6145833333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 24,
+        "best_score": 3.75,
+        "mean_score": 1.9104166666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 24,
+        "best_score": 5.0,
+        "mean_score": 2.220833333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 24,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 24,
+        "best_score": 2.85,
+        "mean_score": 1.38125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 24,
+        "best_score": 4.7,
+        "mean_score": 2.0875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.041666666666666664,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 24,
+        "best_score": 3.95,
+        "mean_score": 1.7604166666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 24,
+        "best_score": 4.55,
+        "mean_score": 2.3,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 24,
+            "rate": 0.16666666666666666
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.16666666666666666,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 24,
+        "best_score": 3.7,
+        "mean_score": 1.5895833333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 24,
+        "best_score": 4.7,
+        "mean_score": 2.0270833333333336,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 24,
+            "rate": 0.125
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 24,
+            "rate": 0.041666666666666664
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.125,
+          "ge_4_5": 0.041666666666666664
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 24,
+        "best_score": 2.35,
+        "mean_score": 1.225,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/gongmianyifantdd/1_10_20260513_153142_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 6,
+      "ranked_script_count": 6,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.3333333333333333,
+        "top5": 0.5,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 5.333333333333333,
+      "median_rank": 5.5,
+      "mean_system_judge_score": 2.9416666666666664,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 4.6,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.333333333333333,
+        "event_match": 2.5,
+        "scene_match": 3.5,
+        "tone_match": 2.3333333333333335,
+        "editing_suitability": 2.1666666666666665
+      },
+      "mean_gap_to_judge_best": 1.125,
+      "system_score_rate": {
+        "ge_4_0": 0.16666666666666666,
+        "ge_4_5": 0.16666666666666666
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.6666666666666666,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.16666666666666666
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.16666666666666666
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.2777777777777778,
+        "top5": 0.5,
+        "top10": 0.7,
+        "top20": 0.8200000000000001
+      },
+      "ndcg": {
+        "top1": 0.7159227245683343,
+        "top3": 0.781700702424603,
+        "top5": 0.8004846752855119,
+        "top10": 0.8449005761497932,
+        "top20": 0.895143484568681
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "伪装成外卖员的儿子，为租来的女友回家过年，却意外搅动四大家族的命运",
+        "episode_target": 5,
+        "n_candidates": 24,
+        "system_segment_id": 7,
+        "system_episode": 5,
+        "system_source_score": 0.380859,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.55,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.42696629213483145,
+          "top3": 0.6610331237434283,
+          "top5": 0.7293308165119633,
+          "top10": 0.8325661070427176,
+          "top20": 0.879332950487058
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "面对父亲的询问，儿子倔强地表示，今年过年不回家",
+        "episode_target": 1,
+        "n_candidates": 41,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.640625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.7,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.6421052631578947,
+          "top3": 0.7812105255205901,
+          "top5": 0.7697404216840671,
+          "top10": 0.8779503692494449,
+          "top20": 0.8921469851396951
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "“爸，其实我有女朋友了",
+        "episode_target": 1,
+        "n_candidates": 41,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.648438,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 4.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.9199999999999999,
+          "top3": 0.849613645485868,
+          "top5": 0.7906502545500835,
+          "top10": 0.7809149811186807,
+          "top20": 0.9083387484744893
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "”儿子的话让父亲一愣，随即笑道：“哦",
+        "episode_target": 1,
+        "n_candidates": 41,
+        "system_segment_id": 2,
+        "system_episode": 1,
+        "system_source_score": 0.570312,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.8315789473684211,
+          "top3": 0.8203145298638331,
+          "top5": 0.8221105901424035,
+          "top10": 0.891007494103413,
+          "top20": 0.9241233465160538
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "快介绍一下",
+        "episode_target": 1,
+        "n_candidates": 41,
+        "system_segment_id": 23,
+        "system_episode": 1,
+        "system_source_score": 0.535156,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.7,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.8082191780821919,
+          "top3": 0.8007569306118166,
+          "top5": 0.8303943817168367,
+          "top10": 0.7952392176027777,
+          "top20": 0.8376282648216845
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "”儿子嘿嘿一笑：“租的，专门为了回家过年的",
+        "episode_target": 2,
+        "n_candidates": 11,
+        "system_segment_id": 10,
+        "system_episode": 2,
+        "system_source_score": 0.279297,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 2,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6666666666666666,
+          "top3": 0.7772754593220814,
+          "top5": 0.8606815871077176,
+          "top10": 0.8917252877817254,
+          "top20": 0.929290611973105
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "popozaihunexmfqv",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/popozaihunexmfqv/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/popozaihunexmfqv/1_10_20260520_023754_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 118,
+    "script_count": 7,
+    "mean": 2.384322033898305,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 281.35,
+    "dimension_sums": {
+      "entity_match": 341.0,
+      "event_match": 225.0,
+      "scene_match": 321.0,
+      "tone_match": 298.0,
+      "editing_suitability": 230.0
+    },
+    "dimension_counts": {
+      "entity_match": 118,
+      "event_match": 118,
+      "scene_match": 118,
+      "tone_match": 118,
+      "editing_suitability": 118
+    },
+    "dimension_means": {
+      "entity_match": 2.889830508474576,
+      "event_match": 1.9067796610169492,
+      "scene_match": 2.7203389830508473,
+      "tone_match": 2.5254237288135593,
+      "editing_suitability": 1.9491525423728813
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 22,
+        "total": 118,
+        "rate": 0.1864406779661017
+      },
+      "ge_4_5": {
+        "count": 10,
+        "total": 118,
+        "rate": 0.0847457627118644
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.1864406779661017,
+      "ge_4_5": 0.0847457627118644
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 13,
+        "best_score": 5.0,
+        "mean_score": 3.169230769230769,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 13,
+            "rate": 0.38461538461538464
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 13,
+            "rate": 0.3076923076923077
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.38461538461538464,
+          "ge_4_5": 0.3076923076923077
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 17,
+        "best_score": 4.7,
+        "mean_score": 4.091176470588235,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 11,
+            "total": 17,
+            "rate": 0.6470588235294118
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 17,
+            "rate": 0.23529411764705882
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6470588235294118,
+          "ge_4_5": 0.23529411764705882
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 25,
+        "best_score": 4.15,
+        "mean_score": 1.648,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 25,
+            "rate": 0.04
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.04,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 16,
+        "best_score": 4.85,
+        "mean_score": 3.0125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 16,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 21,
+        "best_score": 4.55,
+        "mean_score": 1.361904761904762,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 21,
+            "rate": 0.047619047619047616
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 21,
+            "rate": 0.047619047619047616
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.047619047619047616,
+          "ge_4_5": 0.047619047619047616
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 13,
+        "best_score": 3.05,
+        "mean_score": 2.2576923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 13,
+        "best_score": 3.75,
+        "mean_score": 1.7884615384615385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/popozaihunexmfqv/1_10_20260520_023754_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 6,
+      "ranked_script_count": 6,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.16666666666666666,
+        "top3": 0.6666666666666666,
+        "top5": 0.6666666666666666,
+        "top10": 0.8333333333333334,
+        "top20": 1.0
+      },
+      "mean_rank": 5,
+      "median_rank": 2.0,
+      "mean_system_judge_score": 3.4833333333333334,
+      "min_system_judge_score": 2.15,
+      "max_system_judge_score": 4.85,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.333333333333333,
+        "event_match": 3.1666666666666665,
+        "scene_match": 3.5,
+        "tone_match": 3.5,
+        "editing_suitability": 2.6666666666666665
+      },
+      "mean_gap_to_judge_best": 0.9,
+      "system_score_rate": {
+        "ge_4_0": 0.3333333333333333,
+        "ge_4_5": 0.3333333333333333
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 5,
+          "scripts_with_any_rate": 0.8333333333333334,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.3333333333333333
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.6666666666666666,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.3333333333333333
+        }
+      },
+      "recall": {
+        "top1": 0.16666666666666666,
+        "top3": 0.5,
+        "top5": 0.4666666666666667,
+        "top10": 0.7666666666666666,
+        "top20": 0.8999999999999999
+      },
+      "ndcg": {
+        "top1": 0.7840437820381593,
+        "top3": 0.8323652568983984,
+        "top5": 0.8486723909909897,
+        "top10": 0.8956100337537729,
+        "top20": 0.9418413606928088
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "六个月的身孕挡不住流言，当众被质问：你究竟是谁",
+        "episode_target": 9,
+        "n_candidates": 13,
+        "system_segment_id": 4,
+        "system_episode": 9,
+        "system_source_score": 0.492188,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 9,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.96,
+          "top3": 0.9278492333133548,
+          "top5": 0.9291006082240268,
+          "top10": 0.9772813537730897,
+          "top20": 0.9823820792941483
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "孔雪茹适时登场，将一切归咎于吴倩倩",
+        "episode_target": 4,
+        "n_candidates": 17,
+        "system_segment_id": 3,
+        "system_episode": 4,
+        "system_source_score": 0.570312,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 16,
+        "system_judge_score": 3.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.4,
+        "high_score_counts": {
+          "ge_4_0": 11,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.702127659574468,
+          "top3": 0.805299251969282,
+          "top5": 0.8223318029101533,
+          "top10": 0.8906043659843115,
+          "top20": 0.9437384504070007
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "赵国鹏立场陡变，在婚礼现场将她视为不祥之人",
+        "episode_target": 1,
+        "n_candidates": 25,
+        "system_segment_id": 19,
+        "system_episode": 1,
+        "system_source_score": 0.53125,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.2,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.7108433734939759,
+          "top3": 0.8267199801638129,
+          "top5": 0.8053848357969184,
+          "top10": 0.8627905330378082,
+          "top20": 0.9279809326552447
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "吴倩倩百口莫辩，只能当众亮明自己儿媳妇的身份",
+        "episode_target": 5,
+        "n_candidates": 16,
+        "system_segment_id": 16,
+        "system_episode": 5,
+        "system_source_score": 0.617188,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 16,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8426678936787747,
+          "top5": 0.8713267514530811,
+          "top10": 0.8597231006949325,
+          "top20": 0.9520262547316904
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "可剧情峰回路转，记者群突然闯入现场",
+        "episode_target": 6,
+        "n_candidates": 21,
+        "system_segment_id": 19,
+        "system_episode": 6,
+        "system_source_score": 0.410156,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.85,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 20,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.7,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.6263736263736264,
+          "top3": 0.8783136184436732,
+          "top5": 0.8864198658407844,
+          "top10": 0.9049445240353705,
+          "top20": 0.9267099042456529
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "他们不仅当众拍摄，还用尖锐的提问逼迫她当场表态",
+        "episode_target": 9,
+        "n_candidates": 13,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.316406,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 2.15,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7049180327868853,
+          "top3": 0.7133415638214929,
+          "top5": 0.7774704817209737,
+          "top10": 0.8783163249971248,
+          "top20": 0.9182105428231154
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

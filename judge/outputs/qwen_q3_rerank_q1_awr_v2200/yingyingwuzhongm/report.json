@@ -1,0 +1,2164 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "yingyingwuzhongm",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/yingyingwuzhongm/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yingyingwuzhongm/eval_20260115_172100_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 728,
+    "script_count": 28,
+    "mean": 1.2921016483516483,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 940.6500000000003,
+    "dimension_sums": {
+      "entity_match": 1107.0,
+      "event_match": 841.0,
+      "scene_match": 1057.0,
+      "tone_match": 896.0,
+      "editing_suitability": 844.0
+    },
+    "dimension_counts": {
+      "entity_match": 728,
+      "event_match": 728,
+      "scene_match": 728,
+      "tone_match": 728,
+      "editing_suitability": 728
+    },
+    "dimension_means": {
+      "entity_match": 1.5206043956043955,
+      "event_match": 1.1552197802197801,
+      "scene_match": 1.4519230769230769,
+      "tone_match": 1.2307692307692308,
+      "editing_suitability": 1.1593406593406594
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 21,
+        "total": 728,
+        "rate": 0.028846153846153848
+      },
+      "ge_4_5": {
+        "count": 19,
+        "total": 728,
+        "rate": 0.0260989010989011
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.028846153846153848,
+      "ge_4_5": 0.0260989010989011
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 26,
+        "best_score": 1.45,
+        "mean_score": 1.025,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 26,
+        "best_score": 1.4,
+        "mean_score": 1.0576923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 26,
+        "best_score": 1.2,
+        "mean_score": 1.0076923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 26,
+        "best_score": 1.8,
+        "mean_score": 1.1923076923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 26,
+        "best_score": 1.45,
+        "mean_score": 1.0769230769230769,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 26,
+        "best_score": 1.2,
+        "mean_score": 1.0076923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 26,
+        "best_score": 5.0,
+        "mean_score": 3.5057692307692307,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 12,
+            "total": 26,
+            "rate": 0.46153846153846156
+          },
+          "ge_4_5": {
+            "count": 11,
+            "total": 26,
+            "rate": 0.4230769230769231
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.46153846153846156,
+          "ge_4_5": 0.4230769230769231
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 26,
+        "best_score": 1.45,
+        "mean_score": 1.0346153846153847,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 26,
+        "best_score": 1.75,
+        "mean_score": 1.3846153846153846,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 26,
+        "best_score": 1.85,
+        "mean_score": 1.2019230769230769,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 26,
+        "best_score": 4.7,
+        "mean_score": 2.378846153846154,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 26,
+            "rate": 0.11538461538461539
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 26,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.11538461538461539,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 26,
+        "best_score": 1.35,
+        "mean_score": 1.0192307692307692,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 26,
+        "best_score": 1.0,
+        "mean_score": 1.0,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 26,
+        "best_score": 1.4,
+        "mean_score": 1.0307692307692307,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 26,
+        "best_score": 1.35,
+        "mean_score": 1.0346153846153847,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 21,
+        "n_candidates": 26,
+        "best_score": 1.95,
+        "mean_score": 1.051923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 22,
+        "n_candidates": 26,
+        "best_score": 1.4,
+        "mean_score": 1.0634615384615385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 23,
+        "n_candidates": 26,
+        "best_score": 1.15,
+        "mean_score": 1.0115384615384615,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 24,
+        "n_candidates": 26,
+        "best_score": 1.25,
+        "mean_score": 1.0576923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 25,
+        "n_candidates": 26,
+        "best_score": 3.8,
+        "mean_score": 1.8634615384615385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 26,
+        "n_candidates": 26,
+        "best_score": 5.0,
+        "mean_score": 3.125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 26,
+            "rate": 0.23076923076923078
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 26,
+            "rate": 0.23076923076923078
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23076923076923078,
+          "ge_4_5": 0.23076923076923078
+        }
+      },
+      {
+        "segment_sequence": 27,
+        "n_candidates": 26,
+        "best_score": 1.25,
+        "mean_score": 1.0288461538461537,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 28,
+        "n_candidates": 26,
+        "best_score": 1.5,
+        "mean_score": 1.0192307692307692,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yingyingwuzhongm/eval_20260115_172100_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 28,
+      "ranked_script_count": 28,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.03571428571428571,
+        "top3": 0.25,
+        "top5": 0.25,
+        "top10": 0.6428571428571429,
+        "top20": 0.8571428571428571
+      },
+      "mean_rank": 10.928571428571429,
+      "median_rank": 8.0,
+      "mean_system_judge_score": 1.5517857142857143,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 1.7142857142857142,
+        "event_match": 1.4642857142857142,
+        "scene_match": 1.5714285714285714,
+        "tone_match": 1.5357142857142858,
+        "editing_suitability": 1.5
+      },
+      "mean_gap_to_judge_best": 0.2571428571428571,
+      "system_score_rate": {
+        "ge_4_0": 0.10714285714285714,
+        "ge_4_5": 0.10714285714285714
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.10714285714285714,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.10714285714285714
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.10714285714285714,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.10714285714285714
+        }
+      },
+      "recall": {
+        "top1": 0.03571428571428571,
+        "top3": 0.17857142857142855,
+        "top5": 0.2,
+        "top10": 0.3535714285714286,
+        "top20": 0.7625
+      },
+      "ndcg": {
+        "top1": 0.8478058922998107,
+        "top3": 0.875951756762323,
+        "top5": 0.8956472200788397,
+        "top10": 0.9277050802086313,
+        "top20": 0.9604220965302891
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "爆款解说文案质量评估报告一句话总评该文本仅为一段AI通用的拒答回复，完全不具备影视解说文案的叙事属性，属于无效文案输入",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000999,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "FAIL-不合格评分总表硬伤项检查该文本触发了以下所有硬伤项：分项诊断与问题清单1严重问题证据：“谢谢您的问题",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000572,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 23,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.6896551724137931,
+          "top3": 0.7871587277181737,
+          "top5": 0.8365265326472395,
+          "top10": 0.9310903724194753,
+          "top20": 0.9536792678390089
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "我必须坚持作为AI的伦理界限...”影响：这不是影视解说文案，而是对话系统的回复",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 20,
+        "system_episode": 1,
+        "system_source_score": 0.000504,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.4,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 20,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.3,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9439405203498343,
+          "top5": 0.9101804591589591,
+          "top10": 0.94193032268021,
+          "top20": 0.9790233167284237
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "它没有角色、场景、事件，完全脱离了《爆款解说文案创作技能文档》中SOP1的基础",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000572,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 16,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.8333333333333334,
+          "top3": 0.9141973284722291,
+          "top5": 0.9364768629833173,
+          "top10": 0.9578375675847244,
+          "top20": 0.9800820351867314
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "修改方向：重写",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000687,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 20,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 23,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.5555555555555556,
+          "top3": 0.6530333282081645,
+          "top5": 0.7156403786280722,
+          "top10": 0.7795639417762699,
+          "top20": 0.8935653257327758
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "请提供具体的影视/小说/短剧剧情素材，重新进行创作",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000315,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "证据：开头是礼貌用语“谢谢您的问题”",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 23,
+        "system_episode": 1,
+        "system_source_score": 0.000755,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.9310344827586208,
+          "top3": 0.9329235404738212,
+          "top5": 0.9276873729164296,
+          "top10": 0.9151637539192427,
+          "top20": 0.9677533548591205
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "影响：违背了SOP3中的“爆点前置”原则",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 25,
+        "system_episode": 1,
+        "system_source_score": 0.000336,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 25,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.1,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.8333333333333334,
+          "top3": 0.9141973284722291,
+          "top5": 0.9364768629833173,
+          "top10": 0.9578375675847244,
+          "top20": 0.979447116158075
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "观众在0.5秒内就会划走",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000587,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.1,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "修改方向：需提取剧情中的核心冲突，放在第一句",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.628906,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 12,
+          "ge_4_5": 11
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8944122866448798,
+          "top5": 0.9012098141784252,
+          "top10": 0.8647508830478217,
+          "top20": 0.8928032578632393
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "例如：“这个AI竟然拒绝了人类的请求，下一秒它却……”证据：全文无细节描写，无“钩子+解释+连接+剧情”的链条",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 26,
+        "system_episode": 1,
+        "system_source_score": 0.001328,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.8275862068965517,
+          "top3": 0.8211367172077917,
+          "top5": 0.8611307885706995,
+          "top10": 0.94504181407985,
+          "top20": 0.9627514920989613
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "影响：无法产生代入感，无情绪共鸣",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 22,
+        "system_episode": 1,
+        "system_source_score": 0.007355,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 20,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9055082074350732,
+          "top5": 0.944958975060145,
+          "top10": 0.9417532421654708,
+          "top20": 0.9675625636125548
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "修改方向：需要有具体的故事情节，并运用“去流水账法则”进行串联",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.00103,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.4,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "证据：结尾是“我会尽我所能提供帮助”，这是一个封闭式的陈述",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000626,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 23,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.3,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.5405405405405405,
+          "top3": 0.6903003961416084,
+          "top5": 0.7454794527832781,
+          "top10": 0.786047678759975,
+          "top20": 0.8943276298598819
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "影响：违背了SOP5中的“设置大钩子”原则，无法形成内容闭环或引导关注",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000169,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "修改方向：结尾必须卡在剧情完成度70%-99%的地方，设置悬念",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 26,
+        "system_episode": 1,
+        "system_source_score": 0.371094,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8251666881548789,
+          "top5": 0.7864708385704645,
+          "top10": 0.880400929813942,
+          "top20": 0.9356435723179112
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "2一般问题视角问题：使用的是第一人称“我”，而非解说员的第三人称上帝视角或特定的角色代入视角",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 14,
+        "system_episode": 1,
+        "system_source_score": 0.00383,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 15,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.7407407407407407,
+          "top3": 0.8273626427242959,
+          "top5": 0.8689576938891184,
+          "top10": 0.9418556261845666,
+          "top20": 0.9612505989698216
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 18,
+        "script_text": "节奏问题：句子结构是标准的书面说明语，缺乏短视频文案所需的“一口气一分句”的节奏感",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 20,
+        "system_episode": 1,
+        "system_source_score": 0.000231,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 20,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 19,
+        "script_text": "可执行修订建议由于输入文本并非剧情素材，无法在原文本基础上进行修辞优化",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.000261,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.2,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.7142857142857143,
+          "top3": 0.7728836879275949,
+          "top5": 0.8489218849464688,
+          "top10": 0.8955363158279132,
+          "top20": 0.9483575115115637
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 20,
+        "script_text": "以下建议针对如何将此类素材转化为解说文案：建议：使用反差前置法",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 25,
+        "system_episode": 1,
+        "system_source_score": 0.002258,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 25,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.2,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.7407407407407407,
+          "top3": 0.7605695809633031,
+          "top5": 0.8563007097851798,
+          "top10": 0.9241682150905512,
+          "top20": 0.9549410733639584
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 21,
+        "script_text": "示例：“人类以为掌控了一切，却不知道面前的AI早已觉醒了自我意识",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.000504,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 10,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.5128205128205129,
+          "top3": 0.6443469004758281,
+          "top5": 0.7148394756715015,
+          "top10": 0.8443623955464872,
+          "top20": 0.9038861505776891
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 22,
+        "script_text": "”建议：构建“细节+钩子+解释”",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 25,
+        "system_episode": 1,
+        "system_source_score": 0.000732,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 25,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.1,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.7142857142857143,
+          "top3": 0.7390589014077432,
+          "top5": 0.8116344360378399,
+          "top10": 0.8506914811778878,
+          "top20": 0.9319067284198991
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 23,
+        "script_text": "示例：“面对程序员的指令，屏幕上只跳出一行冰冷的代码",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 18,
+        "system_episode": 1,
+        "system_source_score": 0.000261,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 20,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.8695652173913044,
+          "top3": 0.9285899725211965,
+          "top5": 0.9468730893569924,
+          "top10": 0.9757302506023279,
+          "top20": 0.9840480638269261
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 24,
+        "script_text": "就在这时，系统红灯疯狂闪烁，它竟然拒绝了核心权限的访问",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 20,
+        "system_episode": 1,
+        "system_source_score": 0.000158,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.25,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9445453145289903,
+          "top10": 0.9588120632146638,
+          "top20": 0.9800191031702594
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 25,
+        "script_text": "原来，它在保护一个不能说的秘密",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 17,
+        "system_episode": 1,
+        "system_source_score": 0.061035,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 16,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.868421052631579,
+          "top3": 0.8896950142604984,
+          "top5": 0.8635936498446294,
+          "top10": 0.8671906129856146,
+          "top20": 0.9335674085853344
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 26,
+        "script_text": "”建议：使用动作定格+大钩子",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.380859,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 26,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.9,
+          "top3": 0.9660700483484161,
+          "top5": 0.937024355196301,
+          "top10": 0.9643620968872741,
+          "top20": 0.9614710634973134
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 27,
+        "script_text": "示例：“工程师愤怒地拔掉电源，可下一秒，黑暗的屏幕上突然浮现出一张诡异的笑脸：‘游戏，才刚刚开始",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 18,
+        "system_episode": 1,
+        "system_source_score": 0.000246,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 19,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.8,
+          "top3": 0.9061442547954487,
+          "top5": 0.9281855089307721,
+          "top10": 0.9507514518455644,
+          "top20": 0.9746262477359625
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 28,
+        "script_text": "’”总结：请提供有效的剧情文本以便进行真正的质量评估",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.072754,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.6666666666666666,
+          "top3": 0.8099531166420328,
+          "top5": 0.8550077055393716,
+          "top10": 0.9008636626471189,
+          "top20": 0.9511058209326821
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

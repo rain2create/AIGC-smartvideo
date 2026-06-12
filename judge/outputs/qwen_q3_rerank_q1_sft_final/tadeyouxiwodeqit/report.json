@@ -1,0 +1,478 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "tadeyouxiwodeqit",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/tadeyouxiwodeqit/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/tadeyouxiwodeqit/1_10_20260515_203651_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 109,
+    "script_count": 7,
+    "mean": 2.2770642201834863,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 248.20000000000002,
+    "dimension_sums": {
+      "entity_match": 332.0,
+      "event_match": 192.0,
+      "scene_match": 301.0,
+      "tone_match": 239.0,
+      "editing_suitability": 193.0
+    },
+    "dimension_counts": {
+      "entity_match": 109,
+      "event_match": 109,
+      "scene_match": 109,
+      "tone_match": 109,
+      "editing_suitability": 109
+    },
+    "dimension_means": {
+      "entity_match": 3.0458715596330275,
+      "event_match": 1.761467889908257,
+      "scene_match": 2.761467889908257,
+      "tone_match": 2.1926605504587156,
+      "editing_suitability": 1.7706422018348624
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 17,
+        "total": 109,
+        "rate": 0.1559633027522936
+      },
+      "ge_4_5": {
+        "count": 8,
+        "total": 109,
+        "rate": 0.07339449541284404
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.1559633027522936,
+      "ge_4_5": 0.07339449541284404
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 15,
+        "best_score": 4.55,
+        "mean_score": 1.6266666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 15,
+            "rate": 0.13333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 15,
+            "rate": 0.06666666666666667
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.13333333333333333,
+          "ge_4_5": 0.06666666666666667
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 9,
+        "best_score": 5.0,
+        "mean_score": 3.533333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 9,
+            "rate": 0.3333333333333333
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 9,
+            "rate": 0.3333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3333333333333333,
+          "ge_4_5": 0.3333333333333333
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 9,
+        "best_score": 3.05,
+        "mean_score": 1.6944444444444444,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 15,
+        "best_score": 2.55,
+        "mean_score": 1.7,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 23,
+        "best_score": 4.0,
+        "mean_score": 1.958695652173913,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 23,
+            "rate": 0.043478260869565216
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 23,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.043478260869565216,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 19,
+        "best_score": 4.7,
+        "mean_score": 2.8921052631578945,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 19,
+            "rate": 0.2631578947368421
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2631578947368421,
+          "ge_4_5": 0.10526315789473684
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 19,
+        "best_score": 4.8,
+        "mean_score": 2.6973684210526314,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 19,
+            "rate": 0.3157894736842105
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3157894736842105,
+          "ge_4_5": 0.10526315789473684
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/tadeyouxiwodeqit/1_10_20260515_203651_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 1.0,
+        "top3": 1.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 1,
+      "median_rank": 1.0,
+      "mean_system_judge_score": 3.7874999999999996,
+      "min_system_judge_score": 2.55,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.25,
+        "event_match": 3.75,
+        "scene_match": 3.5,
+        "tone_match": 3.75,
+        "editing_suitability": 3.5
+      },
+      "mean_gap_to_judge_best": 0.0,
+      "system_score_rate": {
+        "ge_4_0": 0.5,
+        "ge_4_5": 0.5
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        }
+      },
+      "recall": {
+        "top1": 1.0,
+        "top3": 0.5833333333333333,
+        "top5": 0.6000000000000001,
+        "top10": 0.7,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 1.0,
+        "top3": 0.9295104336168714,
+        "top5": 0.9450325945086112,
+        "top10": 0.9661183388998682,
+        "top20": 0.9817944300777393
+      },
+      "max_top_matches": 15
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "前世，他撞破老板和妻子的奸情，今生，他重生回来要让他们身败名裂",
+        "episode_target": 5,
+        "n_candidates": 15,
+        "system_segment_id": 15,
+        "system_episode": 5,
+        "system_source_score": 0.457031,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9753879199636769,
+          "top5": 0.9629489597014408,
+          "top10": 0.9750081019657246,
+          "top20": 0.9899333949396398
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "回到公司，张天耀冷酷地告诉他，小刘——那个替他挡枪的同事，死了",
+        "episode_target": 3,
+        "n_candidates": 9,
+        "system_segment_id": 5,
+        "system_episode": 3,
+        "system_source_score": 0.679688,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 3,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9617395085304258,
+          "top5": 0.9800502999233788,
+          "top10": 0.989685697796792,
+          "top20": 0.989685697796792
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "林峰脑海里闪过前世的记忆，小刘是被张天耀设计杀害，真相血色",
+        "episode_target": 3,
+        "n_candidates": 9,
+        "system_segment_id": 7,
+        "system_episode": 3,
+        "system_source_score": 0.302734,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9756660660416768,
+          "top5": 0.9869079922506839,
+          "top10": 0.9944886463878381,
+          "top20": 0.9944886463878381
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "他决定接手秦氏集团的项目，留加班，一定要查清楚真相",
+        "episode_target": 5,
+        "n_candidates": 15,
+        "system_segment_id": 14,
+        "system_episode": 5,
+        "system_source_score": 0.194336,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 5,
+        "judge_best_score": 2.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8052482399317057,
+          "top5": 0.8502231261589414,
+          "top10": 0.905290909449118,
+          "top20": 0.9530699811866873
+        },
+        "diagnosis": "命中但上限不足"
+      }
+    ]
+  }
+}

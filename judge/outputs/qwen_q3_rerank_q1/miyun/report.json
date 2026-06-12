@@ -1,0 +1,456 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "miyun",
+  "variant": "qwen_q3_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/miyun/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/miyun/1_10_20260519_054949_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 115,
+    "script_count": 6,
+    "mean": 2.51,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 288.65000000000015,
+    "dimension_sums": {
+      "entity_match": 348.0,
+      "event_match": 214.0,
+      "scene_match": 337.0,
+      "tone_match": 324.0,
+      "editing_suitability": 233.0
+    },
+    "dimension_counts": {
+      "entity_match": 115,
+      "event_match": 115,
+      "scene_match": 115,
+      "tone_match": 115,
+      "editing_suitability": 115
+    },
+    "dimension_means": {
+      "entity_match": 3.026086956521739,
+      "event_match": 1.8608695652173912,
+      "scene_match": 2.9304347826086956,
+      "tone_match": 2.8173913043478263,
+      "editing_suitability": 2.026086956521739
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 11,
+        "total": 115,
+        "rate": 0.09565217391304348
+      },
+      "ge_4_5": {
+        "count": 6,
+        "total": 115,
+        "rate": 0.05217391304347826
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.09565217391304348,
+      "ge_4_5": 0.05217391304347826
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 32,
+        "best_score": 4.8,
+        "mean_score": 3.14375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 32,
+            "rate": 0.15625
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 32,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15625,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 20,
+        "best_score": 5.0,
+        "mean_score": 2.82,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 20,
+            "rate": 0.2
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 20,
+            "rate": 0.15
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2,
+          "ge_4_5": 0.15
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 20,
+        "best_score": 3.3,
+        "mean_score": 1.7025,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 13,
+        "best_score": 2.3,
+        "mean_score": 1.9538461538461538,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 20,
+        "best_score": 4.6,
+        "mean_score": 2.56,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.05
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 10,
+        "best_score": 4.05,
+        "mean_score": 2.1,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 10,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 10,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/miyun/1_10_20260519_054949_structured_qwen_q3_rerank_q1.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.25,
+        "top3": 0.5,
+        "top5": 0.75,
+        "top10": 0.75,
+        "top20": 1.0
+      },
+      "mean_rank": 4.5,
+      "median_rank": 3.0,
+      "mean_system_judge_score": 3.575,
+      "min_system_judge_score": 1.8,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.75,
+        "event_match": 3.25,
+        "scene_match": 3.5,
+        "tone_match": 4.0,
+        "editing_suitability": 3.25
+      },
+      "mean_gap_to_judge_best": 0.275,
+      "system_score_rate": {
+        "ge_4_0": 0.5,
+        "ge_4_5": 0.5
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        }
+      },
+      "recall": {
+        "top1": 0.25,
+        "top3": 0.3333333333333333,
+        "top5": 0.55,
+        "top10": 0.7250000000000001,
+        "top20": 0.9333333333333333
+      },
+      "ndcg": {
+        "top1": 0.900197628458498,
+        "top3": 0.8662875020373966,
+        "top5": 0.8744453248933679,
+        "top10": 0.9253761142872657,
+        "top20": 0.9504887768256608
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "18岁生日当天，妹妹不是过生日，是在跳楼，留下了一句让奶奶、爸爸相继自杀的遗言",
+        "episode_target": 1,
+        "n_candidates": 32,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.341797,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.5,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9789547044218658,
+          "top5": 0.969185003673288,
+          "top10": 0.9329202246316187,
+          "top20": 0.9451832535516987
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "家中，李青试图追问遗言真相，遭父亲动手阻止，母亲也阻止她深究",
+        "episode_target": 3,
+        "n_candidates": 20,
+        "system_segment_id": 10,
+        "system_episode": 3,
+        "system_source_score": 0.421875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 3,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9084906484255625,
+          "top5": 0.9001906064006058,
+          "top10": 0.9431570275280658,
+          "top20": 0.9731607781631924
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "父亲酗酒崩溃，面对李青的追问不仅拒绝透露遗言，甚至动手打人",
+        "episode_target": 3,
+        "n_candidates": 20,
+        "system_segment_id": 10,
+        "system_episode": 3,
+        "system_source_score": 0.064453,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.8181818181818182,
+          "top3": 0.7706537829183056,
+          "top5": 0.784405370814117,
+          "top10": 0.8954100560476994,
+          "top20": 0.935598738540543
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "李青偷瞥母亲手中的遗言，母亲发现后阻止她查看，悲痛地当众跳楼自杀",
+        "episode_target": 8,
+        "n_candidates": 13,
+        "system_segment_id": 5,
+        "system_episode": 8,
+        "system_source_score": 0.08252,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 1.8,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 8,
+        "judge_best_score": 2.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.782608695652174,
+          "top3": 0.8070508723838525,
+          "top5": 0.8440003186854609,
+          "top10": 0.9300171489416791,
+          "top20": 0.9480123370472091
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "qinaidewoyaojhl",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/qinaidewoyaojhl/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qinaidewoyaojhl/1_10_20260515_030632_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 462,
+    "script_count": 11,
+    "mean": 1.7094155844155845,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 789.7500000000005,
+    "dimension_sums": {
+      "entity_match": 1422.0,
+      "event_match": 574.0,
+      "scene_match": 772.0,
+      "tone_match": 635.0,
+      "editing_suitability": 586.0
+    },
+    "dimension_counts": {
+      "entity_match": 462,
+      "event_match": 462,
+      "scene_match": 462,
+      "tone_match": 462,
+      "editing_suitability": 462
+    },
+    "dimension_means": {
+      "entity_match": 3.0779220779220777,
+      "event_match": 1.2424242424242424,
+      "scene_match": 1.670995670995671,
+      "tone_match": 1.3744588744588744,
+      "editing_suitability": 1.2683982683982684
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 15,
+        "total": 462,
+        "rate": 0.032467532467532464
+      },
+      "ge_4_5": {
+        "count": 3,
+        "total": 462,
+        "rate": 0.006493506493506494
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.032467532467532464,
+      "ge_4_5": 0.006493506493506494
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 47,
+        "best_score": 4.4,
+        "mean_score": 2.442553191489362,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 47,
+            "rate": 0.14893617021276595
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14893617021276595,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 47,
+        "best_score": 3.7,
+        "mean_score": 1.8393617021276596,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 39,
+        "best_score": 2.1,
+        "mean_score": 1.5576923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 39,
+        "best_score": 2.25,
+        "mean_score": 1.5897435897435896,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 47,
+        "best_score": 5.0,
+        "mean_score": 2.0627659574468087,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 47,
+            "rate": 0.14893617021276595
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 47,
+            "rate": 0.06382978723404255
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14893617021276595,
+          "ge_4_5": 0.06382978723404255
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 47,
+        "best_score": 2.05,
+        "mean_score": 1.5148936170212766,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 39,
+        "best_score": 1.8,
+        "mean_score": 1.2333333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 32,
+        "best_score": 4.25,
+        "mean_score": 1.9234375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 32,
+            "rate": 0.03125
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03125,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 39,
+        "best_score": 1.95,
+        "mean_score": 1.1397435897435897,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 39,
+        "best_score": 3.35,
+        "mean_score": 1.7397435897435898,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 39,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 47,
+        "best_score": 3.45,
+        "mean_score": 1.6095744680851063,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 47,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/qinaidewoyaojhl/1_10_20260515_030632_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.25,
+        "top5": 0.25,
+        "top10": 0.25,
+        "top20": 0.75
+      },
+      "mean_rank": 16.25,
+      "median_rank": 15.5,
+      "mean_system_judge_score": 2.45,
+      "min_system_judge_score": 1.55,
+      "max_system_judge_score": 4.4,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.25,
+        "event_match": 1.75,
+        "scene_match": 2.5,
+        "tone_match": 2.0,
+        "editing_suitability": 2.0
+      },
+      "mean_gap_to_judge_best": 0.6625,
+      "system_score_rate": {
+        "ge_4_0": 0.25,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.25,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.25
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 0,
+          "scripts_with_any_rate": 0.0,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.25,
+        "top5": 0.2,
+        "top10": 0.375,
+        "top20": 0.6749999999999999
+      },
+      "ndcg": {
+        "top1": 0.797983697983698,
+        "top3": 0.844967589675565,
+        "top5": 0.8403586011296871,
+        "top10": 0.870281791814809,
+        "top20": 0.8630690824942209
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "与顾西洲相恋5年，温以宁准备求婚，却发现他只是把自己当作玩物",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 41,
+        "system_episode": 1,
+        "system_source_score": 0.373047,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 36,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9130960376234581,
+          "top5": 0.8439134967465646,
+          "top10": 0.8426512653164587,
+          "top20": 0.8345354470503114
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "这份深情化作五年如一日的付出，她为他准备的每一份惊喜，他都报以冷漠回应",
+        "episode_target": 1,
+        "n_candidates": 47,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.451172,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 32,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 27,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 2.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.4189189189189189,
+          "top3": 0.6355596881415495,
+          "top5": 0.7013879710950388,
+          "top10": 0.8088100226078097,
+          "top20": 0.8409246650334026
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "就在温以宁决定放手时，裴聿之的真诚求婚如一道闪电划破天际",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 28,
+        "system_episode": 2,
+        "system_source_score": 0.273438,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.9285714285714285,
+          "top3": 0.9273538829550955,
+          "top5": 0.8971740447414948,
+          "top10": 0.9135014330019782,
+          "top20": 0.8882795293376832
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "她没有犹豫，答应了这个突如其来的求婚，泪水却不由自主地滑落",
+        "episode_target": 2,
+        "n_candidates": 39,
+        "system_segment_id": 12,
+        "system_episode": 2,
+        "system_source_score": 0.232422,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 18,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 32,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.8444444444444444,
+          "top3": 0.9038607499821566,
+          "top5": 0.91895889193565,
+          "top10": 0.9161644463329894,
+          "top20": 0.8885366885554866
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

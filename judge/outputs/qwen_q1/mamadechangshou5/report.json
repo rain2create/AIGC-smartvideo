@@ -1,0 +1,412 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:48:38",
+  "canonical_variant": "canonical",
+  "dj": "mamadechangshou5",
+  "variant": "qwen_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/mamadechangshou5/annotation_20260508_051542",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/mamadechangshou5/1_10_20260428_105228_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 77,
+    "script_count": 4,
+    "mean": 2.1493506493506493,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 165.49999999999997,
+    "dimension_sums": {
+      "entity_match": 197.0,
+      "event_match": 131.0,
+      "scene_match": 220.0,
+      "tone_match": 164.0,
+      "editing_suitability": 128.0
+    },
+    "dimension_counts": {
+      "entity_match": 77,
+      "event_match": 77,
+      "scene_match": 77,
+      "tone_match": 77,
+      "editing_suitability": 77
+    },
+    "dimension_means": {
+      "entity_match": 2.5584415584415585,
+      "event_match": 1.7012987012987013,
+      "scene_match": 2.857142857142857,
+      "tone_match": 2.1298701298701297,
+      "editing_suitability": 1.6623376623376624
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 8,
+        "total": 77,
+        "rate": 0.1038961038961039
+      },
+      "ge_4_5": {
+        "count": 6,
+        "total": 77,
+        "rate": 0.07792207792207792
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.1038961038961039,
+      "ge_4_5": 0.07792207792207792
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 15,
+        "best_score": 4.7,
+        "mean_score": 3.0033333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 15,
+            "rate": 0.26666666666666666
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 15,
+            "rate": 0.2
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.26666666666666666,
+          "ge_4_5": 0.2
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 21,
+        "best_score": 3.15,
+        "mean_score": 1.9928571428571429,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 21,
+        "best_score": 5.0,
+        "mean_score": 2.302380952380952,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 21,
+            "rate": 0.14285714285714285
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 21,
+            "rate": 0.14285714285714285
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14285714285714285,
+          "ge_4_5": 0.14285714285714285
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 20,
+        "best_score": 4.2,
+        "mean_score": 1.5125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/mamadechangshou5/1_10_20260428_105228_structured_qwen_q1.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.25,
+        "top3": 0.75,
+        "top5": 0.75,
+        "top10": 0.75,
+        "top20": 1.0
+      },
+      "mean_rank": 5,
+      "median_rank": 2.0,
+      "mean_system_judge_score": 3.85,
+      "min_system_judge_score": 1.55,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.5,
+        "event_match": 3.75,
+        "scene_match": 3.75,
+        "tone_match": 4.25,
+        "editing_suitability": 4.0
+      },
+      "mean_gap_to_judge_best": 0.41250000000000003,
+      "system_score_rate": {
+        "ge_4_0": 0.75,
+        "ge_4_5": 0.5
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.75,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.75
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.5
+        }
+      },
+      "recall": {
+        "top1": 0.25,
+        "top3": 0.5,
+        "top5": 0.55,
+        "top10": 0.75,
+        "top20": 0.9666666666666667
+      },
+      "ndcg": {
+        "top1": 0.870356298547788,
+        "top3": 0.8484594710605341,
+        "top5": 0.8433844261386731,
+        "top10": 0.8955853977055656,
+        "top20": 0.9471432483224291
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女人劝绝症丈夫放弃治疗，却被门外的亲生儿子当成了贪财的杀人凶手",
+        "episode_target": 1,
+        "n_candidates": 15,
+        "system_segment_id": 12,
+        "system_episode": 1,
+        "system_source_score": 0.46249,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.05,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9893617021276596,
+          "top3": 0.8447802122519749,
+          "top5": 0.7890806528994105,
+          "top10": 0.8779293144946626,
+          "top20": 0.9339043222611277
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "丈夫本就病入膏肓，听到儿子的激烈质问，当场急火攻心撒手人寰",
+        "episode_target": 2,
+        "n_candidates": 21,
+        "system_segment_id": 14,
+        "system_episode": 2,
+        "system_source_score": 0.446401,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 15,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.4920634920634921,
+          "top3": 0.7687413110351488,
+          "top5": 0.7526335156642764,
+          "top10": 0.8198864544102641,
+          "top20": 0.9110592712037601
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "看着父亲冰冷的尸体，男孩红着眼眶，将所有的罪责都推到了母亲身上",
+        "episode_target": 2,
+        "n_candidates": 21,
+        "system_segment_id": 14,
+        "system_episode": 2,
+        "system_source_score": 0.412754,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8289570024059735,
+          "top5": 0.9347917122404765,
+          "top10": 0.9419626711562029,
+          "top20": 0.9663334148745163
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "可他根本不知道，母亲之所以这么做，是因为她自己也查出了癌症",
+        "episode_target": 7,
+        "n_candidates": 20,
+        "system_segment_id": 8,
+        "system_episode": 7,
+        "system_source_score": 0.446369,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9513593585490394,
+          "top5": 0.897031823750529,
+          "top10": 0.9425631507611327,
+          "top20": 0.9772759849503124
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

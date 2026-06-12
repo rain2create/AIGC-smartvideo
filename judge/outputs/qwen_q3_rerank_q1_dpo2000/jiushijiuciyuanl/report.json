@@ -1,0 +1,1580 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "jiushijiuciyuanl",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/jiushijiuciyuanl/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/jiushijiuciyuanl/1_10_20260513_192152_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 408,
+    "script_count": 20,
+    "mean": 2.1068627450980393,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 859.5999999999999,
+    "dimension_sums": {
+      "entity_match": 1189.0,
+      "event_match": 622.0,
+      "scene_match": 1072.0,
+      "tone_match": 830.0,
+      "editing_suitability": 669.0
+    },
+    "dimension_counts": {
+      "entity_match": 408,
+      "event_match": 408,
+      "scene_match": 408,
+      "tone_match": 408,
+      "editing_suitability": 408
+    },
+    "dimension_means": {
+      "entity_match": 2.9142156862745097,
+      "event_match": 1.5245098039215685,
+      "scene_match": 2.627450980392157,
+      "tone_match": 2.034313725490196,
+      "editing_suitability": 1.6397058823529411
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 37,
+        "total": 408,
+        "rate": 0.09068627450980392
+      },
+      "ge_4_5": {
+        "count": 22,
+        "total": 408,
+        "rate": 0.05392156862745098
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.09068627450980392,
+      "ge_4_5": 0.05392156862745098
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 28,
+        "best_score": 2.65,
+        "mean_score": 1.3125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 16,
+        "best_score": 4.8,
+        "mean_score": 2.81875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 16,
+            "rate": 0.1875
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 16,
+            "rate": 0.1875
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1875,
+          "ge_4_5": 0.1875
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 16,
+        "best_score": 4.85,
+        "mean_score": 2.5375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 16,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 16,
+            "rate": 0.1875
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.1875
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 16,
+        "best_score": 4.85,
+        "mean_score": 2.46875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 16,
+            "rate": 0.125
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.125,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 24,
+        "best_score": 2.0,
+        "mean_score": 1.3333333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 13,
+        "best_score": 2.6,
+        "mean_score": 1.7,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 14,
+        "best_score": 3.1,
+        "mean_score": 1.7285714285714286,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 27,
+        "best_score": 3.65,
+        "mean_score": 1.6648148148148147,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 27,
+        "best_score": 4.7,
+        "mean_score": 2.4962962962962965,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 27,
+            "rate": 0.18518518518518517
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 27,
+            "rate": 0.037037037037037035
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.18518518518518517,
+          "ge_4_5": 0.037037037037037035
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 27,
+        "best_score": 4.7,
+        "mean_score": 2.6814814814814816,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 27,
+            "rate": 0.07407407407407407
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 27,
+            "rate": 0.07407407407407407
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07407407407407407,
+          "ge_4_5": 0.07407407407407407
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 27,
+        "best_score": 4.15,
+        "mean_score": 1.7037037037037037,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 27,
+            "rate": 0.037037037037037035
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.037037037037037035,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 13,
+        "best_score": 4.55,
+        "mean_score": 2.0576923076923075,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07692307692307693,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 20,
+        "best_score": 1.95,
+        "mean_score": 1.2475,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 20,
+        "best_score": 4.8,
+        "mean_score": 1.935,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.05
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 20,
+        "best_score": 5.0,
+        "mean_score": 2.3975,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.1
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 20,
+        "best_score": 4.7,
+        "mean_score": 3.14,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 20,
+            "rate": 0.3
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 20,
+            "rate": 0.15
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3,
+          "ge_4_5": 0.15
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 20,
+        "best_score": 5.0,
+        "mean_score": 2.485,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.1
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 20,
+        "best_score": 5.0,
+        "mean_score": 1.9675,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1,
+          "ge_4_5": 0.05
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 20,
+        "best_score": 4.85,
+        "mean_score": 2.8449999999999998,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 20,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 20,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.1
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 20,
+        "best_score": 3.9,
+        "mean_score": 2.075,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/jiushijiuciyuanl/1_10_20260513_192152_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 20,
+      "ranked_script_count": 20,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.3,
+        "top3": 0.6,
+        "top5": 0.7,
+        "top10": 0.8,
+        "top20": 1.0
+      },
+      "mean_rank": 5.2,
+      "median_rank": 2.5,
+      "mean_system_judge_score": 3.3475,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.65,
+        "event_match": 3.05,
+        "scene_match": 3.45,
+        "tone_match": 3.4,
+        "editing_suitability": 3.35
+      },
+      "mean_gap_to_judge_best": 0.7424999999999999,
+      "system_score_rate": {
+        "ge_4_0": 0.4,
+        "ge_4_5": 0.4
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 13,
+          "scripts_with_any_rate": 0.65,
+          "system_best_score_count": 8,
+          "system_best_score_rate": 0.4
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 12,
+          "scripts_with_any_rate": 0.6,
+          "system_best_score_count": 8,
+          "system_best_score_rate": 0.4
+        }
+      },
+      "recall": {
+        "top1": 0.3,
+        "top3": 0.5333333333333333,
+        "top5": 0.56,
+        "top10": 0.705,
+        "top20": 0.9428571428571428
+      },
+      "ndcg": {
+        "top1": 0.7948192041397716,
+        "top3": 0.8210859970695107,
+        "top5": 0.8300882596914675,
+        "top10": 0.8841392534891964,
+        "top20": 0.9344060958108823
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "男人刚做完肝脏手术，妻子却端起烈酒，逼他往死里喝",
+        "episode_target": 3,
+        "n_candidates": 28,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.003174,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 3,
+        "judge_best_score": 2.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 1.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.4528301886792453,
+          "top3": 0.6510503078632343,
+          "top5": 0.7592717559672412,
+          "top10": 0.8444371665017505,
+          "top20": 0.9023760346259664
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "只因为妻子觉得他抢了男下属的风头",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 5,
+        "system_episode": 2,
+        "system_source_score": 0.225586,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8229166666666667,
+          "top3": 0.8318182272335468,
+          "top5": 0.8670944326616593,
+          "top10": 0.8999993212863738,
+          "top20": 0.9487059947635793
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "男人捂着伤口苦苦哀求，表示自己真的不能碰酒",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 11,
+        "system_episode": 2,
+        "system_source_score": 0.084961,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.862957621885597,
+          "top5": 0.8459615719899533,
+          "top10": 0.916536876437087,
+          "top20": 0.9463825338469491
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "可妻子却满脸冷漠，甚至掏出一张特制的和好券，强行抵消男人的委屈",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 13,
+        "system_episode": 2,
+        "system_source_score": 0.773438,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.980912202052333,
+          "top5": 0.8522935389661371,
+          "top10": 0.9206393889993018,
+          "top20": 0.9618340903955752
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "当年妻子求婚九十九次，送上九十九张和好券，承诺只要券没用完就永不分离",
+        "episode_target": 1,
+        "n_candidates": 24,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.008606,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 15,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 23,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.6,
+          "top3": 0.701410561992189,
+          "top5": 0.6972967568237802,
+          "top10": 0.8023063169451248,
+          "top20": 0.8782725727542657
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "可如今，这些承载爱意的卡片，却成了妻子肆意伤害他的免死金牌",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 13,
+        "system_episode": 7,
+        "system_source_score": 0.226562,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.6,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9637142375930865,
+          "top10": 0.9598576845107193,
+          "top20": 0.9866229250298774
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "男人无奈咽下烈酒，妻子却转头为了讨好男下属，当众将他赶出聚会",
+        "episode_target": 4,
+        "n_candidates": 14,
+        "system_segment_id": 4,
+        "system_episode": 4,
+        "system_source_score": 0.550781,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 3.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9499746859151303,
+          "top5": 0.9013459107343519,
+          "top10": 0.9678937591185959,
+          "top20": 0.981260486411382
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "更过分的是，几天后，妻子竟把男下属的脏衣服带回了家",
+        "episode_target": 8,
+        "n_candidates": 27,
+        "system_segment_id": 9,
+        "system_episode": 8,
+        "system_source_score": 0.052734,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.4,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 8,
+        "judge_best_score": 3.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.6575342465753424,
+          "top3": 0.9181658565199075,
+          "top5": 0.9032514137323255,
+          "top10": 0.9293667034792107,
+          "top20": 0.937018727827228
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "她理直气壮地扔在沙发上，让男人顺手洗干净",
+        "episode_target": 8,
+        "n_candidates": 27,
+        "system_segment_id": 21,
+        "system_episode": 8,
+        "system_source_score": 0.4375,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.05,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.5638297872340425,
+          "top3": 0.6799871531242223,
+          "top5": 0.7158279290691824,
+          "top10": 0.8641958814966111,
+          "top20": 0.9074443857686727
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "面对男人的质问，妻子轻描淡写地再次消耗掉一张和好券",
+        "episode_target": 8,
+        "n_candidates": 27,
+        "system_segment_id": 11,
+        "system_episode": 8,
+        "system_source_score": 0.863281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9607960793777329,
+          "top5": 0.9025850495833286,
+          "top10": 0.9494270530918635,
+          "top20": 0.9608098661374156
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "她不知道的是，这已经是第九十八张了",
+        "episode_target": 8,
+        "n_candidates": 27,
+        "system_segment_id": 12,
+        "system_episode": 8,
+        "system_source_score": 0.112793,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.8433734939759036,
+          "top3": 0.8379539266786833,
+          "top5": 0.8249579404363864,
+          "top10": 0.8888739700071296,
+          "top20": 0.9213753412217798
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "男人的心彻底死了，他转身找到律师，暗中拟定了一份离婚协议",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 12,
+        "system_episode": 7,
+        "system_source_score": 0.025146,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9255916826110178,
+          "top5": 0.9721829610924088,
+          "top10": 0.9848775123329548,
+          "top20": 0.9877376929625312
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "就在这天深夜，妻子为了照顾喝醉的男下属，再次夜不归宿",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 16,
+        "system_episode": 10,
+        "system_source_score": 0.002625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 17,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.5128205128205129,
+          "top3": 0.6117873126402994,
+          "top5": 0.7194031345209451,
+          "top10": 0.8222242971103333,
+          "top20": 0.9040318615753293
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "她随手消耗掉最后一张和好券，并派人送来一块手表作为安抚",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.65625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.1,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.5625000000000001,
+          "top3": 0.4827951040591335,
+          "top5": 0.6333271274379415,
+          "top10": 0.6860117062414325,
+          "top20": 0.827294749108497
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "男人看着盒子里那块和前两年一模一样的手表，眼中再无半点波澜",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.570312,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9400000000000001,
+          "top3": 0.9407607855476284,
+          "top5": 0.9374237446860992,
+          "top10": 0.9252068244249578,
+          "top20": 0.9724681665384077
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "九十九张和好券终于耗尽",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.287109,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 3.75,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.7978723404255319,
+          "top3": 0.790508354616482,
+          "top5": 0.8566483189051195,
+          "top10": 0.929770192893809,
+          "top20": 0.9527371169460659
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "男人拿起手机，拨通了律师的电话",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 17,
+        "system_episode": 10,
+        "system_source_score": 0.310547,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9199999999999999,
+          "top3": 0.9846257194387352,
+          "top5": 0.973341768346635,
+          "top10": 0.9518878803729555,
+          "top20": 0.9859468816403967
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 18,
+        "script_text": "他平静地吩咐对方，立刻把离婚协议寄给妻子",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.847656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9849997133789976,
+          "top10": 0.9637882146822019,
+          "top20": 0.9900634565837957
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 19,
+        "script_text": "随后，他给妻子发去最后一条消息，宣告和好券用完，婚姻到此结束",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.652344,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9278350515463918,
+          "top3": 0.986904685914573,
+          "top5": 0.8732247710334282,
+          "top10": 0.8825496241853453,
+          "top20": 0.962359504913036
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 20,
+        "script_text": "而此时还在小三身边献殷勤的妻子根本不知道，她即将永远失去那个最爱她的男人",
+        "episode_target": 10,
+        "n_candidates": 20,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.129883,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.15,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.75,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.2948717948717949,
+          "top3": 0.3237196739197683,
+          "top5": 0.41761311687034247,
+          "top10": 0.5929346956661702,
+          "top20": 0.7733795271668947
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

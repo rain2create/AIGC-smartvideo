@@ -1,0 +1,1142 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "sancunrenxinbukl",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/sancunrenxinbukl/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/sancunrenxinbukl/1_10_20260518_111140_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 227,
+    "script_count": 14,
+    "mean": 1.975330396475771,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 448.3999999999999,
+    "dimension_sums": {
+      "entity_match": 577.0,
+      "event_match": 369.0,
+      "scene_match": 542.0,
+      "tone_match": 420.0,
+      "editing_suitability": 360.0
+    },
+    "dimension_counts": {
+      "entity_match": 227,
+      "event_match": 227,
+      "scene_match": 227,
+      "tone_match": 227,
+      "editing_suitability": 227
+    },
+    "dimension_means": {
+      "entity_match": 2.541850220264317,
+      "event_match": 1.6255506607929515,
+      "scene_match": 2.3876651982378854,
+      "tone_match": 1.8502202643171806,
+      "editing_suitability": 1.5859030837004404
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 15,
+        "total": 227,
+        "rate": 0.06607929515418502
+      },
+      "ge_4_5": {
+        "count": 5,
+        "total": 227,
+        "rate": 0.022026431718061675
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.06607929515418502,
+      "ge_4_5": 0.022026431718061675
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 17,
+        "best_score": 2.9,
+        "mean_score": 1.6352941176470588,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 16,
+        "best_score": 2.5,
+        "mean_score": 1.325,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 15,
+        "best_score": 2.95,
+        "mean_score": 1.9433333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 15,
+        "best_score": 2.3,
+        "mean_score": 1.3633333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 17,
+        "best_score": 4.55,
+        "mean_score": 2.635294117647059,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.058823529411764705,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 17,
+        "best_score": 4.25,
+        "mean_score": 1.761764705882353,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.11764705882352941,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 17,
+        "best_score": 5.0,
+        "mean_score": 2.347058823529412,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 17,
+            "rate": 0.11764705882352941
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.11764705882352941,
+          "ge_4_5": 0.11764705882352941
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 15,
+        "best_score": 4.4,
+        "mean_score": 1.99,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 15,
+            "rate": 0.2
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 15,
+        "best_score": 4.35,
+        "mean_score": 2.0933333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 15,
+            "rate": 0.06666666666666667
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.06666666666666667,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 17,
+        "best_score": 3.95,
+        "mean_score": 2.1176470588235294,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 17,
+        "best_score": 4.55,
+        "mean_score": 2.2941176470588234,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.058823529411764705,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 17,
+        "best_score": 4.65,
+        "mean_score": 2.861764705882353,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 17,
+            "rate": 0.23529411764705882
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23529411764705882,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 16,
+        "best_score": 2.85,
+        "mean_score": 1.425,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 16,
+        "best_score": 4.25,
+        "mean_score": 1.715625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0625,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/sancunrenxinbukl/1_10_20260518_111140_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 14,
+      "ranked_script_count": 14,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.14285714285714285,
+        "top3": 0.6428571428571429,
+        "top5": 0.7857142857142857,
+        "top10": 0.7857142857142857,
+        "top20": 1.0
+      },
+      "mean_rank": 4.928571428571429,
+      "median_rank": 2.5,
+      "mean_system_judge_score": 2.6821428571428574,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 4.4,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.2857142857142856,
+        "event_match": 2.4285714285714284,
+        "scene_match": 2.642857142857143,
+        "tone_match": 2.7142857142857144,
+        "editing_suitability": 2.2142857142857144
+      },
+      "mean_gap_to_judge_best": 1.1357142857142857,
+      "system_score_rate": {
+        "ge_4_0": 0.14285714285714285,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 8,
+          "scripts_with_any_rate": 0.5714285714285714,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.14285714285714285
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.2857142857142857,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.14285714285714285,
+        "top3": 0.5238095238095238,
+        "top5": 0.6142857142857143,
+        "top10": 0.7357142857142858,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.7221060073235563,
+        "top3": 0.7816442902926751,
+        "top5": 0.816791562584356,
+        "top10": 0.8885932666657188,
+        "top20": 0.9274792286397012
+      },
+      "max_top_matches": 17
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女人刚咽下假死药，丈夫就迫不及待地搂住了她的闺蜜",
+        "episode_target": 3,
+        "n_candidates": 17,
+        "system_segment_id": 17,
+        "system_episode": 3,
+        "system_source_score": 0.018799,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 3,
+        "judge_best_score": 2.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7241379310344828,
+          "top3": 0.7345383280313023,
+          "top5": 0.6955469655532603,
+          "top10": 0.8470865097509274,
+          "top20": 0.908157616584953
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "原来陈墨并没有死，只是误食了新药，陷入了二十四小时的假死状态",
+        "episode_target": 1,
+        "n_candidates": 16,
+        "system_segment_id": 12,
+        "system_episode": 1,
+        "system_source_score": 0.028442,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.95,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.62,
+          "top3": 0.7261776165877679,
+          "top5": 0.7544996247129313,
+          "top10": 0.8706065558090966,
+          "top20": 0.9082326024696931
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "她浑身僵硬无法动弹，却把周围的一切听得清清楚楚",
+        "episode_target": 2,
+        "n_candidates": 15,
+        "system_segment_id": 8,
+        "system_episode": 2,
+        "system_source_score": 0.069336,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8217370541275142,
+          "top5": 0.8953742075107629,
+          "top10": 0.936824520383297,
+          "top20": 0.9630241182995803
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "结婚五年来，丈夫秦家辉一直扮演着绝世好男人的角色",
+        "episode_target": 5,
+        "n_candidates": 15,
+        "system_segment_id": 2,
+        "system_episode": 5,
+        "system_source_score": 0.002319,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 5,
+        "judge_best_score": 2.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9130434782608696,
+          "top3": 0.9391517909687828,
+          "top5": 0.9082898302221437,
+          "top10": 0.9532991472005745,
+          "top20": 0.975125301107593
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "可就在她失去意识的下一秒，这个老实人竟直接拨通了闺蜜胡丽的电话，极其亲热地称呼对方为宝贝",
+        "episode_target": 3,
+        "n_candidates": 17,
+        "system_segment_id": 2,
+        "system_episode": 3,
+        "system_source_score": 0.609375,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.45,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6813186813186813,
+          "top3": 0.6830507603847,
+          "top5": 0.7305449978527169,
+          "top10": 0.8430327224598726,
+          "top20": 0.9105245775041777
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "更让人绝望的是，连平时和蔼可亲的公公婆婆也彻底撕下了伪装",
+        "episode_target": 3,
+        "n_candidates": 17,
+        "system_segment_id": 8,
+        "system_episode": 3,
+        "system_source_score": 0.605469,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.05,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9882352941176471,
+          "top3": 0.6655304135291638,
+          "top5": 0.7240518447503782,
+          "top10": 0.8397660467362335,
+          "top20": 0.8999429507386103
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "他们不仅没有半点悲伤，反而聚在一起，疯狂盘算着如何瓜分陈墨父亲的百亿家产",
+        "episode_target": 3,
+        "n_candidates": 17,
+        "system_segment_id": 12,
+        "system_episode": 3,
+        "system_source_score": 0.494141,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.8,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 3,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.2,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5599999999999999,
+          "top3": 0.680236922990387,
+          "top5": 0.826721422930107,
+          "top10": 0.8597844671216859,
+          "top20": 0.8962028277753223
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "原来，这场长达五年的婚姻，根本就是一个精心策划的骗局",
+        "episode_target": 5,
+        "n_candidates": 15,
+        "system_segment_id": 1,
+        "system_episode": 5,
+        "system_source_score": 0.8125,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9587411573337239,
+          "top10": 0.9818936406008087,
+          "top20": 0.9939321489979762
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "秦家辉甚至连私生子都已经养大，就等着陈墨一死，好名正言顺地接管首富的财富",
+        "episode_target": 4,
+        "n_candidates": 15,
+        "system_segment_id": 3,
+        "system_episode": 4,
+        "system_source_score": 0.207031,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.9,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.896551724137931,
+          "top3": 0.8846651740667127,
+          "top5": 0.861681474038919,
+          "top10": 0.9239856141065271,
+          "top20": 0.9477199687748407
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "就在渣男一家做着发财梦的时候，海城首富陈总终于接到了女儿的死讯",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 17,
+        "system_episode": 9,
+        "system_source_score": 0.458984,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 17,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.75,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.30379746835443033,
+          "top3": 0.5368843415403038,
+          "top5": 0.6668511636013087,
+          "top10": 0.8130442630934349,
+          "top20": 0.8593689474464531
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "这位身价百亿的老父亲悲痛欲绝，立刻命人备车杀向现场",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 17,
+        "system_episode": 9,
+        "system_source_score": 0.04541,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 1.85,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.7,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.40659340659340665,
+          "top3": 0.7517300715342512,
+          "top5": 0.802293595730434,
+          "top10": 0.8670163379559198,
+          "top20": 0.9017969538265365
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "渣男还在首富面前痛哭流涕地假装深情，甚至拉出闺蜜来为自己的好丈夫人设作证",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 10,
+        "system_episode": 9,
+        "system_source_score": 0.232422,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 1.85,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.8,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.3978494623655914,
+          "top3": 0.6294168013950877,
+          "top5": 0.70317424078908,
+          "top10": 0.7953111107668948,
+          "top20": 0.8793958814051618
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "可他们万万没想到，躺在地上早就凉透的陈墨，手指竟突然抽动了一下",
+        "episode_target": 1,
+        "n_candidates": 16,
+        "system_segment_id": 16,
+        "system_episode": 1,
+        "system_source_score": 0.091309,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9473684210526316,
+          "top3": 0.9901642648457901,
+          "top5": 0.9893885182059141,
+          "top10": 0.9903668146687283,
+          "top20": 0.9918100388025728
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "假死药的药效，马上就要过去了",
+        "episode_target": 1,
+        "n_candidates": 16,
+        "system_segment_id": 16,
+        "system_episode": 1,
+        "system_source_score": 0.176758,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.4,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6705882352941177,
+          "top3": 0.8997365240956889,
+          "top5": 0.9179228329493043,
+          "top10": 0.9182879826660618,
+          "top20": 0.9494752672223458
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

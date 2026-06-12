@@ -1,0 +1,558 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:48:38",
+  "canonical_variant": "canonical",
+  "dj": "chongfan80",
+  "variant": "qwen_b1_q2_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/chongfan80/annotation_20260508_081413",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/chongfan80/1_10_20260423_155935_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 228,
+    "script_count": 6,
+    "mean": 1.8655701754385965,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 425.3500000000002,
+    "dimension_sums": {
+      "entity_match": 595.0,
+      "event_match": 341.0,
+      "scene_match": 533.0,
+      "tone_match": 354.0,
+      "editing_suitability": 356.0
+    },
+    "dimension_counts": {
+      "entity_match": 228,
+      "event_match": 228,
+      "scene_match": 228,
+      "tone_match": 228,
+      "editing_suitability": 228
+    },
+    "dimension_means": {
+      "entity_match": 2.6096491228070176,
+      "event_match": 1.4956140350877194,
+      "scene_match": 2.337719298245614,
+      "tone_match": 1.5526315789473684,
+      "editing_suitability": 1.5614035087719298
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 19,
+        "total": 228,
+        "rate": 0.08333333333333333
+      },
+      "ge_4_5": {
+        "count": 8,
+        "total": 228,
+        "rate": 0.03508771929824561
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.08333333333333333,
+      "ge_4_5": 0.03508771929824561
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 38,
+        "best_score": 4.4,
+        "mean_score": 1.6171052631578948,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 38,
+            "rate": 0.10526315789473684
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 38,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.10526315789473684,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 38,
+        "best_score": 5.0,
+        "mean_score": 2.093421052631579,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 38,
+            "rate": 0.13157894736842105
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 38,
+            "rate": 0.10526315789473684
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.13157894736842105,
+          "ge_4_5": 0.10526315789473684
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 38,
+        "best_score": 4.1,
+        "mean_score": 1.6592105263157895,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 38,
+            "rate": 0.02631578947368421
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 38,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.02631578947368421,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 38,
+        "best_score": 4.8,
+        "mean_score": 2.2736842105263158,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 38,
+            "rate": 0.13157894736842105
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 38,
+            "rate": 0.07894736842105263
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.13157894736842105,
+          "ge_4_5": 0.07894736842105263
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 38,
+        "best_score": 4.7,
+        "mean_score": 1.4539473684210527,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 38,
+            "rate": 0.02631578947368421
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 38,
+            "rate": 0.02631578947368421
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.02631578947368421,
+          "ge_4_5": 0.02631578947368421
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 38,
+        "best_score": 4.35,
+        "mean_score": 2.096052631578947,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 38,
+            "rate": 0.07894736842105263
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 38,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07894736842105263,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/chongfan80/1_10_20260423_155935_structured_qwen_b1_q2_rerank_q1.json",
+    "summary": {
+      "script_count": 6,
+      "ranked_script_count": 6,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.16666666666666666,
+        "top3": 0.6666666666666666,
+        "top5": 0.8333333333333334,
+        "top10": 0.8333333333333334,
+        "top20": 0.8333333333333334
+      },
+      "mean_rank": 7,
+      "median_rank": 2.5,
+      "mean_system_judge_score": 3.8833333333333333,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.166666666666667,
+        "event_match": 3.6666666666666665,
+        "scene_match": 3.8333333333333335,
+        "tone_match": 3.8333333333333335,
+        "editing_suitability": 4.166666666666667
+      },
+      "mean_gap_to_judge_best": 0.675,
+      "system_score_rate": {
+        "ge_4_0": 0.8333333333333334,
+        "ge_4_5": 0.3333333333333333
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 1.0,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.8333333333333334
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.3333333333333333
+        }
+      },
+      "recall": {
+        "top1": 0.16666666666666666,
+        "top3": 0.5,
+        "top5": 0.5666666666666667,
+        "top10": 0.5666666666666667,
+        "top20": 0.7
+      },
+      "ndcg": {
+        "top1": 0.8557435599576099,
+        "top3": 0.8862435627085197,
+        "top5": 0.8415539399033687,
+        "top10": 0.8482734852828498,
+        "top20": 0.9049502929686948
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "这不是我30年前生活的小渔村吗",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.462891,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.912918301945121,
+          "top10": 0.9566785342421137,
+          "top20": 0.9603947756111889
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "我重生了",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 5,
+        "system_episode": 1,
+        "system_source_score": 0.679688,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.5,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9304036505295554,
+          "top10": 0.839895959110751,
+          "top20": 0.912268692967722
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "看着熟悉的场景，林斌心中五味杂陈",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.402344,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.1,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8365499005931043,
+          "top5": 0.8159834675443824,
+          "top10": 0.9188028777058878,
+          "top20": 0.9415108147505444
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "前世的遗憾与机遇在此刻交织",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 10,
+        "system_episode": 1,
+        "system_source_score": 0.219727,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 29,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.9791666666666667,
+          "top3": 0.9148533069964668,
+          "top5": 0.9112286746844459,
+          "top10": 0.8670758183508405,
+          "top20": 0.9279619791530039
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "就在他迷茫之际，一个身影出现在眼前，是江清雪，好像是她，真的是她",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 13,
+        "system_episode": 1,
+        "system_source_score": 0.212891,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 30,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 3.7,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.2127659574468085,
+          "top3": 0.5902344351571109,
+          "top5": 0.6201162807301035,
+          "top10": 0.6619184907217515,
+          "top20": 0.7681136756648299
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "前世，因为好赌，他欠下巨款，人人避他如瘟神，只有清雪从来不嫌弃他，甚至偷偷给他送饭，还把身子给了他",
+        "episode_target": 1,
+        "n_candidates": 38,
+        "system_segment_id": 11,
+        "system_episode": 1,
+        "system_source_score": 0.546875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.9425287356321839,
+          "top3": 0.9758237335044363,
+          "top5": 0.858673263986604,
+          "top10": 0.8452692315657546,
+          "top20": 0.9194518196648795
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

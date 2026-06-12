@@ -1,0 +1,172 @@
+{
+  "dj": "mamadechangshou5",
+  "total_evaluations": 77,
+  "total_scripts": 4,
+  "generated_at": "2026-05-08T10:24:35",
+  "scripts": [
+    {
+      "segment_sequence": 1,
+      "episode_target": 1,
+      "n_candidates": 15,
+      "best_judge_segment_id": 6,
+      "best_judge_score": 4.7,
+      "system_best_match_id": 6,
+      "system_best_match_episode": 1,
+      "system_best_match_in_candidate_pool": true,
+      "system_best_match_rank": 1,
+      "system_best_match_score": 4.7,
+      "score_range": [
+        1.7,
+        4.7
+      ],
+      "would_use_count": 6,
+      "system_match_status": "success",
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 4,
+          "rate": 0.267
+        },
+        "ge_4_5": {
+          "count": 3,
+          "rate": 0.2
+        }
+      },
+      "score_gap_to_judge_best": 0.0,
+      "diagnosis": "已命中高质量"
+    },
+    {
+      "segment_sequence": 2,
+      "episode_target": 2,
+      "n_candidates": 21,
+      "best_judge_segment_id": 5,
+      "best_judge_score": 3.15,
+      "system_best_match_id": 14,
+      "system_best_match_episode": 2,
+      "system_best_match_in_candidate_pool": true,
+      "system_best_match_rank": 15,
+      "system_best_match_score": 1.55,
+      "score_range": [
+        1.0,
+        3.15
+      ],
+      "would_use_count": 0,
+      "system_match_status": "success",
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": 1.6,
+      "diagnosis": "候选池不足"
+    },
+    {
+      "segment_sequence": 3,
+      "episode_target": 2,
+      "n_candidates": 21,
+      "best_judge_segment_id": 13,
+      "best_judge_score": 5.0,
+      "system_best_match_id": 14,
+      "system_best_match_episode": 2,
+      "system_best_match_in_candidate_pool": true,
+      "system_best_match_rank": 2,
+      "system_best_match_score": 5.0,
+      "score_range": [
+        1.15,
+        5.0
+      ],
+      "would_use_count": 4,
+      "system_match_status": "success",
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 3,
+          "rate": 0.143
+        },
+        "ge_4_5": {
+          "count": 3,
+          "rate": 0.143
+        }
+      },
+      "score_gap_to_judge_best": 0.0,
+      "diagnosis": "接近，可优化"
+    },
+    {
+      "segment_sequence": 4,
+      "episode_target": 7,
+      "n_candidates": 20,
+      "best_judge_segment_id": 8,
+      "best_judge_score": 4.2,
+      "system_best_match_id": 8,
+      "system_best_match_episode": 7,
+      "system_best_match_in_candidate_pool": true,
+      "system_best_match_rank": 1,
+      "system_best_match_score": 4.2,
+      "score_range": [
+        1.0,
+        4.2
+      ],
+      "would_use_count": 1,
+      "system_match_status": "success",
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 1,
+          "rate": 0.05
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": 0.0,
+      "diagnosis": "已命中高质量"
+    }
+  ],
+  "overall_stats": {
+    "mean": 2.149,
+    "min": 1.0,
+    "max": 5.0,
+    "dimension_means": {
+      "entity_match": 2.558,
+      "event_match": 1.701,
+      "scene_match": 2.857,
+      "tone_match": 2.13,
+      "editing_suitability": 1.662
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 8,
+        "rate": 0.104
+      },
+      "ge_4_5": {
+        "count": 6,
+        "rate": 0.078
+      }
+    }
+  },
+  "system_quality": {
+    "ranked_script_count": 4,
+    "best_match_mean_rank": 4.75,
+    "best_match_median_rank": 2,
+    "best_match_topk_rate": {
+      "top1": 0.5,
+      "top3": 0.75,
+      "top5": 0.75,
+      "top10": 0.75,
+      "top20": 1.0
+    },
+    "score_threshold_by_script": {
+      "ge_4_0": {
+        "scripts_with_any_rate": 0.75,
+        "system_best_score_rate": 0.75
+      },
+      "ge_4_5": {
+        "scripts_with_any_rate": 0.5,
+        "system_best_score_rate": 0.5
+      }
+    }
+  }
+}

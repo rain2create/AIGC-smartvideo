@@ -1,0 +1,2894 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:44:40",
+  "canonical_variant": "canonical",
+  "dj": "due",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/due/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/due/1_10_20260513_161941_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 827,
+    "script_count": 38,
+    "mean": 2.038210399032648,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 1685.6000000000013,
+    "dimension_sums": {
+      "entity_match": 2377.0,
+      "event_match": 1290.0,
+      "scene_match": 1914.0,
+      "tone_match": 1614.0,
+      "editing_suitability": 1326.0
+    },
+    "dimension_counts": {
+      "entity_match": 827,
+      "event_match": 827,
+      "scene_match": 827,
+      "tone_match": 827,
+      "editing_suitability": 827
+    },
+    "dimension_means": {
+      "entity_match": 2.8742442563482467,
+      "event_match": 1.5598548972188633,
+      "scene_match": 2.3143893591293834,
+      "tone_match": 1.9516324062877872,
+      "editing_suitability": 1.603385731559855
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 79,
+        "total": 827,
+        "rate": 0.09552599758162031
+      },
+      "ge_4_5": {
+        "count": 40,
+        "total": 827,
+        "rate": 0.04836759371221282
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.09552599758162031,
+      "ge_4_5": 0.04836759371221282
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 35,
+        "best_score": 4.65,
+        "mean_score": 1.947142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 35,
+            "rate": 0.05714285714285714
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 35,
+            "rate": 0.02857142857142857
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05714285714285714,
+          "ge_4_5": 0.02857142857142857
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 35,
+        "best_score": 4.3,
+        "mean_score": 1.8342857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 35,
+            "rate": 0.05714285714285714
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 35,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05714285714285714,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 35,
+        "best_score": 4.8,
+        "mean_score": 1.57,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 35,
+            "rate": 0.02857142857142857
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 35,
+            "rate": 0.02857142857142857
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.02857142857142857,
+          "ge_4_5": 0.02857142857142857
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 35,
+        "best_score": 3.0,
+        "mean_score": 1.3428571428571427,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 35,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 35,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 35,
+        "best_score": 5.0,
+        "mean_score": 2.447142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 12,
+            "total": 35,
+            "rate": 0.34285714285714286
+          },
+          "ge_4_5": {
+            "count": 7,
+            "total": 35,
+            "rate": 0.2
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.34285714285714286,
+          "ge_4_5": 0.2
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 20,
+        "best_score": 5.0,
+        "mean_score": 3.5425,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 20,
+            "rate": 0.45
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 20,
+            "rate": 0.25
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.45,
+          "ge_4_5": 0.25
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 20,
+        "best_score": 4.55,
+        "mean_score": 2.34,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 20,
+            "rate": 0.15
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15,
+          "ge_4_5": 0.05
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 13,
+        "best_score": 2.0,
+        "mean_score": 1.35,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 13,
+        "best_score": 5.0,
+        "mean_score": 2.4038461538461537,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 13,
+            "rate": 0.23076923076923078
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 13,
+            "rate": 0.15384615384615385
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23076923076923078,
+          "ge_4_5": 0.15384615384615385
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 13,
+        "best_score": 4.9,
+        "mean_score": 2.7615384615384615,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 13,
+            "rate": 0.23076923076923078
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 13,
+            "rate": 0.23076923076923078
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.23076923076923078,
+          "ge_4_5": 0.23076923076923078
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 13,
+        "best_score": 4.55,
+        "mean_score": 1.7769230769230768,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 13,
+            "rate": 0.15384615384615385
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15384615384615385,
+          "ge_4_5": 0.07692307692307693
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 13,
+        "best_score": 2.6,
+        "mean_score": 1.273076923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 18,
+        "best_score": 4.7,
+        "mean_score": 2.7305555555555556,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 18,
+            "rate": 0.2777777777777778
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2777777777777778,
+          "ge_4_5": 0.05555555555555555
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 16,
+        "best_score": 5.0,
+        "mean_score": 3.396875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 16,
+            "rate": 0.4375
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 16,
+            "rate": 0.25
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4375,
+          "ge_4_5": 0.25
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 16,
+        "best_score": 4.85,
+        "mean_score": 3.7687500000000003,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 11,
+            "total": 16,
+            "rate": 0.6875
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 16,
+            "rate": 0.25
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6875,
+          "ge_4_5": 0.25
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 20,
+        "best_score": 4.15,
+        "mean_score": 2.2575,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 20,
+        "best_score": 2.8,
+        "mean_score": 1.63,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 18,
+        "n_candidates": 21,
+        "best_score": 3.15,
+        "mean_score": 1.957142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 19,
+        "n_candidates": 21,
+        "best_score": 3.55,
+        "mean_score": 2.4904761904761905,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 20,
+        "n_candidates": 21,
+        "best_score": 4.55,
+        "mean_score": 2.442857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 21,
+            "rate": 0.14285714285714285
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 21,
+            "rate": 0.047619047619047616
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14285714285714285,
+          "ge_4_5": 0.047619047619047616
+        }
+      },
+      {
+        "segment_sequence": 21,
+        "n_candidates": 21,
+        "best_score": 2.6,
+        "mean_score": 1.3309523809523809,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 22,
+        "n_candidates": 33,
+        "best_score": 3.0,
+        "mean_score": 1.5621212121212122,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 23,
+        "n_candidates": 33,
+        "best_score": 4.55,
+        "mean_score": 2.3363636363636364,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.030303030303030304,
+          "ge_4_5": 0.030303030303030304
+        }
+      },
+      {
+        "segment_sequence": 24,
+        "n_candidates": 33,
+        "best_score": 4.8,
+        "mean_score": 1.9439393939393939,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.030303030303030304,
+          "ge_4_5": 0.030303030303030304
+        }
+      },
+      {
+        "segment_sequence": 25,
+        "n_candidates": 33,
+        "best_score": 4.65,
+        "mean_score": 1.6272727272727272,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.030303030303030304,
+          "ge_4_5": 0.030303030303030304
+        }
+      },
+      {
+        "segment_sequence": 26,
+        "n_candidates": 17,
+        "best_score": 4.7,
+        "mean_score": 2.623529411764706,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 17,
+            "rate": 0.058823529411764705
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.058823529411764705,
+          "ge_4_5": 0.058823529411764705
+        }
+      },
+      {
+        "segment_sequence": 27,
+        "n_candidates": 17,
+        "best_score": 4.85,
+        "mean_score": 3.361764705882353,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 17,
+            "rate": 0.4117647058823529
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 17,
+            "rate": 0.29411764705882354
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4117647058823529,
+          "ge_4_5": 0.29411764705882354
+        }
+      },
+      {
+        "segment_sequence": 28,
+        "n_candidates": 17,
+        "best_score": 1.65,
+        "mean_score": 1.2470588235294118,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 29,
+        "n_candidates": 19,
+        "best_score": 4.1,
+        "mean_score": 2.192105263157895,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 19,
+            "rate": 0.05263157894736842
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05263157894736842,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 30,
+        "n_candidates": 19,
+        "best_score": 1.45,
+        "mean_score": 1.1342105263157896,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 31,
+        "n_candidates": 19,
+        "best_score": 1.65,
+        "mean_score": 1.2578947368421052,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 32,
+        "n_candidates": 19,
+        "best_score": 2.25,
+        "mean_score": 1.618421052631579,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 33,
+        "n_candidates": 19,
+        "best_score": 4.15,
+        "mean_score": 2.4763157894736842,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 19,
+            "rate": 0.05263157894736842
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05263157894736842,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 34,
+        "n_candidates": 19,
+        "best_score": 4.45,
+        "mean_score": 2.223684210526316,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.10526315789473684,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 35,
+        "n_candidates": 19,
+        "best_score": 3.75,
+        "mean_score": 2.221052631578947,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 36,
+        "n_candidates": 19,
+        "best_score": 2.75,
+        "mean_score": 1.7552631578947369,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 37,
+        "n_candidates": 19,
+        "best_score": 2.75,
+        "mean_score": 1.6236842105263158,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 38,
+        "n_candidates": 19,
+        "best_score": 2.4,
+        "mean_score": 1.3921052631578947,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/due/1_10_20260513_161941_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 38,
+      "ranked_script_count": 38,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.2894736842105263,
+        "top3": 0.47368421052631576,
+        "top5": 0.6052631578947368,
+        "top10": 0.7631578947368421,
+        "top20": 0.9736842105263158
+      },
+      "mean_rank": 6.394736842105263,
+      "median_rank": 4.0,
+      "mean_system_judge_score": 3.0460526315789473,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6315789473684212,
+        "event_match": 2.710526315789474,
+        "scene_match": 3.026315789473684,
+        "tone_match": 3.1052631578947367,
+        "editing_suitability": 2.763157894736842
+      },
+      "mean_gap_to_judge_best": 0.7328947368421053,
+      "system_score_rate": {
+        "ge_4_0": 0.34210526315789475,
+        "ge_4_5": 0.2894736842105263
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 22,
+          "scripts_with_any_rate": 0.5789473684210527,
+          "system_best_score_count": 13,
+          "system_best_score_rate": 0.34210526315789475
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 17,
+          "scripts_with_any_rate": 0.4473684210526316,
+          "system_best_score_count": 11,
+          "system_best_score_rate": 0.2894736842105263
+        }
+      },
+      "recall": {
+        "top1": 0.2894736842105263,
+        "top3": 0.42105263157894735,
+        "top5": 0.5263157894736842,
+        "top10": 0.6894736842105263,
+        "top20": 0.8352941176470589
+      },
+      "ndcg": {
+        "top1": 0.7791416528875744,
+        "top3": 0.7967914287577946,
+        "top5": 0.8232569480081025,
+        "top10": 0.8722429445009902,
+        "top20": 0.9246938160642894
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "豪门少爷被下达了死亡通知书，而他唯一的生机，竟是去求一个神秘女人",
+        "episode_target": 1,
+        "n_candidates": 35,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.22168,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.82451579857124,
+          "top5": 0.7948806198564626,
+          "top10": 0.8402566232211,
+          "top20": 0.9201391111066579
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "原来顾家百年前遭遇恶毒诅咒，历代当家人都活不过二十八岁",
+        "episode_target": 1,
+        "n_candidates": 35,
+        "system_segment_id": 7,
+        "system_episode": 1,
+        "system_source_score": 0.472656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.25,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.4767441860465116,
+          "top3": 0.6524178880380663,
+          "top5": 0.6371070241658305,
+          "top10": 0.6918899741730234,
+          "top20": 0.7431682248988246
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "父亲急忙拿出一块玉佩，叮嘱儿子顾贤鹤，让他务必去求无量山庄的宋小姐出手相救",
+        "episode_target": 1,
+        "n_candidates": 35,
+        "system_segment_id": 19,
+        "system_episode": 1,
+        "system_source_score": 0.470703,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9803553182777652,
+          "top5": 0.8651544064066063,
+          "top10": 0.8674687024504999,
+          "top20": 0.9220963623223375
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "哪怕对方要整个顾家，也必须磕头感恩",
+        "episode_target": 1,
+        "n_candidates": 35,
+        "system_segment_id": 24,
+        "system_episode": 1,
+        "system_source_score": 0.028442,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 34,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 34,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 2.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.3333333333333333,
+          "top3": 0.7142297200595548,
+          "top5": 0.7888694191901116,
+          "top10": 0.8288458620734517,
+          "top20": 0.885114860942226
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "此时的无量山庄门外，海城四大家族正满腹牢骚",
+        "episode_target": 1,
+        "n_candidates": 35,
+        "system_segment_id": 23,
+        "system_episode": 1,
+        "system_source_score": 0.605469,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 23,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 12,
+          "ge_4_5": 7
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9180454152732996,
+          "top5": 0.9407692438679315,
+          "top10": 0.9260522451685574,
+          "top20": 0.9599610990597391
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "他们仗着自己出钱供奉，在门外嚣张跋扈",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.478516,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 12,
+        "system_judge_score": 3.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.6,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 5
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.6799999999999999,
+          "top3": 0.8172617974664729,
+          "top5": 0.8748686866943115,
+          "top10": 0.8608029220418418,
+          "top20": 0.9390949281635451
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "不仅抱怨宋小姐要价太高，还当众嘲讽前来求医的顾贤鹤",
+        "episode_target": 2,
+        "n_candidates": 20,
+        "system_segment_id": 8,
+        "system_episode": 2,
+        "system_source_score": 0.015442,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.9,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.8571428571428572,
+          "top3": 0.7302856707348574,
+          "top5": 0.7052268348694689,
+          "top10": 0.8246764158322769,
+          "top20": 0.9027986083913873
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "就在这时，大门缓缓打开，神秘的宋小姐终于现身",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.061035,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 3,
+        "judge_best_score": 2.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6,
+          "top3": 0.6594469134198283,
+          "top5": 0.7399135739377,
+          "top10": 0.8409070121306899,
+          "top20": 0.893395991984971
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "面对顾贤鹤的苦苦哀求，她却一口回绝",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 11,
+        "system_episode": 3,
+        "system_source_score": 0.4375,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 3,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.7083293696379047,
+          "top5": 0.7868653345187304,
+          "top10": 0.882461158622023,
+          "top20": 0.9252727902095177
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "女人直言顾贤鹤气运强劲，根本不需要她出手",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 4,
+        "system_episode": 3,
+        "system_source_score": 0.375,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9489795918367347,
+          "top3": 0.9884828969220382,
+          "top5": 0.9814909712694009,
+          "top10": 0.9611684206902448,
+          "top20": 0.9881411892841357
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "话音刚落，医院的电话就打了过来",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 13,
+        "system_episode": 3,
+        "system_source_score": 0.017456,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9230769230769231,
+          "top3": 0.7128481817088873,
+          "top5": 0.7234804627585875,
+          "top10": 0.8717382433493025,
+          "top20": 0.8944358716978125
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "顾贤鹤的绝症竟然只是个误诊",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 10,
+        "system_episode": 3,
+        "system_source_score": 0.001137,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 3,
+        "judge_best_score": 2.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.4615384615384615,
+          "top3": 0.7416347958879401,
+          "top5": 0.8003515963850856,
+          "top10": 0.8799507943091526,
+          "top20": 0.8989763987096222
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "眼看宋小姐如此神机妙算，四大家族却不知好歹",
+        "episode_target": 4,
+        "n_candidates": 18,
+        "system_segment_id": 18,
+        "system_episode": 4,
+        "system_source_score": 0.310547,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.7758231733067898,
+          "top5": 0.7175544740240997,
+          "top10": 0.7589560707125871,
+          "top20": 0.8969075564842608
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "他们当场翻脸，叫嚣着要断绝所有供奉",
+        "episode_target": 5,
+        "n_candidates": 16,
+        "system_segment_id": 3,
+        "system_episode": 5,
+        "system_source_score": 0.445312,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 5,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9904576954614436,
+          "top5": 0.9953606112809918,
+          "top10": 0.9746740781133345,
+          "top20": 0.9904742130680264
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "宋小姐冷眼旁观，直言没有供奉压制怨气，他们必遭杀身之祸",
+        "episode_target": 5,
+        "n_candidates": 16,
+        "system_segment_id": 6,
+        "system_episode": 5,
+        "system_source_score": 0.785156,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 11,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9796376023743977,
+          "top5": 0.9841226875031807,
+          "top10": 0.9596132723640743,
+          "top20": 0.9890006822291328
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "四大家族根本不信，转身就想离开",
+        "episode_target": 6,
+        "n_candidates": 20,
+        "system_segment_id": 7,
+        "system_episode": 6,
+        "system_source_score": 0.464844,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.2,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.7108433734939759,
+          "top3": 0.703403834669699,
+          "top5": 0.7028662410811433,
+          "top10": 0.7569236722870434,
+          "top20": 0.8968137794546568
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "可下一秒，所有人的双腿就像灌了铅一样，根本迈不出大门",
+        "episode_target": 6,
+        "n_candidates": 20,
+        "system_segment_id": 17,
+        "system_episode": 6,
+        "system_source_score": 0.008301,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.0,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 6,
+        "judge_best_score": 2.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.7142857142857143,
+          "top3": 0.8511943079706588,
+          "top5": 0.9350383760578104,
+          "top10": 0.9358332160784699,
+          "top20": 0.9594707202405932
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 18,
+        "script_text": "宋小姐随手扔出几个陶罐，作为暂护他们性命的契约关键",
+        "episode_target": 7,
+        "n_candidates": 21,
+        "system_segment_id": 4,
+        "system_episode": 7,
+        "system_source_score": 0.051758,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.15,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.6825396825396826,
+          "top3": 0.617442649317885,
+          "top5": 0.70833375010963,
+          "top10": 0.7955980520526981,
+          "top20": 0.8995115722834391
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 19,
+        "script_text": "谁知这群人疯狂作死，当场将陶罐摔得粉碎",
+        "episode_target": 7,
+        "n_candidates": 21,
+        "system_segment_id": 14,
+        "system_episode": 7,
+        "system_source_score": 0.589844,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 16,
+        "system_judge_score": 2.3,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.647887323943662,
+          "top3": 0.6759476532443028,
+          "top5": 0.7554429535512575,
+          "top10": 0.8256135500512306,
+          "top20": 0.9041301965724748
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 20,
+        "script_text": "甚至强行搬走了山庄里所有的奇珍异宝",
+        "episode_target": 7,
+        "n_candidates": 21,
+        "system_segment_id": 13,
+        "system_episode": 7,
+        "system_source_score": 0.259766,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.6,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.4285714285714286,
+          "top3": 0.5681160408645268,
+          "top5": 0.7363421907173096,
+          "top10": 0.8378667047174415,
+          "top20": 0.8900847338632476
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 21,
+        "script_text": "唯独老方留了个心眼，偷偷藏起一个陶罐",
+        "episode_target": 7,
+        "n_candidates": 21,
+        "system_segment_id": 13,
+        "system_episode": 7,
+        "system_source_score": 0.07373,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9069967275620229,
+          "top5": 0.9023153309481624,
+          "top10": 0.9703081238022816,
+          "top20": 0.9710867127867505
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 22,
+        "script_text": "看着四大家族离去的背影，顾贤鹤却做出了惊人举动",
+        "episode_target": 8,
+        "n_candidates": 33,
+        "system_segment_id": 8,
+        "system_episode": 8,
+        "system_source_score": 0.026367,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 8,
+        "judge_best_score": 3.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.5
+        },
+        "ndcg": {
+          "top1": 0.5833333333333334,
+          "top3": 0.6364155661540505,
+          "top5": 0.6677516527230435,
+          "top10": 0.7755127365501855,
+          "top20": 0.834292655378241
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 23,
+        "script_text": "他当场表示愿意倾尽家产，甘愿留在山庄奉女人为主",
+        "episode_target": 8,
+        "n_candidates": 33,
+        "system_segment_id": 11,
+        "system_episode": 8,
+        "system_source_score": 0.640625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9139214028855248,
+          "top5": 0.9337441106713552,
+          "top10": 0.924065018397655,
+          "top20": 0.9411335397400344
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 24,
+        "script_text": "而另一边，刘家家主带着抢回来的宝物回到家中",
+        "episode_target": 8,
+        "n_candidates": 33,
+        "system_segment_id": 19,
+        "system_episode": 8,
+        "system_source_score": 0.482422,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8182505008495573,
+          "top5": 0.8893293981077928,
+          "top10": 0.9285061126672833,
+          "top20": 0.9539360962024778
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 25,
+        "script_text": "却发现那些价值连城的天材地宝，竟然全都变成了一堆破烂",
+        "episode_target": 8,
+        "n_candidates": 33,
+        "system_segment_id": 21,
+        "system_episode": 8,
+        "system_source_score": 0.375,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.65,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9061311943253707,
+          "top5": 0.921144081024654,
+          "top10": 0.9482130118141939,
+          "top20": 0.9515190365199121
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 26,
+        "script_text": "即便如此，他依然狂妄地拒绝给宋小姐送去雪莲香",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 1,
+        "system_episode": 9,
+        "system_source_score": 0.486328,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.75,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8404255319148937,
+          "top3": 0.8936422329600417,
+          "top5": 0.944055473742606,
+          "top10": 0.9254684526267036,
+          "top20": 0.9643481361649635
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 27,
+        "script_text": "原来三十年前，正是宋小姐救了他的命，还赐予他如今的首富家业",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 13,
+        "system_episode": 9,
+        "system_source_score": 0.605469,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.3,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 5
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5257731958762887,
+          "top3": 0.6540010464871798,
+          "top5": 0.7460649916662704,
+          "top10": 0.8254842772603237,
+          "top20": 0.8948227026925889
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 28,
+        "script_text": "可如今他却恩将仇报，彻底断绝了山庄的供应",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 8,
+        "system_episode": 9,
+        "system_source_score": 0.000969,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 9,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7272727272727273,
+          "top3": 0.7770620600099849,
+          "top5": 0.7712390750545364,
+          "top10": 0.8420471027152022,
+          "top20": 0.9237161837650624
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 29,
+        "script_text": "然而报应来得比想象中更快",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.014526,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.75,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 1.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.35,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6707317073170732,
+          "top3": 0.6543964533101008,
+          "top5": 0.7680829972110372,
+          "top10": 0.8384576770648102,
+          "top20": 0.9120998710752073
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 30,
+        "script_text": "管家突然连滚带爬地冲进大门",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.000912,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 19,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6896551724137931,
+          "top3": 0.813522890411439,
+          "top5": 0.8336831149448548,
+          "top10": 0.8705335891068016,
+          "top20": 0.9424269223467896
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 31,
+        "script_text": "刘家少爷在工地挖出一口诡异的棺材",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 5,
+        "system_episode": 10,
+        "system_source_score": 0.010986,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8787878787878788,
+          "top3": 0.924552146920502,
+          "top5": 0.8808527981417587,
+          "top10": 0.9393116614670838,
+          "top20": 0.9683570377330093
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 32,
+        "script_text": "他非但不敬，反而一锤子将其砸得粉碎",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.001205,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 15,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6000000000000001,
+          "top3": 0.7998208333109587,
+          "top5": 0.8239573197922301,
+          "top10": 0.8693363690092231,
+          "top20": 0.9368671425880426
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 33,
+        "script_text": "结果当场陷入极度的恐惧之中，被紧急送进重症监护室",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 16,
+        "system_episode": 10,
+        "system_source_score": 0.419922,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7590361445783131,
+          "top3": 0.9010334189571371,
+          "top5": 0.8807640692924681,
+          "top10": 0.9117838661147932,
+          "top20": 0.9530897188497532
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 34,
+        "script_text": "病床上的少爷满脸惊恐，疯狂尖叫着窗外有红轿子来接他",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.632812,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.45,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9111475761736444,
+          "top5": 0.8816371002179564,
+          "top10": 0.9493820904086956,
+          "top20": 0.9661195363813327
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 35,
+        "script_text": "凄厉的惨叫声回荡在病房里，血债血偿的诅咒彻底爆发",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.018311,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.5,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9333333333333333,
+          "top3": 0.9791999007902348,
+          "top5": 0.9398768321560141,
+          "top10": 0.9466701017528334,
+          "top20": 0.9763986176506503
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 36,
+        "script_text": "刘家家主瞬间瘫软在地",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 14,
+        "system_episode": 10,
+        "system_source_score": 0.091309,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 17,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 16,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.49090909090909096,
+          "top3": 0.5136333384585023,
+          "top5": 0.6103443017948489,
+          "top10": 0.7654602476497842,
+          "top20": 0.8693527034168091
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 37,
+        "script_text": "他这才猛然惊觉，陶罐破碎带来的血祸",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.10498,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.25,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8181818181818182,
+          "top3": 0.7823071183559424,
+          "top5": 0.8372132026895767,
+          "top10": 0.9262724176859723,
+          "top20": 0.9430031785276994
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 38,
+        "script_text": "竟然真的降临了",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.001411,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.625,
+          "top3": 0.8821631616664455,
+          "top5": 0.8776687158830756,
+          "top10": 0.8671220445047546,
+          "top20": 0.936806327657062
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "dj": "shuitoulewdlqtzs",
+  "total_evaluations": 417,
+  "total_scripts": 17,
+  "generated_at": "2026-05-21T08:07:19",
+  "scripts": [
+    {
+      "segment_sequence": 1,
+      "episode_target": 1,
+      "n_candidates": 33,
+      "best_judge_segment_id": 17,
+      "best_judge_score": 4.2,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        4.2
+      ],
+      "would_use_count": 2,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 1,
+          "rate": 0.03
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 2,
+      "episode_target": 9,
+      "n_candidates": 25,
+      "best_judge_segment_id": 25,
+      "best_judge_score": 1.65,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        1.65
+      ],
+      "would_use_count": 0,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "候选池不足"
+    },
+    {
+      "segment_sequence": 3,
+      "episode_target": 1,
+      "n_candidates": 33,
+      "best_judge_segment_id": 26,
+      "best_judge_score": 4.65,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        4.65
+      ],
+      "would_use_count": 6,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 2,
+          "rate": 0.061
+        },
+        "ge_4_5": {
+          "count": 1,
+          "rate": 0.03
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 4,
+      "episode_target": 3,
+      "n_candidates": 28,
+      "best_judge_segment_id": 6,
+      "best_judge_score": 5.0,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        5.0
+      ],
+      "would_use_count": 11,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 10,
+          "rate": 0.357
+        },
+        "ge_4_5": {
+          "count": 9,
+          "rate": 0.321
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 5,
+      "episode_target": 3,
+      "n_candidates": 28,
+      "best_judge_segment_id": 17,
+      "best_judge_score": 5.0,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        5.0
+      ],
+      "would_use_count": 4,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 3,
+          "rate": 0.107
+        },
+        "ge_4_5": {
+          "count": 3,
+          "rate": 0.107
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 6,
+      "episode_target": 5,
+      "n_candidates": 15,
+      "best_judge_segment_id": 13,
+      "best_judge_score": 4.55,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.75,
+        4.55
+      ],
+      "would_use_count": 6,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 5,
+          "rate": 0.333
+        },
+        "ge_4_5": {
+          "count": 1,
+          "rate": 0.067
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 7,
+      "episode_target": 5,
+      "n_candidates": 15,
+      "best_judge_segment_id": 14,
+      "best_judge_score": 4.35,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.2,
+        4.35
+      ],
+      "would_use_count": 2,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 2,
+          "rate": 0.133
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 8,
+      "episode_target": 6,
+      "n_candidates": 15,
+      "best_judge_segment_id": 10,
+      "best_judge_score": 5.0,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.75,
+        5.0
+      ],
+      "would_use_count": 6,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 5,
+          "rate": 0.333
+        },
+        "ge_4_5": {
+          "count": 5,
+          "rate": 0.333
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 9,
+      "episode_target": 7,
+      "n_candidates": 27,
+      "best_judge_segment_id": 7,
+      "best_judge_score": 4.25,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        4.25
+      ],
+      "would_use_count": 3,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 1,
+          "rate": 0.037
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 10,
+      "episode_target": 7,
+      "n_candidates": 27,
+      "best_judge_segment_id": 16,
+      "best_judge_score": 4.7,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.15,
+        4.7
+      ],
+      "would_use_count": 4,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 2,
+          "rate": 0.074
+        },
+        "ge_4_5": {
+          "count": 1,
+          "rate": 0.037
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 11,
+      "episode_target": 8,
+      "n_candidates": 29,
+      "best_judge_segment_id": 11,
+      "best_judge_score": 4.85,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.2,
+        4.85
+      ],
+      "would_use_count": 12,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 7,
+          "rate": 0.241
+        },
+        "ge_4_5": {
+          "count": 4,
+          "rate": 0.138
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 12,
+      "episode_target": 8,
+      "n_candidates": 29,
+      "best_judge_segment_id": 21,
+      "best_judge_score": 4.85,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        4.85
+      ],
+      "would_use_count": 10,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 8,
+          "rate": 0.276
+        },
+        "ge_4_5": {
+          "count": 4,
+          "rate": 0.138
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 13,
+      "episode_target": 9,
+      "n_candidates": 25,
+      "best_judge_segment_id": 19,
+      "best_judge_score": 5.0,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        5.0
+      ],
+      "would_use_count": 7,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 7,
+          "rate": 0.28
+        },
+        "ge_4_5": {
+          "count": 6,
+          "rate": 0.24
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 14,
+      "episode_target": 9,
+      "n_candidates": 25,
+      "best_judge_segment_id": 8,
+      "best_judge_score": 4.2,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.6,
+        4.2
+      ],
+      "would_use_count": 9,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 1,
+          "rate": 0.04
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 15,
+      "episode_target": 10,
+      "n_candidates": 21,
+      "best_judge_segment_id": 14,
+      "best_judge_score": 4.2,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        4.2
+      ],
+      "would_use_count": 10,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 4,
+          "rate": 0.19
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "有好候选但错排"
+    },
+    {
+      "segment_sequence": 16,
+      "episode_target": 10,
+      "n_candidates": 21,
+      "best_judge_segment_id": 5,
+      "best_judge_score": 2.25,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        2.25
+      ],
+      "would_use_count": 0,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "候选池不足"
+    },
+    {
+      "segment_sequence": 17,
+      "episode_target": 10,
+      "n_candidates": 21,
+      "best_judge_segment_id": 7,
+      "best_judge_score": 2.4,
+      "system_best_match_id": null,
+      "system_best_match_episode": null,
+      "system_best_match_in_candidate_pool": false,
+      "system_best_match_rank": null,
+      "system_best_match_score": null,
+      "score_range": [
+        1.0,
+        2.4
+      ],
+      "would_use_count": 0,
+      "system_match_status": null,
+      "score_ge_stats": {
+        "ge_4_0": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "ge_4_5": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "score_gap_to_judge_best": null,
+      "diagnosis": "候选池不足"
+    }
+  ],
+  "overall_stats": {
+    "mean": 2.207,
+    "min": 1.0,
+    "max": 5.0,
+    "dimension_means": {
+      "entity_match": 2.722,
+      "event_match": 1.847,
+      "scene_match": 2.237,
+      "tone_match": 2.319,
+      "editing_suitability": 1.93
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 58,
+        "rate": 0.139
+      },
+      "ge_4_5": {
+        "count": 34,
+        "rate": 0.082
+      }
+    }
+  }
+}

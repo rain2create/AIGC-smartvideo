@@ -1,0 +1,617 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:08:42",
+  "canonical_variant": "canonical",
+  "dj": "biezaijiaowomama",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/biezaijiaowomama/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/biezaijiaowomama/1_10_20260513_124811_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 266,
+    "script_count": 11,
+    "mean": 1.7757518796992482,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 472.3499999999998,
+    "dimension_sums": {
+      "entity_match": 613.0,
+      "event_match": 371.0,
+      "scene_match": 575.0,
+      "tone_match": 454.0,
+      "editing_suitability": 387.0
+    },
+    "dimension_counts": {
+      "entity_match": 266,
+      "event_match": 266,
+      "scene_match": 266,
+      "tone_match": 266,
+      "editing_suitability": 266
+    },
+    "dimension_means": {
+      "entity_match": 2.3045112781954886,
+      "event_match": 1.394736842105263,
+      "scene_match": 2.161654135338346,
+      "tone_match": 1.7067669172932332,
+      "editing_suitability": 1.4548872180451127
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 6,
+        "total": 266,
+        "rate": 0.022556390977443608
+      },
+      "ge_4_5": {
+        "count": 1,
+        "total": 266,
+        "rate": 0.0037593984962406013
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.022556390977443608,
+      "ge_4_5": 0.0037593984962406013
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 37,
+        "best_score": 4.15,
+        "mean_score": 2.5878378378378377,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 37,
+            "rate": 0.02702702702702703
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 37,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.02702702702702703,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 33,
+        "best_score": 1.75,
+        "mean_score": 1.1696969696969697,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 18,
+        "best_score": 3.2,
+        "mean_score": 1.5222222222222221,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 33,
+        "best_score": 5.0,
+        "mean_score": 1.7712121212121212,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 33,
+            "rate": 0.06060606060606061
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.06060606060606061,
+          "ge_4_5": 0.030303030303030304
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 37,
+        "best_score": 4.4,
+        "mean_score": 2.056756756756757,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 37,
+            "rate": 0.08108108108108109
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 37,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08108108108108109,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 18,
+        "best_score": 2.45,
+        "mean_score": 1.463888888888889,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 18,
+        "best_score": 2.45,
+        "mean_score": 1.6083333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 18,
+        "best_score": 2.25,
+        "mean_score": 1.5944444444444446,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 18,
+        "best_score": 3.15,
+        "mean_score": 1.9416666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 18,
+        "best_score": 2.9,
+        "mean_score": 1.9361111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 18,
+        "best_score": 2.0,
+        "mean_score": 1.2361111111111112,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/biezaijiaowomama/1_10_20260513_124811_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 5,
+      "ranked_script_count": 5,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.0,
+        "top5": 0.0,
+        "top10": 0.4,
+        "top20": 1.0
+      },
+      "mean_rank": 12.2,
+      "median_rank": 11,
+      "mean_system_judge_score": 1.92,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 2.65,
+      "mean_system_dimension_scores": {
+        "entity_match": 2.6,
+        "event_match": 1.4,
+        "scene_match": 2.4,
+        "tone_match": 2.0,
+        "editing_suitability": 1.2
+      },
+      "mean_gap_to_judge_best": 1.78,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.6,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.2,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.06666666666666667,
+        "top5": 0.2,
+        "top10": 0.52,
+        "top20": 0.75
+      },
+      "ndcg": {
+        "top1": 0.5389332459708965,
+        "top3": 0.615452605379917,
+        "top5": 0.6572060963690457,
+        "top10": 0.7460975051254028,
+        "top20": 0.8270930955180875
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "重生回三年前，叶雨桐仇视养母叶萍并认回亲生父母",
+        "episode_target": 2,
+        "n_candidates": 37,
+        "system_segment_id": 27,
+        "system_episode": 2,
+        "system_source_score": 0.570312,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 19,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.5,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.4,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 0.6385542168674698,
+          "top3": 0.6631708320451746,
+          "top5": 0.728739820564769,
+          "top10": 0.8070880561942514,
+          "top20": 0.7884264715537328
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "她参加集团活动失败，迁户口时被取消拆迁资格",
+        "episode_target": 1,
+        "n_candidates": 33,
+        "system_segment_id": 6,
+        "system_episode": 1,
+        "system_source_score": 0.3125,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 28,
+        "judge_best_episode": 1,
+        "judge_best_score": 1.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.5,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.6857142857142857,
+          "top3": 0.7324293232171947,
+          "top5": 0.7508136741200417,
+          "top10": 0.8267479892212168,
+          "top20": 0.9112083835455156
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "被亲生父母卖后，叶萍救下她，她才知道叶萍重生",
+        "episode_target": 7,
+        "n_candidates": 18,
+        "system_segment_id": 14,
+        "system_episode": 7,
+        "system_source_score": 0.478516,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.75,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.45312499999999994,
+          "top3": 0.589195825617827,
+          "top5": 0.6259778068370714,
+          "top10": 0.7525851946112208,
+          "top20": 0.8521055128312482
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "在叶萍家中成长，叶萍病根缠身，叶雨桐从未想过要离开",
+        "episode_target": 1,
+        "n_candidates": 33,
+        "system_segment_id": 30,
+        "system_episode": 1,
+        "system_source_score": 0.628906,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 24,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.8,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.44000000000000006,
+          "top3": 0.6213824657562869,
+          "top5": 0.7270281806443609,
+          "top10": 0.7891792768982578,
+          "top20": 0.8704749728265303
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "某天，叶雨桐得知叶萍其实不是她的亲生母亲，她冷笑，继承了叶萍的董事长位置，对叶萍充满仇恨",
+        "episode_target": 2,
+        "n_candidates": 37,
+        "system_segment_id": 10,
+        "system_episode": 2,
+        "system_source_score": 0.351562,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.3,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.3,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.47727272727272724,
+          "top3": 0.4710845802631017,
+          "top5": 0.4534709996789852,
+          "top10": 0.5548870087020672,
+          "top20": 0.7132501368334109
+        },
+        "diagnosis": "有好候选但错排"
+      }
+    ]
+  }
+}

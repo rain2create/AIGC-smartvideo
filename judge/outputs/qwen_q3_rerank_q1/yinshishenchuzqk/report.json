@@ -1,0 +1,522 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:08:42",
+  "canonical_variant": "canonical",
+  "dj": "yinshishenchuzqk",
+  "variant": "qwen_q3_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/yinshishenchuzqk/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yinshishenchuzqk/1_10_20260519_151332_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 279,
+    "script_count": 9,
+    "mean": 2.161827956989247,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 603.1500000000001,
+    "dimension_sums": {
+      "entity_match": 712.0,
+      "event_match": 454.0,
+      "scene_match": 868.0,
+      "tone_match": 585.0,
+      "editing_suitability": 481.0
+    },
+    "dimension_counts": {
+      "entity_match": 279,
+      "event_match": 279,
+      "scene_match": 279,
+      "tone_match": 279,
+      "editing_suitability": 279
+    },
+    "dimension_means": {
+      "entity_match": 2.5519713261648747,
+      "event_match": 1.6272401433691757,
+      "scene_match": 3.111111111111111,
+      "tone_match": 2.096774193548387,
+      "editing_suitability": 1.7240143369175627
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 39,
+        "total": 279,
+        "rate": 0.13978494623655913
+      },
+      "ge_4_5": {
+        "count": 15,
+        "total": 279,
+        "rate": 0.053763440860215055
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.13978494623655913,
+      "ge_4_5": 0.053763440860215055
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 53,
+        "best_score": 4.7,
+        "mean_score": 1.5962264150943397,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03773584905660377,
+          "ge_4_5": 0.03773584905660377
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 53,
+        "best_score": 5.0,
+        "mean_score": 1.8349056603773586,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 53,
+            "rate": 0.018867924528301886
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03773584905660377,
+          "ge_4_5": 0.018867924528301886
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 26,
+        "best_score": 3.8,
+        "mean_score": 1.853846153846154,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 28,
+        "best_score": 4.7,
+        "mean_score": 3.4357142857142855,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 28,
+            "rate": 0.32142857142857145
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 28,
+            "rate": 0.17857142857142858
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.32142857142857145,
+          "ge_4_5": 0.17857142857142858
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 3.875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 17,
+            "total": 28,
+            "rate": 0.6071428571428571
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 28,
+            "rate": 0.14285714285714285
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6071428571428571,
+          "ge_4_5": 0.14285714285714285
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 21,
+        "best_score": 4.7,
+        "mean_score": 2.557142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 21,
+            "rate": 0.19047619047619047
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 21,
+            "rate": 0.047619047619047616
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.19047619047619047,
+          "ge_4_5": 0.047619047619047616
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 30,
+        "best_score": 3.1,
+        "mean_score": 1.385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 30,
+        "best_score": 4.8,
+        "mean_score": 1.6,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 30,
+            "rate": 0.03333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 30,
+            "rate": 0.03333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03333333333333333,
+          "ge_4_5": 0.03333333333333333
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 10,
+        "best_score": 4.7,
+        "mean_score": 2.515,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 10,
+            "rate": 0.4
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 10,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4,
+          "ge_4_5": 0.1
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yinshishenchuzqk/1_10_20260519_151332_structured_qwen_q3_rerank_q1.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.25,
+        "top5": 0.75,
+        "top10": 0.75,
+        "top20": 0.75
+      },
+      "mean_rank": 8,
+      "median_rank": 4.0,
+      "mean_system_judge_score": 3.0875,
+      "min_system_judge_score": 2.55,
+      "max_system_judge_score": 3.95,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.25,
+        "event_match": 2.5,
+        "scene_match": 4.25,
+        "tone_match": 2.5,
+        "editing_suitability": 2.25
+      },
+      "mean_gap_to_judge_best": 1.4625,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.75,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.75,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.3333333333333333,
+        "top5": 0.45,
+        "top10": 0.6,
+        "top20": 0.7625
+      },
+      "ndcg": {
+        "top1": 0.6795828667413214,
+        "top3": 0.7376733145335518,
+        "top5": 0.7446668955274536,
+        "top10": 0.8221483864961026,
+        "top20": 0.8817526160418119
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "国际餐饮协会主席皮特在龙威大酒店餐饮部闹事，威胁要让酒店破产",
+        "episode_target": 1,
+        "n_candidates": 53,
+        "system_segment_id": 11,
+        "system_episode": 1,
+        "system_source_score": 0.515625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.15,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.5425531914893617,
+          "top3": 0.4623896344844792,
+          "top5": 0.511043650208672,
+          "top10": 0.6266959557134307,
+          "top20": 0.7784647868603877
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "杜乘风在后厨打牌，完全不知前厅发生的闹剧",
+        "episode_target": 1,
+        "n_candidates": 53,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.168945,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.05,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.79,
+          "top3": 0.8810716117272739,
+          "top5": 0.8374983979231165,
+          "top10": 0.9058880511537654,
+          "top20": 0.9056772097621559
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "董事长将国宴交给女儿柳真真负责，她聘请了专门的西餐团队应对国宴",
+        "episode_target": 3,
+        "n_candidates": 26,
+        "system_segment_id": 14,
+        "system_episode": 3,
+        "system_source_score": 0.515625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.8,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.7368421052631579,
+          "top3": 0.8601734104947432,
+          "top5": 0.8153630197099733,
+          "top10": 0.879395832788186,
+          "top20": 0.9196008114235376
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "柳真真拒绝嫁给杜乘风并前往后厨，看到杜乘风在国宴前夕仍玩游戏，一气之下宣布开除他",
+        "episode_target": 2,
+        "n_candidates": 28,
+        "system_segment_id": 7,
+        "system_episode": 2,
+        "system_source_score": 0.318359,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 21,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.65,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 5
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.648936170212766,
+          "top3": 0.7470586014277107,
+          "top5": 0.8147625142680527,
+          "top10": 0.8766137063290282,
+          "top20": 0.9232676561211666
+        },
+        "diagnosis": "有好候选但错排"
+      }
+    ]
+  }
+}

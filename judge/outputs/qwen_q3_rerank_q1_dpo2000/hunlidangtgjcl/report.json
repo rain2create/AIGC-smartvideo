@@ -1,0 +1,558 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "hunlidangtgjcl",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/hunlidangtgjcl/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/hunlidangtgjcl/1_10_20260519_032034_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 90,
+    "script_count": 6,
+    "mean": 2.408888888888889,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 216.8,
+    "dimension_sums": {
+      "entity_match": 272.0,
+      "event_match": 169.0,
+      "scene_match": 297.0,
+      "tone_match": 203.0,
+      "editing_suitability": 164.0
+    },
+    "dimension_counts": {
+      "entity_match": 90,
+      "event_match": 90,
+      "scene_match": 90,
+      "tone_match": 90,
+      "editing_suitability": 90
+    },
+    "dimension_means": {
+      "entity_match": 3.022222222222222,
+      "event_match": 1.8777777777777778,
+      "scene_match": 3.3,
+      "tone_match": 2.2555555555555555,
+      "editing_suitability": 1.8222222222222222
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 11,
+        "total": 90,
+        "rate": 0.12222222222222222
+      },
+      "ge_4_5": {
+        "count": 11,
+        "total": 90,
+        "rate": 0.12222222222222222
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.12222222222222222,
+      "ge_4_5": 0.12222222222222222
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 9,
+        "best_score": 2.65,
+        "mean_score": 2.161111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 26,
+        "best_score": 3.95,
+        "mean_score": 1.573076923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 21,
+        "best_score": 5.0,
+        "mean_score": 3.6023809523809525,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 21,
+            "rate": 0.42857142857142855
+          },
+          "ge_4_5": {
+            "count": 9,
+            "total": 21,
+            "rate": 0.42857142857142855
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.42857142857142855,
+          "ge_4_5": 0.42857142857142855
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 9,
+        "best_score": 3.8,
+        "mean_score": 3.022222222222222,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 16,
+        "best_score": 2.05,
+        "mean_score": 1.440625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 16,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 9,
+        "best_score": 4.8,
+        "mean_score": 3.3944444444444444,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 9,
+            "rate": 0.2222222222222222
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 9,
+            "rate": 0.2222222222222222
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2222222222222222,
+          "ge_4_5": 0.2222222222222222
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/hunlidangtgjcl/1_10_20260519_032034_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 6,
+      "ranked_script_count": 6,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.3333333333333333,
+        "top3": 0.5,
+        "top5": 0.8333333333333334,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 3.1666666666666665,
+      "median_rank": 3.0,
+      "mean_system_judge_score": 3.225,
+      "min_system_judge_score": 1.9,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.0,
+        "event_match": 2.8333333333333335,
+        "scene_match": 3.8333333333333335,
+        "tone_match": 3.0,
+        "editing_suitability": 2.5
+      },
+      "mean_gap_to_judge_best": 0.48333333333333334,
+      "system_score_rate": {
+        "ge_4_0": 0.16666666666666666,
+        "ge_4_5": 0.16666666666666666
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.16666666666666666
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.16666666666666666
+        }
+      },
+      "recall": {
+        "top1": 0.3333333333333333,
+        "top3": 0.5555555555555556,
+        "top5": 0.6,
+        "top10": 0.6,
+        "top20": 0.875
+      },
+      "ndcg": {
+        "top1": 0.8845519540721724,
+        "top3": 0.8797332054332223,
+        "top5": 0.8664600897004048,
+        "top10": 0.91109710170859,
+        "top20": 0.9365275706797866
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "为爱离家出走的千金大小姐，在婚礼现场却发现了丈夫何云飞的抠门本质",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 7,
+        "system_episode": 9,
+        "system_source_score": 0.134766,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 9,
+        "judge_best_score": 2.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9964391701014876,
+          "top5": 0.960977894349949,
+          "top10": 0.9939379457441873,
+          "top20": 0.9939379457441873
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "原来，他们谈好的彩礼远不止520，林芊芊因怀孕曝光被迫妥协，接受了这个屈辱的彩礼",
+        "episode_target": 1,
+        "n_candidates": 26,
+        "system_segment_id": 26,
+        "system_episode": 1,
+        "system_source_score": 0.236328,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 26,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8162735638085552,
+          "top5": 0.7403845691164228,
+          "top10": 0.7697176565695344,
+          "top20": 0.8406142989973525
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "然而，更让她无法接受的是，婆婆竟然在婚礼现场索要88万的改口费",
+        "episode_target": 4,
+        "n_candidates": 21,
+        "system_segment_id": 13,
+        "system_episode": 4,
+        "system_source_score": 0.765625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 4,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 9
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9822350853420482,
+          "top5": 0.9871608241159284,
+          "top10": 0.9393798293505788,
+          "top20": 0.9808841242206477
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "林芊芊终于看穿了这家人的虚伪面目，当众揭露了他们的真面目",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 1,
+        "system_episode": 9,
+        "system_source_score": 0.292969,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 6,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7763157894736843,
+          "top3": 0.8713421880447618,
+          "top5": 0.8471902463018466,
+          "top10": 0.9442035654605302,
+          "top20": 0.9442035654605302
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "她不再隐忍，决定为自己和孩子争取应有的尊严",
+        "episode_target": 7,
+        "n_candidates": 16,
+        "system_segment_id": 5,
+        "system_episode": 7,
+        "system_source_score": 0.002884,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.9,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.926829268292683,
+          "top3": 0.7635408468896101,
+          "top5": 0.8388546732685764,
+          "top10": 0.9021868036719838,
+          "top20": 0.9423686802012766
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "就在林芊芊准备进一步揭露何云飞一家的算计时，一个神秘人物突然出现在婚礼现场",
+        "episode_target": 9,
+        "n_candidates": 9,
+        "system_segment_id": 1,
+        "system_episode": 9,
+        "system_source_score": 0.527344,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.9,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 9,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.9,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6041666666666666,
+          "top3": 0.8485683784128709,
+          "top5": 0.8241923310497054,
+          "top10": 0.9171568094547256,
+          "top20": 0.9171568094547256
+        },
+        "diagnosis": "有好候选但错排"
+      }
+    ]
+  }
+}

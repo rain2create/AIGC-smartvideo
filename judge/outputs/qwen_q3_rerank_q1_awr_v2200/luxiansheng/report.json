@@ -1,0 +1,485 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:48:38",
+  "canonical_variant": "canonical",
+  "dj": "luxiansheng",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/luxiansheng/annotation_20260508_063407",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/luxiansheng/1_10_20260423_155927_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 220,
+    "script_count": 5,
+    "mean": 2.3188636363636363,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 510.14999999999986,
+    "dimension_sums": {
+      "entity_match": 755.0,
+      "event_match": 382.0,
+      "scene_match": 595.0,
+      "tone_match": 460.0,
+      "editing_suitability": 403.0
+    },
+    "dimension_counts": {
+      "entity_match": 220,
+      "event_match": 220,
+      "scene_match": 220,
+      "tone_match": 220,
+      "editing_suitability": 220
+    },
+    "dimension_means": {
+      "entity_match": 3.4318181818181817,
+      "event_match": 1.7363636363636363,
+      "scene_match": 2.7045454545454546,
+      "tone_match": 2.090909090909091,
+      "editing_suitability": 1.8318181818181818
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 31,
+        "total": 220,
+        "rate": 0.1409090909090909
+      },
+      "ge_4_5": {
+        "count": 22,
+        "total": 220,
+        "rate": 0.1
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.1409090909090909,
+      "ge_4_5": 0.1
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 45,
+        "best_score": 3.5,
+        "mean_score": 1.7955555555555556,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 45,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 45,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 40,
+        "best_score": 4.15,
+        "mean_score": 1.79125,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 40,
+            "rate": 0.025
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 40,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.025,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 45,
+        "best_score": 3.85,
+        "mean_score": 1.7833333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 45,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 45,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 45,
+        "best_score": 5.0,
+        "mean_score": 3.4044444444444446,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 19,
+            "total": 45,
+            "rate": 0.4222222222222222
+          },
+          "ge_4_5": {
+            "count": 11,
+            "total": 45,
+            "rate": 0.24444444444444444
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4222222222222222,
+          "ge_4_5": 0.24444444444444444
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 45,
+        "best_score": 5.0,
+        "mean_score": 2.761111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 11,
+            "total": 45,
+            "rate": 0.24444444444444444
+          },
+          "ge_4_5": {
+            "count": 11,
+            "total": 45,
+            "rate": 0.24444444444444444
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.24444444444444444,
+          "ge_4_5": 0.24444444444444444
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/luxiansheng/1_10_20260423_155927_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 5,
+      "ranked_script_count": 5,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.6,
+        "top3": 0.6,
+        "top5": 0.8,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 2.8,
+      "median_rank": 1,
+      "mean_system_judge_score": 3.84,
+      "min_system_judge_score": 2.65,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.6,
+        "event_match": 3.4,
+        "scene_match": 3.8,
+        "tone_match": 3.8,
+        "editing_suitability": 3.8
+      },
+      "mean_gap_to_judge_best": 0.45999999999999996,
+      "system_score_rate": {
+        "ge_4_0": 0.4,
+        "ge_4_5": 0.4
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.6,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.4
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.4,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.4
+        }
+      },
+      "recall": {
+        "top1": 0.6,
+        "top3": 0.26666666666666666,
+        "top5": 0.4,
+        "top10": 0.44,
+        "top20": 0.67
+      },
+      "ndcg": {
+        "top1": 0.8815490533562823,
+        "top3": 0.8139589758024828,
+        "top5": 0.8268383432916113,
+        "top10": 0.8287133847409327,
+        "top20": 0.862377184279665
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "女人梦见自己为暗恋的男神拉琴，可现实是她连琴都不会拉",
+        "episode_target": 1,
+        "n_candidates": 45,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.722656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.65,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 0.7571428571428571,
+          "top3": 0.7666141765739779,
+          "top5": 0.8364686436282838,
+          "top10": 0.8651564302422114,
+          "top20": 0.9071893699673113
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "三年前的车祸，让她忘记了近十年的记忆，却记住了丈夫的冷漠",
+        "episode_target": 2,
+        "n_candidates": 40,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.172852,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 36,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.45,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.3,
+          "top20": 0.45
+        },
+        "ndcg": {
+          "top1": 0.6506024096385542,
+          "top3": 0.6813472534470925,
+          "top5": 0.7508646263834726,
+          "top10": 0.721692071257441,
+          "top20": 0.7227624923563517
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "乔萱和陆泽是三年前相遇的",
+        "episode_target": 1,
+        "n_candidates": 45,
+        "system_segment_id": 10,
+        "system_episode": 1,
+        "system_source_score": 0.640625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.952893107623151,
+          "top5": 0.8632172911192861,
+          "top10": 0.8755885122503486,
+          "top20": 0.9200270707121628
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "因为一次意外的一夜情，她成了他的妻子",
+        "episode_target": 1,
+        "n_candidates": 45,
+        "system_segment_id": 11,
+        "system_episode": 1,
+        "system_source_score": 0.8125,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 19,
+          "ge_4_5": 11
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8602226165761314,
+          "top5": 0.8234951707311011,
+          "top10": 0.8391840712609159,
+          "top20": 0.8664395738542657
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "婚姻的七年，陆泽总隔着一座无形的冰山与她相处",
+        "episode_target": 1,
+        "n_candidates": 45,
+        "system_segment_id": 14,
+        "system_episode": 1,
+        "system_source_score": 0.925781,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 11,
+          "ge_4_5": 11
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8087177247920609,
+          "top5": 0.8601459845959131,
+          "top10": 0.8419458386937464,
+          "top20": 0.8954674145082336
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

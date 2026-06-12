@@ -1,0 +1,777 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "bierejifuren",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/bierejifuren/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/bierejifuren/1_10_20260513_123058_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 352,
+    "script_count": 9,
+    "mean": 1.881534090909091,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 662.2999999999998,
+    "dimension_sums": {
+      "entity_match": 967.0,
+      "event_match": 509.0,
+      "scene_match": 812.0,
+      "tone_match": 584.0,
+      "editing_suitability": 484.0
+    },
+    "dimension_counts": {
+      "entity_match": 352,
+      "event_match": 352,
+      "scene_match": 352,
+      "tone_match": 352,
+      "editing_suitability": 352
+    },
+    "dimension_means": {
+      "entity_match": 2.747159090909091,
+      "event_match": 1.4460227272727273,
+      "scene_match": 2.3068181818181817,
+      "tone_match": 1.6590909090909092,
+      "editing_suitability": 1.375
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 24,
+        "total": 352,
+        "rate": 0.06818181818181818
+      },
+      "ge_4_5": {
+        "count": 15,
+        "total": 352,
+        "rate": 0.04261363636363636
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.06818181818181818,
+      "ge_4_5": 0.04261363636363636
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 52,
+        "best_score": 3.45,
+        "mean_score": 1.385576923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 52,
+        "best_score": 2.15,
+        "mean_score": 1.3048076923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 52,
+        "best_score": 5.0,
+        "mean_score": 3.0798076923076922,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 16,
+            "total": 52,
+            "rate": 0.3076923076923077
+          },
+          "ge_4_5": {
+            "count": 11,
+            "total": 52,
+            "rate": 0.21153846153846154
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3076923076923077,
+          "ge_4_5": 0.21153846153846154
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 52,
+        "best_score": 4.85,
+        "mean_score": 2.0682692307692307,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 52,
+            "rate": 0.07692307692307693
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 52,
+            "rate": 0.038461538461538464
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07692307692307693,
+          "ge_4_5": 0.038461538461538464
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 32,
+        "best_score": 2.1,
+        "mean_score": 1.3890625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 24,
+        "best_score": 1.95,
+        "mean_score": 1.5395833333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 18,
+        "best_score": 4.7,
+        "mean_score": 3.091666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 18,
+            "rate": 0.2222222222222222
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2222222222222222,
+          "ge_4_5": 0.1111111111111111
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 18,
+        "best_score": 3.25,
+        "mean_score": 2.2805555555555554,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 52,
+        "best_score": 2.1,
+        "mean_score": 1.4730769230769232,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 52,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/bierejifuren/1_10_20260513_123058_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 9,
+      "ranked_script_count": 9,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.1111111111111111,
+        "top3": 0.3333333333333333,
+        "top5": 0.4444444444444444,
+        "top10": 0.6666666666666666,
+        "top20": 0.8888888888888888
+      },
+      "mean_rank": 8.222222222222221,
+      "median_rank": 6,
+      "mean_system_judge_score": 2.711111111111111,
+      "min_system_judge_score": 1.2,
+      "max_system_judge_score": 4.85,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.7777777777777777,
+        "event_match": 2.3333333333333335,
+        "scene_match": 2.888888888888889,
+        "tone_match": 2.4444444444444446,
+        "editing_suitability": 2.111111111111111
+      },
+      "mean_gap_to_judge_best": 0.5722222222222222,
+      "system_score_rate": {
+        "ge_4_0": 0.2222222222222222,
+        "ge_4_5": 0.2222222222222222
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.2222222222222222
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.2222222222222222
+        }
+      },
+      "recall": {
+        "top1": 0.1111111111111111,
+        "top3": 0.18518518518518517,
+        "top5": 0.22222222222222224,
+        "top10": 0.4111111111111111,
+        "top20": 0.5642857142857143
+      },
+      "ndcg": {
+        "top1": 0.8093791058758896,
+        "top3": 0.7900630441610554,
+        "top5": 0.7780805834170866,
+        "top10": 0.8247058194399007,
+        "top20": 0.8772705429808769
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "五周年纪念日，她独自坐在空荡的家里，手机屏幕上是四次领证的合影，而他正头也不回地走进登记处",
+        "episode_target": 1,
+        "n_candidates": 52,
+        "system_segment_id": 15,
+        "system_episode": 1,
+        "system_source_score": 0.08252,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.45,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 0.55
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9758511418248021,
+          "top5": 0.9279773889347442,
+          "top10": 0.9152853022143871,
+          "top20": 0.9200809612698329
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "原来那天，纪希宁为季寒的归国庆生，季寒以\"接风宴\"为由爽约，这是唐宁放鸽子的第四次",
+        "episode_target": 1,
+        "n_candidates": 52,
+        "system_segment_id": 11,
+        "system_episode": 1,
+        "system_source_score": 0.337891,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 1.4,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.75,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.5
+        },
+        "ndcg": {
+          "top1": 0.6511627906976744,
+          "top3": 0.642058538435382,
+          "top5": 0.6936582587268131,
+          "top10": 0.7344076456642927,
+          "top20": 0.7889544712055896
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "她曾质问他谁不知道唐宁是狗皮膏药，可季寒却理直气绝说是为姐姐生孩子",
+        "episode_target": 1,
+        "n_candidates": 52,
+        "system_segment_id": 31,
+        "system_episode": 1,
+        "system_source_score": 0.71875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 4.6,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 16,
+          "ge_4_5": 11
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.2,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 0.9199999999999999,
+          "top3": 0.713796454748032,
+          "top5": 0.6962341838511946,
+          "top10": 0.7565895614062529,
+          "top20": 0.8207532481874845
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "更过分的是，纪希宁还代季寒向她道歉，声称一切都是因为唐宁曾多次恶作剧",
+        "episode_target": 1,
+        "n_candidates": 52,
+        "system_segment_id": 24,
+        "system_episode": 1,
+        "system_source_score": 0.192383,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9178426288861481,
+          "top5": 0.9115468038296827,
+          "top10": 0.8106814965832095,
+          "top20": 0.8748835212411992
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "当唐宁终于醒悟，季寒却已彻底心死，将她的号码拉入黑名单，并与亲哥江言谋划复合",
+        "episode_target": 7,
+        "n_candidates": 32,
+        "system_segment_id": 1,
+        "system_episode": 7,
+        "system_source_score": 0.304688,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 26,
+        "system_judge_score": 1.2,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 7,
+        "judge_best_score": 2.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.5
+        },
+        "ndcg": {
+          "top1": 0.5714285714285714,
+          "top3": 0.762343700728892,
+          "top5": 0.7737952108558971,
+          "top10": 0.8475034603736616,
+          "top20": 0.8968942269951765
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "而江言的突然出现，让唐宁彻底消失，留下季寒在家族压力下疯狂寻找",
+        "episode_target": 9,
+        "n_candidates": 24,
+        "system_segment_id": 15,
+        "system_episode": 9,
+        "system_source_score": 0.013611,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 9,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.4,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.8974358974358975,
+          "top3": 0.822133353605009,
+          "top5": 0.8139295365326832,
+          "top10": 0.8883921844225843,
+          "top20": 0.9410329763721369
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "就在季寒准备向家族交代时，江言将唐宁的消失归咎于他自己的冷漠",
+        "episode_target": 8,
+        "n_candidates": 18,
+        "system_segment_id": 5,
+        "system_episode": 8,
+        "system_source_score": 0.194336,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 2.15,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5425531914893617,
+          "top3": 0.6239889973508755,
+          "top5": 0.6058387419506799,
+          "top10": 0.7626299851877836,
+          "top20": 0.8710075644092367
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "\"若不是你当初那么绝情，她怎会宁愿消失也不愿回来",
+        "episode_target": 8,
+        "n_candidates": 18,
+        "system_segment_id": 13,
+        "system_episode": 8,
+        "system_source_score": 0.025513,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.9,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 8,
+        "judge_best_score": 3.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8923076923076922,
+          "top3": 0.7953108349164814,
+          "top5": 0.7694074390338952,
+          "top10": 0.8748961802625346,
+          "top20": 0.9387001627668896
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "\"而季寒手机里，唐宁最后的信息停留在五周年那天的合影上，未发送",
+        "episode_target": 1,
+        "n_candidates": 52,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.003174,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.7,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.3,
+          "top20": 0.3
+        },
+        "ndcg": {
+          "top1": 0.8095238095238094,
+          "top3": 0.8572417469538767,
+          "top5": 0.8103376870381901,
+          "top10": 0.8319665588444003,
+          "top20": 0.8431277543803464
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,625 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "xindongzuobiaopiancha",
+  "variant": "qwen_q3_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/xindongzuobiaopiancha/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xindongzuobiaopiancha/1_10_20260519_164104_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 189,
+    "script_count": 16,
+    "mean": 1.8,
+    "min": 1.0,
+    "max": 4.9,
+    "score_sum": 340.2,
+    "dimension_sums": {
+      "entity_match": 420.0,
+      "event_match": 279.0,
+      "scene_match": 502.0,
+      "tone_match": 286.0,
+      "editing_suitability": 257.0
+    },
+    "dimension_counts": {
+      "entity_match": 189,
+      "event_match": 189,
+      "scene_match": 189,
+      "tone_match": 189,
+      "editing_suitability": 189
+    },
+    "dimension_means": {
+      "entity_match": 2.2222222222222223,
+      "event_match": 1.4761904761904763,
+      "scene_match": 2.6560846560846563,
+      "tone_match": 1.5132275132275133,
+      "editing_suitability": 1.3597883597883598
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 10,
+        "total": 189,
+        "rate": 0.05291005291005291
+      },
+      "ge_4_5": {
+        "count": 5,
+        "total": 189,
+        "rate": 0.026455026455026454
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.05291005291005291,
+      "ge_4_5": 0.026455026455026454
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 9,
+        "best_score": 2.85,
+        "mean_score": 2.1333333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 9,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 11,
+        "best_score": 4.7,
+        "mean_score": 3.6681818181818184,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 11,
+            "rate": 0.36363636363636365
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 11,
+            "rate": 0.18181818181818182
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.36363636363636365,
+          "ge_4_5": 0.18181818181818182
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 14,
+        "best_score": 4.55,
+        "mean_score": 2.3035714285714284,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 14,
+            "rate": 0.21428571428571427
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 14,
+            "rate": 0.07142857142857142
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21428571428571427,
+          "ge_4_5": 0.07142857142857142
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 14,
+        "best_score": 1.85,
+        "mean_score": 1.4321428571428572,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 20,
+        "best_score": 3.75,
+        "mean_score": 1.2925,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 20,
+        "best_score": 4.1,
+        "mean_score": 1.53,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 20,
+            "rate": 0.05
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 13,
+        "best_score": 2.05,
+        "mean_score": 1.1961538461538461,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 12,
+        "best_score": 1.95,
+        "mean_score": 1.2208333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 13,
+        "best_score": 3.35,
+        "mean_score": 2.0076923076923077,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 13,
+        "best_score": 2.7,
+        "mean_score": 2.230769230769231,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 12,
+        "best_score": 2.8,
+        "mean_score": 1.4958333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 6,
+        "best_score": 1.8,
+        "mean_score": 1.2666666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 6,
+        "best_score": 2.15,
+        "mean_score": 1.45,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 6,
+        "best_score": 2.85,
+        "mean_score": 1.8916666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 6,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 11,
+        "best_score": 4.9,
+        "mean_score": 2.1636363636363636,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 11,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.09090909090909091,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 9,
+        "best_score": 4.85,
+        "mean_score": 1.911111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 9,
+            "rate": 0.1111111111111111
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 9,
+            "rate": 0.1111111111111111
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1111111111111111,
+          "ge_4_5": 0.1111111111111111
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xindongzuobiaopiancha/1_10_20260519_164104_structured_qwen_q3_rerank_q1.json",
+    "summary": {
+      "script_count": 3,
+      "ranked_script_count": 3,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.3333333333333333,
+        "top3": 0.6666666666666666,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 2.6666666666666665,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.683333333333333,
+      "min_system_judge_score": 2.05,
+      "max_system_judge_score": 4.7,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.666666666666667,
+        "event_match": 3.0,
+        "scene_match": 4.333333333333333,
+        "tone_match": 3.3333333333333335,
+        "editing_suitability": 3.6666666666666665
+      },
+      "mean_gap_to_judge_best": 0.35000000000000003,
+      "system_score_rate": {
+        "ge_4_0": 0.6666666666666666,
+        "ge_4_5": 0.3333333333333333
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.6666666666666666,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.6666666666666666
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.6666666666666666,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.3333333333333333
+        }
+      },
+      "recall": {
+        "top1": 0.3333333333333333,
+        "top3": 0.4444444444444444,
+        "top5": 0.7333333333333333,
+        "top10": 0.9,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.8881177302229933,
+        "top3": 0.8872006694277342,
+        "top5": 0.9133077820295094,
+        "top10": 0.9602469576854582,
+        "top20": 0.962408429257033
+      },
+      "max_top_matches": 14
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "高考百日誓师，江源当众表白的粉色情书，成了他被全校通报的开始",
+        "episode_target": 1,
+        "n_candidates": 9,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.054199,
+        "system_status": "success",
+        "system_top_matches_count": 9,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.719298245614035,
+          "top3": 0.7611631173213435,
+          "top5": 0.8148027704212896,
+          "top10": 0.9143959706244983,
+          "top20": 0.9143959706244983
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "姜媛，那个全校第二名的江然，当众检讨自己向谢尘写了一封告白信，脸红如番茄，惹得全场窃窃私语",
+        "episode_target": 2,
+        "n_candidates": 11,
+        "system_segment_id": 4,
+        "system_episode": 2,
+        "system_source_score": 0.644531,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9772505979453472,
+          "top5": 0.9459663035310619,
+          "top10": 0.9893688357126024,
+          "top20": 0.9897758742628064
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "而姜媛，那个看似嚣张的女学生，其实暗地里帮江源代写情书，还一脸无所谓地说：“反正背锅又不掉块肉",
+        "episode_target": 3,
+        "n_candidates": 14,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.245117,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.945054945054945,
+          "top3": 0.923188293016512,
+          "top5": 0.9791542721361765,
+          "top10": 0.9769760667192741,
+          "top20": 0.9830534428837943
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

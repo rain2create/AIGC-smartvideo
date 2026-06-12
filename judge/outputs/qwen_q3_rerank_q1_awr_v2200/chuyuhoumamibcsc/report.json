@@ -1,0 +1,485 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "chuyuhoumamibcsc",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/chuyuhoumamibcsc/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/chuyuhoumamibcsc/1_10_20260513_142447_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 104,
+    "script_count": 5,
+    "mean": 1.9076923076923076,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 198.4,
+    "dimension_sums": {
+      "entity_match": 280.0,
+      "event_match": 159.0,
+      "scene_match": 208.0,
+      "tone_match": 190.0,
+      "editing_suitability": 160.0
+    },
+    "dimension_counts": {
+      "entity_match": 104,
+      "event_match": 104,
+      "scene_match": 104,
+      "tone_match": 104,
+      "editing_suitability": 104
+    },
+    "dimension_means": {
+      "entity_match": 2.6923076923076925,
+      "event_match": 1.5288461538461537,
+      "scene_match": 2.0,
+      "tone_match": 1.8269230769230769,
+      "editing_suitability": 1.5384615384615385
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 9,
+        "total": 104,
+        "rate": 0.08653846153846154
+      },
+      "ge_4_5": {
+        "count": 6,
+        "total": 104,
+        "rate": 0.057692307692307696
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.08653846153846154,
+      "ge_4_5": 0.057692307692307696
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 14,
+        "best_score": 3.4,
+        "mean_score": 1.4892857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 28,
+        "best_score": 2.7,
+        "mean_score": 1.5517857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 13,
+        "best_score": 1.65,
+        "mean_score": 1.3576923076923078,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 2.9035714285714285,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 28,
+            "rate": 0.32142857142857145
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 28,
+            "rate": 0.21428571428571427
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.32142857142857145,
+          "ge_4_5": 0.21428571428571427
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 21,
+        "best_score": 2.75,
+        "mean_score": 1.6738095238095239,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/chuyuhoumamibcsc/1_10_20260513_142447_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 5,
+      "ranked_script_count": 5,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.2,
+        "top3": 0.4,
+        "top5": 0.6,
+        "top10": 0.8,
+        "top20": 1.0
+      },
+      "mean_rank": 6.2,
+      "median_rank": 4,
+      "mean_system_judge_score": 2.58,
+      "min_system_judge_score": 1.45,
+      "max_system_judge_score": 4.35,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.0,
+        "event_match": 2.4,
+        "scene_match": 2.6,
+        "tone_match": 2.6,
+        "editing_suitability": 2.2
+      },
+      "mean_gap_to_judge_best": 0.52,
+      "system_score_rate": {
+        "ge_4_0": 0.2,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.2,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.2
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 1,
+          "scripts_with_any_rate": 0.2,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.2,
+        "top3": 0.5333333333333333,
+        "top5": 0.6,
+        "top10": 0.8200000000000001,
+        "top20": 0.85
+      },
+      "ndcg": {
+        "top1": 0.8232255892255892,
+        "top3": 0.883323966327754,
+        "top5": 0.8990320416131418,
+        "top10": 0.9371039443934603,
+        "top20": 0.945435999963555
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "沈瑜出狱后，看着监狱外的天空，七年了，她终于重见天日",
+        "episode_target": 1,
+        "n_candidates": 14,
+        "system_segment_id": 10,
+        "system_episode": 1,
+        "system_source_score": 0.091309,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.4,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9766783286039564,
+          "top5": 0.9421621704966512,
+          "top10": 0.9730327662876306,
+          "top20": 0.9849437146017568
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "在狱中，她经历了非人的生活，七年里，她强忍着屈辱，保护着肚子里的女儿",
+        "episode_target": 3,
+        "n_candidates": 28,
+        "system_segment_id": 18,
+        "system_episode": 3,
+        "system_source_score": 0.009399,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 16,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 3,
+        "judge_best_score": 2.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.537037037037037,
+          "top3": 0.6847728833335458,
+          "top5": 0.7509799872533994,
+          "top10": 0.8172691849198812,
+          "top20": 0.8769280419554419
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "出狱后，她与女儿丽丽重逢，看着怀里开心的丽丽，她心中既有愧疚又有坚定",
+        "episode_target": 7,
+        "n_candidates": 13,
+        "system_segment_id": 2,
+        "system_episode": 7,
+        "system_source_score": 0.004333,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 7,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9090909090909092,
+          "top3": 0.9346126792431321,
+          "top5": 0.950491767872302,
+          "top10": 0.9801643797425036,
+          "top20": 0.9825955291473374
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "然而，现实的残酷接踵而来，沈瑜在社会上求职受阻，连基本的生活都变得困难",
+        "episode_target": 4,
+        "n_candidates": 28,
+        "system_segment_id": 10,
+        "system_episode": 4,
+        "system_source_score": 0.582031,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 4.35,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 4,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.8699999999999999,
+          "top3": 0.9457440870311703,
+          "top5": 0.9473871823335037,
+          "top10": 0.9743403504643616,
+          "top20": 0.9225185421244744
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "就在这时，她遇见了裴隐年，那个曾七年守候她的男人，他的出现如同一道光，照亮了她的前",
+        "episode_target": 5,
+        "n_candidates": 21,
+        "system_segment_id": 1,
+        "system_episode": 5,
+        "system_source_score": 0.15332,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 5,
+        "judge_best_score": 2.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.8,
+          "top3": 0.8748118534269654,
+          "top5": 0.9041391001098522,
+          "top10": 0.9407130405529247,
+          "top20": 0.9601941719887646
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "huangyanlidenver",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/huangyanlidenver/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/huangyanlidenver/1_10_20260513_194251_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 213,
+    "script_count": 11,
+    "mean": 1.8161971830985915,
+    "min": 1.0,
+    "max": 4.8,
+    "score_sum": 386.8499999999995,
+    "dimension_sums": {
+      "entity_match": 459.0,
+      "event_match": 324.0,
+      "scene_match": 479.0,
+      "tone_match": 374.0,
+      "editing_suitability": 325.0
+    },
+    "dimension_counts": {
+      "entity_match": 213,
+      "event_match": 213,
+      "scene_match": 213,
+      "tone_match": 213,
+      "editing_suitability": 213
+    },
+    "dimension_means": {
+      "entity_match": 2.1549295774647885,
+      "event_match": 1.5211267605633803,
+      "scene_match": 2.248826291079812,
+      "tone_match": 1.755868544600939,
+      "editing_suitability": 1.5258215962441315
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 16,
+        "total": 213,
+        "rate": 0.07511737089201878
+      },
+      "ge_4_5": {
+        "count": 7,
+        "total": 213,
+        "rate": 0.03286384976525822
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.07511737089201878,
+      "ge_4_5": 0.03286384976525822
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 13,
+        "best_score": 3.95,
+        "mean_score": 2.6,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 32,
+        "best_score": 4.65,
+        "mean_score": 2.1609375,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 32,
+            "rate": 0.21875
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 32,
+            "rate": 0.09375
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21875,
+          "ge_4_5": 0.09375
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 20,
+        "best_score": 1.85,
+        "mean_score": 1.175,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 13,
+        "best_score": 4.8,
+        "mean_score": 3.223076923076923,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 13,
+            "rate": 0.3076923076923077
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 13,
+            "rate": 0.15384615384615385
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3076923076923077,
+          "ge_4_5": 0.15384615384615385
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 18,
+        "best_score": 2.2,
+        "mean_score": 1.3111111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 20,
+        "best_score": 2.25,
+        "mean_score": 1.3675,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 21,
+        "best_score": 1.45,
+        "mean_score": 1.130952380952381,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 18,
+        "best_score": 4.1,
+        "mean_score": 2.3361111111111112,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05555555555555555,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 32,
+        "best_score": 4.65,
+        "mean_score": 2.1171875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 32,
+            "rate": 0.125
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 32,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.125,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 13,
+        "best_score": 2.15,
+        "mean_score": 1.4076923076923076,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 13,
+        "best_score": 1.65,
+        "mean_score": 1.2076923076923076,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/huangyanlidenver/1_10_20260513_194251_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 11,
+      "ranked_script_count": 11,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.18181818181818182,
+        "top5": 0.36363636363636365,
+        "top10": 0.7272727272727273,
+        "top20": 1.0
+      },
+      "mean_rank": 7.545454545454546,
+      "median_rank": 6,
+      "mean_system_judge_score": 1.759090909090909,
+      "min_system_judge_score": 1.15,
+      "max_system_judge_score": 2.45,
+      "mean_system_dimension_scores": {
+        "entity_match": 2.5454545454545454,
+        "event_match": 1.0909090909090908,
+        "scene_match": 2.4545454545454546,
+        "tone_match": 1.8181818181818181,
+        "editing_suitability": 1.0
+      },
+      "mean_gap_to_judge_best": 1.3045454545454545,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.36363636363636365,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.2727272727272727,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.3333333333333333,
+        "top5": 0.5272727272727273,
+        "top10": 0.7363636363636363,
+        "top20": 0.93
+      },
+      "ndcg": {
+        "top1": 0.6447722504575177,
+        "top3": 0.7305284919984814,
+        "top5": 0.7889106810068963,
+        "top10": 0.8568890277449372,
+        "top20": 0.9137975379477499
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "男人突发血癌绝症，而他最牵挂的女儿，却对他一无所知",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 11,
+        "system_episode": 5,
+        "system_source_score": 0.046631,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.0,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 5,
+        "judge_best_score": 3.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.95,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5063291139240506,
+          "top3": 0.5914821128453011,
+          "top5": 0.7236809122105647,
+          "top10": 0.8353383474634778,
+          "top20": 0.8778337564199166
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "二十年前，他拼死救下即将被活埋的一岁女婴，承诺永远不让她成为自己生活的负担",
+        "episode_target": 1,
+        "n_candidates": 32,
+        "system_segment_id": 2,
+        "system_episode": 1,
+        "system_source_score": 0.59375,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.7,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.95,
+        "high_score_counts": {
+          "ge_4_0": 7,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.3655913978494623,
+          "top3": 0.3755637271316015,
+          "top5": 0.5586976357927913,
+          "top10": 0.653765573865012,
+          "top20": 0.8235657617408689
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "为了她的幸福成长，他每年亲手收到来自天堂的生日信，精心挑选礼物，构建起一段不存在的母女情深",
+        "episode_target": 4,
+        "n_candidates": 20,
+        "system_segment_id": 16,
+        "system_episode": 4,
+        "system_source_score": 0.027954,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 1.25,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 4,
+        "judge_best_score": 1.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.6756756756756757,
+          "top3": 0.8283454689056228,
+          "top5": 0.8688569856321837,
+          "top10": 0.9312126572986463,
+          "top20": 0.9552536834929652
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "可当病情恶化，需要女儿骨髓移植时，他才惊觉，这个从未谋面的\"女儿\"，或许正是救他生命的唯一希望",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 9,
+        "system_episode": 5,
+        "system_source_score": 0.5625,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.0,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.8,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.4166666666666667,
+          "top3": 0.6075476415674894,
+          "top5": 0.6975406358086077,
+          "top10": 0.8347192446146586,
+          "top20": 0.864766678839664
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "就在这时，那个神秘母亲突然出现在家门口，手里攥着的，是一张二十年前的旧照片",
+        "episode_target": 2,
+        "n_candidates": 18,
+        "system_segment_id": 11,
+        "system_episode": 2,
+        "system_source_score": 0.012024,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 2,
+        "judge_best_score": 2.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.75,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6590909090909091,
+          "top3": 0.8245494692139578,
+          "top5": 0.8893766058830734,
+          "top10": 0.926132855192118,
+          "top20": 0.9466001987604977
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "她冷漠地说，当年要活埋的就是这个女人，而李国海，是她抛弃的第一个孩子",
+        "episode_target": 4,
+        "n_candidates": 20,
+        "system_segment_id": 5,
+        "system_episode": 4,
+        "system_source_score": 0.02124,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.15,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 2.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9555555555555555,
+          "top3": 0.8954349549390804,
+          "top5": 0.8758484119342881,
+          "top10": 0.9227825449796934,
+          "top20": 0.9686294721232894
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "真相如同五雷轰顶，少女跪在父亲病床前，泪流满面：原来，他默默守护的，是自己最亲也最陌生的人",
+        "episode_target": 9,
+        "n_candidates": 21,
+        "system_segment_id": 3,
+        "system_episode": 9,
+        "system_source_score": 0.001282,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.45,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 9,
+        "judge_best_score": 1.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.9764788787884141,
+          "top10": 0.9494638438497157,
+          "top20": 0.9835544864744706
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "就在少女决定转身离开，去寻找那个真正母亲的瞬间，李国海艰难地从病床上爬起来，颤抖着抓住她的手腕",
+        "episode_target": 7,
+        "n_candidates": 18,
+        "system_segment_id": 17,
+        "system_episode": 7,
+        "system_source_score": 0.228516,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 2.45,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.65,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5975609756097562,
+          "top3": 0.7379406530666538,
+          "top5": 0.7833519116086798,
+          "top10": 0.827393517844211,
+          "top20": 0.9129347890463025
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "\"别走，紫萱...当年要活埋的，是你的生母，而我，是唯一阻止的人",
+        "episode_target": 1,
+        "n_candidates": 32,
+        "system_segment_id": 12,
+        "system_episode": 1,
+        "system_source_score": 0.408203,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.55,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.45161290322580644,
+          "top3": 0.5691534584558978,
+          "top5": 0.6841428459839952,
+          "top10": 0.7563335977707695,
+          "top20": 0.8621343146197556
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "现在，换我来救你",
+        "episode_target": 5,
+        "n_candidates": 13,
+        "system_segment_id": 12,
+        "system_episode": 5,
+        "system_source_score": 0.000645,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 5,
+        "judge_best_score": 2.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7674418604651163,
+          "top3": 0.7802858539308699,
+          "top5": 0.7953613763503304,
+          "top10": 0.9161761919254673,
+          "top20": 0.9260353460513865
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "\"画面定格在父女相拥的背影，悬念钩子：那个冷漠回来的女人，究竟还会带来怎样的真相",
+        "episode_target": 3,
+        "n_candidates": 13,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.369141,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 1.15,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 3,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6969696969696969,
+          "top3": 0.8255100719268207,
+          "top5": 0.8246812910829313,
+          "top10": 0.8724609303905405,
+          "top20": 0.9304644298561318
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

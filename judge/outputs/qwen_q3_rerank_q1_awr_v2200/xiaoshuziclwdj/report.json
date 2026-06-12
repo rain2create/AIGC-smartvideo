@@ -1,0 +1,1142 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "xiaoshuziclwdj",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/xiaoshuziclwdj/annotation_20260520_g4",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xiaoshuziclwdj/1_10_20260516_043037_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 53,
+    "script_count": 14,
+    "mean": 2.6915094339622643,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 142.64999999999998,
+    "dimension_sums": {
+      "entity_match": 162.0,
+      "event_match": 122.0,
+      "scene_match": 183.0,
+      "tone_match": 132.0,
+      "editing_suitability": 132.0
+    },
+    "dimension_counts": {
+      "entity_match": 53,
+      "event_match": 53,
+      "scene_match": 53,
+      "tone_match": 53,
+      "editing_suitability": 53
+    },
+    "dimension_means": {
+      "entity_match": 3.056603773584906,
+      "event_match": 2.30188679245283,
+      "scene_match": 3.452830188679245,
+      "tone_match": 2.490566037735849,
+      "editing_suitability": 2.490566037735849
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 13,
+        "total": 53,
+        "rate": 0.24528301886792453
+      },
+      "ge_4_5": {
+        "count": 6,
+        "total": 53,
+        "rate": 0.11320754716981132
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.24528301886792453,
+      "ge_4_5": 0.11320754716981132
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 5,
+        "best_score": 3.35,
+        "mean_score": 3.05,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 5,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 5,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 5,
+        "best_score": 5.0,
+        "mean_score": 4.32,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 5,
+            "rate": 0.8
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 5,
+            "rate": 0.6
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.8,
+          "ge_4_5": 0.6
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 5,
+        "best_score": 4.7,
+        "mean_score": 3.38,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 5,
+            "rate": 0.4
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 5,
+            "rate": 0.2
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4,
+          "ge_4_5": 0.2
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 5,
+        "best_score": 3.8,
+        "mean_score": 2.4,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 5,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 5,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 4,
+        "best_score": 4.45,
+        "mean_score": 3.875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 4,
+            "rate": 0.5
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 4,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.5,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 5,
+        "best_score": 5.0,
+        "mean_score": 3.86,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 5,
+            "rate": 0.6
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 5,
+            "rate": 0.4
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6,
+          "ge_4_5": 0.4
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 3,
+        "best_score": 4.2,
+        "mean_score": 2.3333333333333335,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 3,
+            "rate": 0.3333333333333333
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3333333333333333,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 3,
+        "best_score": 4.2,
+        "mean_score": 2.8666666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 3,
+            "rate": 0.3333333333333333
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.3333333333333333,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 3,
+        "best_score": 1.55,
+        "mean_score": 1.4166666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 3,
+        "best_score": 3.15,
+        "mean_score": 1.7166666666666666,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 3,
+        "best_score": 1.7,
+        "mean_score": 1.55,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 3,
+        "best_score": 1.65,
+        "mean_score": 1.2833333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 3,
+        "best_score": 1.35,
+        "mean_score": 1.2833333333333334,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 3,
+        "best_score": 1.95,
+        "mean_score": 1.5833333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 3,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xiaoshuziclwdj/1_10_20260516_043037_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 14,
+      "ranked_script_count": 14,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5,
+        "top3": 1.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 1.6428571428571428,
+      "median_rank": 1.5,
+      "mean_system_judge_score": 3.107142857142857,
+      "min_system_judge_score": 1.35,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.642857142857143,
+        "event_match": 2.857142857142857,
+        "scene_match": 3.4285714285714284,
+        "tone_match": 2.857142857142857,
+        "editing_suitability": 2.9285714285714284
+      },
+      "mean_gap_to_judge_best": 0.18214285714285713,
+      "system_score_rate": {
+        "ge_4_0": 0.35714285714285715,
+        "ge_4_5": 0.14285714285714285
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 0.42857142857142855,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.35714285714285715
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.21428571428571427,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.14285714285714285
+        }
+      },
+      "recall": {
+        "top1": 0.5,
+        "top3": 0.9047619047619048,
+        "top5": 1.0,
+        "top10": null,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.9496073412416691,
+        "top3": 0.9669744557761578,
+        "top5": 0.9833182070636051,
+        "top10": 0.9833182070636051,
+        "top20": 0.9833182070636051
+      },
+      "max_top_matches": 5
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "残疾男人不仅要哥嫂的米面油，甚至连嫂子的结婚戒指都不放过",
+        "episode_target": 3,
+        "n_candidates": 5,
+        "system_segment_id": 5,
+        "system_episode": 3,
+        "system_source_score": 0.65625,
+        "system_status": "success",
+        "system_top_matches_count": 5,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.0,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8955223880597015,
+          "top3": 0.9317882992949298,
+          "top5": 0.9736944658571872,
+          "top10": 0.9736944658571872,
+          "top20": 0.9736944658571872
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "面对弟弟的无理要求，老曹起初还试图守住底线，表示那是妻子买的结婚纪念礼物",
+        "episode_target": 3,
+        "n_candidates": 5,
+        "system_segment_id": 4,
+        "system_episode": 3,
+        "system_source_score": 0.482422,
+        "system_status": "success",
+        "system_top_matches_count": 5,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 3,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "可经不住弟弟的软磨硬泡，毫无原则的老曹最终还是妥协，将戒指借了出去",
+        "episode_target": 4,
+        "n_candidates": 5,
+        "system_segment_id": 1,
+        "system_episode": 4,
+        "system_source_score": 0.071777,
+        "system_status": "success",
+        "system_top_matches_count": 5,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.55,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.15,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7553191489361701,
+          "top3": 0.8476256127328966,
+          "top5": 0.9239772494804666,
+          "top10": 0.9239772494804666,
+          "top20": 0.9239772494804666
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "这仅仅是个开始，没过几天，小曹又以租房漏雨为借口，强行搬进了哥嫂家的空房间",
+        "episode_target": 5,
+        "n_candidates": 5,
+        "system_segment_id": 3,
+        "system_episode": 5,
+        "system_source_score": 0.589844,
+        "system_status": "success",
+        "system_top_matches_count": 5,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 4,
+        "judge_best_episode": 5,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.6,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8421052631578948,
+          "top3": 0.967525597176833,
+          "top5": 0.9724754833284599,
+          "top10": 0.9724754833284599,
+          "top20": 0.9724754833284599
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "妻子阿芝强烈反对，直言这日子没法过了，但老曹依然选择无底线地纵容",
+        "episode_target": 6,
+        "n_candidates": 4,
+        "system_segment_id": 2,
+        "system_episode": 6,
+        "system_source_score": 0.421875,
+        "system_status": "success",
+        "system_top_matches_count": 4,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.45,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.937410925932548,
+          "top5": 0.9809326206559528,
+          "top10": 0.9809326206559528,
+          "top20": 0.9809326206559528
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "住进来的小曹变本加厉，竟拿出一份去年的旧体检报告，道德绑架哥哥掏五万块钱给他治腿",
+        "episode_target": 9,
+        "n_candidates": 5,
+        "system_segment_id": 2,
+        "system_episode": 9,
+        "system_source_score": 0.796875,
+        "system_status": "success",
+        "system_top_matches_count": 5,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 9,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.96,
+          "top3": 0.9166068526716922,
+          "top5": 0.978689986511094,
+          "top10": 0.978689986511094,
+          "top20": 0.978689986511094
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "老曹无奈之下先凑了两万块钱给他",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.061768,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "然而令人大跌眼镜的是，小曹转头就用这笔所谓的治腿钱，给自己换了一部最新款的智能手机",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.445312,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "小曹的贪婪如同无底洞，后来甚至发展到持刀威胁哥嫂的地步",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.000805,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8709677419354839,
+          "top3": 0.9760091247851974,
+          "top5": 0.9760091247851974,
+          "top10": 0.9760091247851974,
+          "top20": 0.9760091247851974
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "老曹的无限度纵容彻底摧毁了这个家，心灰意冷的阿芝果断选择离婚",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.001205,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "最终，小曹如愿以偿地分走了老曹的半套房产",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.001984,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.05,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9705882352941176,
+          "top3": 0.9791139187046198,
+          "top5": 0.9791139187046198,
+          "top10": 0.9791139187046198,
+          "top20": 0.9791139187046198
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "就在他以为走上人生巅峰，大摇大摆走出家门时",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 2,
+        "system_episode": 10,
+        "system_source_score": 0.000278,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.65,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9909924635350125,
+          "top5": 0.9909924635350125,
+          "top10": 0.9909924635350125,
+          "top20": 0.9909924635350125
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "几个凶神恶煞的男人突然冲出来",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 3,
+        "system_episode": 10,
+        "system_source_score": 0.000553,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.35,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9905695860324801,
+          "top5": 0.9905695860324801,
+          "top10": 0.9905695860324801,
+          "top20": 0.9905695860324801
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "将他死死按在墙角",
+        "episode_target": 10,
+        "n_candidates": 3,
+        "system_segment_id": 3,
+        "system_episode": 10,
+        "system_source_score": 0.000488,
+        "system_status": "success",
+        "system_top_matches_count": 3,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": null,
+          "top10": null,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 1.0,
+          "top20": 1.0
+        },
+        "diagnosis": "命中但上限不足"
+      }
+    ]
+  }
+}

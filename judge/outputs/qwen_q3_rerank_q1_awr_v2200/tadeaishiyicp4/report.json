@@ -1,0 +1,1361 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "tadeaishiyicp4",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/tadeaishiyicp4/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/tadeaishiyicp4/1_10_20260519_095402_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 431,
+    "script_count": 17,
+    "mean": 2.0908352668213457,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 901.1500000000005,
+    "dimension_sums": {
+      "entity_match": 1257.0,
+      "event_match": 718.0,
+      "scene_match": 950.0,
+      "tone_match": 869.0,
+      "editing_suitability": 746.0
+    },
+    "dimension_counts": {
+      "entity_match": 431,
+      "event_match": 431,
+      "scene_match": 431,
+      "tone_match": 431,
+      "editing_suitability": 431
+    },
+    "dimension_means": {
+      "entity_match": 2.9164733178654294,
+      "event_match": 1.665893271461717,
+      "scene_match": 2.2041763341067284,
+      "tone_match": 2.0162412993039442,
+      "editing_suitability": 1.7308584686774942
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 52,
+        "total": 431,
+        "rate": 0.12064965197215777
+      },
+      "ge_4_5": {
+        "count": 23,
+        "total": 431,
+        "rate": 0.05336426914153132
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.12064965197215777,
+      "ge_4_5": 0.05336426914153132
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 49,
+        "best_score": 4.4,
+        "mean_score": 1.804081632653061,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 49,
+            "rate": 0.10204081632653061
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 49,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.10204081632653061,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 27,
+        "best_score": 4.4,
+        "mean_score": 2.3462962962962965,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 27,
+            "rate": 0.1111111111111111
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1111111111111111,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 27,
+        "best_score": 4.25,
+        "mean_score": 2.3703703703703702,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 27,
+            "rate": 0.14814814814814814
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14814814814814814,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 16,
+        "best_score": 4.55,
+        "mean_score": 2.975,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 16,
+            "rate": 0.25
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 16,
+            "rate": 0.0625
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.25,
+          "ge_4_5": 0.0625
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 33,
+        "best_score": 3.3,
+        "mean_score": 1.496969696969697,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 33,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 13,
+        "best_score": 4.2,
+        "mean_score": 2.169230769230769,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 13,
+            "rate": 0.07692307692307693
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07692307692307693,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 36,
+        "best_score": 5.0,
+        "mean_score": 2.8055555555555554,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 10,
+            "total": 36,
+            "rate": 0.2777777777777778
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 36,
+            "rate": 0.1388888888888889
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2777777777777778,
+          "ge_4_5": 0.1388888888888889
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 36,
+        "best_score": 4.2,
+        "mean_score": 1.9527777777777777,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 36,
+            "rate": 0.05555555555555555
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 36,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05555555555555555,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 36,
+        "best_score": 4.85,
+        "mean_score": 2.0708333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 36,
+            "rate": 0.08333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 36,
+            "rate": 0.027777777777777776
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.08333333333333333,
+          "ge_4_5": 0.027777777777777776
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 19,
+        "best_score": 5.0,
+        "mean_score": 3.2263157894736842,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 19,
+            "rate": 0.47368421052631576
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 19,
+            "rate": 0.3157894736842105
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.47368421052631576,
+          "ge_4_5": 0.3157894736842105
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 19,
+        "best_score": 5.0,
+        "mean_score": 2.6210526315789475,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 19,
+            "rate": 0.21052631578947367
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 19,
+            "rate": 0.21052631578947367
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21052631578947367,
+          "ge_4_5": 0.21052631578947367
+        }
+      },
+      {
+        "segment_sequence": 12,
+        "n_candidates": 19,
+        "best_score": 1.9,
+        "mean_score": 1.4710526315789474,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 13,
+        "n_candidates": 11,
+        "best_score": 2.05,
+        "mean_score": 1.3363636363636364,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 14,
+        "n_candidates": 33,
+        "best_score": 4.55,
+        "mean_score": 1.8424242424242425,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 33,
+            "rate": 0.030303030303030304
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.030303030303030304,
+          "ge_4_5": 0.030303030303030304
+        }
+      },
+      {
+        "segment_sequence": 15,
+        "n_candidates": 19,
+        "best_score": 2.75,
+        "mean_score": 1.3210526315789473,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 16,
+        "n_candidates": 19,
+        "best_score": 5.0,
+        "mean_score": 1.9263157894736842,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 19,
+            "rate": 0.21052631578947367
+          },
+          "ge_4_5": {
+            "count": 3,
+            "total": 19,
+            "rate": 0.15789473684210525
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.21052631578947367,
+          "ge_4_5": 0.15789473684210525
+        }
+      },
+      {
+        "segment_sequence": 17,
+        "n_candidates": 19,
+        "best_score": 4.7,
+        "mean_score": 2.0052631578947366,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.10526315789473684,
+          "ge_4_5": 0.10526315789473684
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/tadeaishiyicp4/1_10_20260519_095402_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 17,
+      "ranked_script_count": 17,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.17647058823529413,
+        "top3": 0.7647058823529411,
+        "top5": 0.8235294117647058,
+        "top10": 0.9411764705882353,
+        "top20": 1.0
+      },
+      "mean_rank": 3.3529411764705883,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.611764705882353,
+      "min_system_judge_score": 1.65,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.411764705882353,
+        "event_match": 3.1176470588235294,
+        "scene_match": 3.2941176470588234,
+        "tone_match": 3.8823529411764706,
+        "editing_suitability": 3.2941176470588234
+      },
+      "mean_gap_to_judge_best": 0.5117647058823529,
+      "system_score_rate": {
+        "ge_4_0": 0.5294117647058824,
+        "ge_4_5": 0.29411764705882354
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 13,
+          "scripts_with_any_rate": 0.7647058823529411,
+          "system_best_score_count": 9,
+          "system_best_score_rate": 0.5294117647058824
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 8,
+          "scripts_with_any_rate": 0.47058823529411764,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.29411764705882354
+        }
+      },
+      "recall": {
+        "top1": 0.17647058823529413,
+        "top3": 0.6274509803921569,
+        "top5": 0.6352941176470588,
+        "top10": 0.711764705882353,
+        "top20": 0.8
+      },
+      "ndcg": {
+        "top1": 0.8740801088157821,
+        "top3": 0.8870804579290285,
+        "top5": 0.8971072215948931,
+        "top10": 0.913862661481173,
+        "top20": 0.9471028138525969
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "男人挖出心脏拯救挚爱，医生却宣告了女人的死讯",
+        "episode_target": 1,
+        "n_candidates": 49,
+        "system_segment_id": 17,
+        "system_episode": 1,
+        "system_source_score": 0.5,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8821846572702904,
+          "top5": 0.8513260589534992,
+          "top10": 0.8998459953737455,
+          "top20": 0.940839883611929
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "为了活下去，他只能换上一颗极其脆弱的机械心脏",
+        "episode_target": 3,
+        "n_candidates": 27,
+        "system_segment_id": 19,
+        "system_episode": 3,
+        "system_source_score": 0.605469,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9978884774685369,
+          "top5": 0.997523013825256,
+          "top10": 0.9493244089450588,
+          "top20": 0.9716151392052169
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "七年来，他守着墓碑痛不欲生，甚至不顾机械心脏的极限，执意要替死去的未婚妻去西藏看雪山",
+        "episode_target": 3,
+        "n_candidates": 27,
+        "system_segment_id": 22,
+        "system_episode": 3,
+        "system_source_score": 0.023682,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.15,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 3,
+        "judge_best_score": 4.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.9764705882352942,
+          "top3": 0.794886197532467,
+          "top5": 0.7203765459974951,
+          "top10": 0.8402595500849305,
+          "top20": 0.9122369406905881
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "可就在这时，一个长相酷似前女友的豪门千金突然出现了",
+        "episode_target": 2,
+        "n_candidates": 16,
+        "system_segment_id": 12,
+        "system_episode": 2,
+        "system_source_score": 0.714844,
+        "system_status": "success",
+        "system_top_matches_count": 16,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 3.45,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.1,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7582417582417583,
+          "top3": 0.7072759024438815,
+          "top5": 0.7571935648903516,
+          "top10": 0.869105239161059,
+          "top20": 0.9161941478490759
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "不仅容貌一样，甚至连身上的胎记都分毫不差",
+        "episode_target": 5,
+        "n_candidates": 33,
+        "system_segment_id": 7,
+        "system_episode": 5,
+        "system_source_score": 0.386719,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.45,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 24,
+        "judge_best_episode": 5,
+        "judge_best_score": 3.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.7424242424242425,
+          "top3": 0.7779609235967059,
+          "top5": 0.872628991089171,
+          "top10": 0.8719135717000277,
+          "top20": 0.9269251955053892
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "男人故意回到曾经的出租屋试探，没想到女人竟熟练地用旧钥匙打开了房门",
+        "episode_target": 6,
+        "n_candidates": 13,
+        "system_segment_id": 1,
+        "system_episode": 6,
+        "system_source_score": 0.141602,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9170336490084183,
+          "top5": 0.9562779090125816,
+          "top10": 0.9819061567719143,
+          "top20": 0.9838997979428333
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "原来她根本没有死，而是用一场假死骗了男人整整七年",
+        "episode_target": 7,
+        "n_candidates": 36,
+        "system_segment_id": 3,
+        "system_episode": 7,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 7,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 10,
+          "ge_4_5": 5
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 0.6,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.97,
+          "top3": 0.9928469305253254,
+          "top5": 0.9371745605103327,
+          "top10": 0.9162822433542045,
+          "top20": 0.9138053748100508
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "男人愤怒地质问着真相，却不知道女人正面临着家族的残酷逼迫",
+        "episode_target": 7,
+        "n_candidates": 36,
+        "system_segment_id": 9,
+        "system_episode": 7,
+        "system_source_score": 0.108398,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.3,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.9,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.5476190476190476,
+          "top3": 0.7397631892859328,
+          "top5": 0.7741274152222963,
+          "top10": 0.8442968947016869,
+          "top20": 0.8660127875577017
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "为了保护男人，女人只能被迫答应与南省顶级权贵订婚",
+        "episode_target": 7,
+        "n_candidates": 36,
+        "system_segment_id": 13,
+        "system_episode": 7,
+        "system_source_score": 0.026733,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.95,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.65
+        },
+        "ndcg": {
+          "top1": 0.8144329896907218,
+          "top3": 0.956985805026169,
+          "top5": 0.8712100802559274,
+          "top10": 0.8361351752624933,
+          "top20": 0.9113873356985249
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "订婚宴上，男人带着一束廉价的栀子花前去作最后的告别",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 1,
+        "system_episode": 10,
+        "system_source_score": 0.789062,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9400000000000001,
+          "top3": 0.9534226286966814,
+          "top5": 0.9641168354646936,
+          "top10": 0.9183529781864916,
+          "top20": 0.9798667673757971
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 11,
+        "script_text": "却遭到权贵大少的百般羞辱，对方甚至要把他的花当做垃圾扔掉",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 14,
+        "system_episode": 10,
+        "system_source_score": 0.722656,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8881492843344514,
+          "top5": 0.9100439492027795,
+          "top10": 0.9531510156333071,
+          "top20": 0.9717705397034778
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 12,
+        "script_text": "剧烈的情绪波动，让男人脆弱的机械心脏瞬间停止了跳动",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.002808,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.65,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 15,
+        "judge_best_episode": 10,
+        "judge_best_score": 1.9,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.868421052631579,
+          "top3": 0.9267821276414835,
+          "top5": 0.9094053981613174,
+          "top10": 0.9134988312927504,
+          "top20": 0.9691215290442893
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 13,
+        "script_text": "危急关头，一直默默深爱着男人的朋友沈芊芊，竟选择了牺牲自己来换取男人的重生",
+        "episode_target": 4,
+        "n_candidates": 11,
+        "system_segment_id": 9,
+        "system_episode": 4,
+        "system_source_score": 0.003937,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 4,
+        "judge_best_score": 2.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.951219512195122,
+          "top3": 0.9882499830749716,
+          "top5": 0.9867574429836696,
+          "top10": 0.9821770548318477,
+          "top20": 0.9905790540941054
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 14,
+        "script_text": "男人再次醒来，经历了失忆与恢复后，面对痛哭流涕前来追悔的女人，他的眼中只剩下无尽的冷漠",
+        "episode_target": 8,
+        "n_candidates": 33,
+        "system_segment_id": 2,
+        "system_episode": 8,
+        "system_source_score": 0.079102,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 11,
+        "system_judge_score": 2.1,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.45,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.46153846153846156,
+          "top3": 0.6569935720933202,
+          "top5": 0.8066086256627555,
+          "top10": 0.8532785283154228,
+          "top20": 0.894003042822511
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 15,
+        "script_text": "然而就在这时，医生的一份绝密警告却揭开了一个更恐怖的真相",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.211914,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.45,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.890909090909091,
+          "top3": 0.97782648414825,
+          "top5": 0.9820015450639589,
+          "top10": 0.9855111827428092,
+          "top20": 0.9885511383204069
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 16,
+        "script_text": "医生明确表示，如果给女人使用人工心脏，将面临极大的排异和停转风险",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.96875,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 16,
+        "judge_best_episode": 10,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 3
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.97,
+          "top3": 0.9591508749918174,
+          "top5": 0.9790779850807051,
+          "top10": 0.968867415533532,
+          "top20": 0.9810758048601788
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 17,
+        "script_text": "所有人这才猛然惊觉，既然女人体内不能用人工心脏，那当年男人亲手捐出的那颗鲜活心脏，究竟去了哪里",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 15,
+        "system_episode": 10,
+        "system_source_score": 0.143555,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.55,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9680851063829786,
+          "top3": 0.9629670976547811,
+          "top5": 0.9749728457363915,
+          "top10": 0.9517590032886596,
+          "top20": 0.9828633564020702
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

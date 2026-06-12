@@ -1,0 +1,485 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:48:38",
+  "canonical_variant": "canonical",
+  "dj": "buxi5",
+  "variant": "qwen_b1_q1_rerank_q1",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/buxi5/annotation_20260508_032425",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/buxi5/1_15_20260416_091144_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 138,
+    "script_count": 5,
+    "mean": 1.7068840579710145,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 235.54999999999993,
+    "dimension_sums": {
+      "entity_match": 313.0,
+      "event_match": 201.0,
+      "scene_match": 244.0,
+      "tone_match": 223.0,
+      "editing_suitability": 203.0
+    },
+    "dimension_counts": {
+      "entity_match": 138,
+      "event_match": 138,
+      "scene_match": 138,
+      "tone_match": 138,
+      "editing_suitability": 138
+    },
+    "dimension_means": {
+      "entity_match": 2.2681159420289854,
+      "event_match": 1.4565217391304348,
+      "scene_match": 1.7681159420289856,
+      "tone_match": 1.6159420289855073,
+      "editing_suitability": 1.4710144927536233
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 8,
+        "total": 138,
+        "rate": 0.057971014492753624
+      },
+      "ge_4_5": {
+        "count": 7,
+        "total": 138,
+        "rate": 0.050724637681159424
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.057971014492753624,
+      "ge_4_5": 0.050724637681159424
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 30,
+        "best_score": 2.85,
+        "mean_score": 1.5033333333333332,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 27,
+        "best_score": 4.7,
+        "mean_score": 1.825925925925926,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 27,
+            "rate": 0.07407407407407407
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 27,
+            "rate": 0.037037037037037035
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.07407407407407407,
+          "ge_4_5": 0.037037037037037035
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 27,
+        "best_score": 5.0,
+        "mean_score": 2.462962962962963,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 6,
+            "total": 27,
+            "rate": 0.2222222222222222
+          },
+          "ge_4_5": {
+            "count": 6,
+            "total": 27,
+            "rate": 0.2222222222222222
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2222222222222222,
+          "ge_4_5": 0.2222222222222222
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 27,
+        "best_score": 3.95,
+        "mean_score": 1.4481481481481482,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 27,
+        "best_score": 3.75,
+        "mean_score": 1.3166666666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 27,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/buxi5/1_15_20260416_091144_structured_qwen_b1_q1_rerank_q1.json",
+    "summary": {
+      "script_count": 5,
+      "ranked_script_count": 5,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.2,
+        "top3": 0.8,
+        "top5": 0.8,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 3.2,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.34,
+      "min_system_judge_score": 1.6,
+      "max_system_judge_score": 4.85,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.0,
+        "event_match": 3.0,
+        "scene_match": 3.4,
+        "tone_match": 3.0,
+        "editing_suitability": 3.8
+      },
+      "mean_gap_to_judge_best": 0.7100000000000001,
+      "system_score_rate": {
+        "ge_4_0": 0.4,
+        "ge_4_5": 0.2
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.4,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.4
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.4,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.2
+        }
+      },
+      "recall": {
+        "top1": 0.2,
+        "top3": 0.4666666666666666,
+        "top5": 0.48,
+        "top10": 0.7,
+        "top20": 0.81
+      },
+      "ndcg": {
+        "top1": 0.8151395712550971,
+        "top3": 0.7532834905598074,
+        "top5": 0.784542974166952,
+        "top10": 0.8726010031824738,
+        "top20": 0.9187466395648621
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "老人闭关三千年，却被施工队意外挖出",
+        "episode_target": 1,
+        "n_candidates": 30,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.310547,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 2.3,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.85,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.8070175438596491,
+          "top3": 0.6846485202966139,
+          "top5": 0.7932803836660561,
+          "top10": 0.8726674088522295,
+          "top20": 0.9223059756719236
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "为了报答曾孙三年的悉心照料，老人随手掏出一张泛黄的房契",
+        "episode_target": 2,
+        "n_candidates": 27,
+        "system_segment_id": 3,
+        "system_episode": 2,
+        "system_source_score": 0.283203,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.2,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.5,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.8936170212765957,
+          "top3": 0.9626213770400335,
+          "top5": 0.8847488209041683,
+          "top10": 0.8777841693925804,
+          "top20": 0.957149771653146
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "他声称这是当年溥仪送的四合院",
+        "episode_target": 2,
+        "n_candidates": 27,
+        "system_segment_id": 9,
+        "system_episode": 2,
+        "system_source_score": 0.15625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.85,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.15,
+        "high_score_counts": {
+          "ge_4_0": 6,
+          "ge_4_5": 6
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.97,
+          "top3": 0.8160346984259449,
+          "top5": 0.7973014486893895,
+          "top10": 0.9077651965082221,
+          "top20": 0.9370279248623972
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "曾孙半信半疑，找来当班长的女同学帮忙鉴定",
+        "episode_target": 2,
+        "n_candidates": 27,
+        "system_segment_id": 23,
+        "system_episode": 2,
+        "system_source_score": 0.417969,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.6,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 2.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.4050632911392405,
+          "top3": 0.5639085655190307,
+          "top5": 0.7328967074463065,
+          "top10": 0.8141121667380952,
+          "top20": 0.8624705045434748
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "没成想，这占地六万平的亲王府，如今竟变成了人民公园",
+        "episode_target": 2,
+        "n_candidates": 27,
+        "system_segment_id": 11,
+        "system_episode": 2,
+        "system_source_score": 0.582031,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.75,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 2,
+        "judge_best_score": 3.75,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.7392042915174136,
+          "top5": 0.7144875101288394,
+          "top10": 0.8906760744212416,
+          "top20": 0.9147790210933693
+        },
+        "diagnosis": "命中但上限不足"
+      }
+    ]
+  }
+}

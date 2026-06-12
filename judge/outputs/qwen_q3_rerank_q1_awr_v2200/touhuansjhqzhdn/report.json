@@ -1,0 +1,777 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "touhuansjhqzhdn",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/touhuansjhqzhdn/annotation_20260520_g2",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/touhuansjhqzhdn/1_10_20260515_232155_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 202,
+    "script_count": 9,
+    "mean": 2.514356435643564,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 507.8999999999999,
+    "dimension_sums": {
+      "entity_match": 616.0,
+      "event_match": 365.0,
+      "scene_match": 770.0,
+      "tone_match": 482.0,
+      "editing_suitability": 392.0
+    },
+    "dimension_counts": {
+      "entity_match": 202,
+      "event_match": 202,
+      "scene_match": 202,
+      "tone_match": 202,
+      "editing_suitability": 202
+    },
+    "dimension_means": {
+      "entity_match": 3.0495049504950495,
+      "event_match": 1.806930693069307,
+      "scene_match": 3.8118811881188117,
+      "tone_match": 2.386138613861386,
+      "editing_suitability": 1.9405940594059405
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 23,
+        "total": 202,
+        "rate": 0.11386138613861387
+      },
+      "ge_4_5": {
+        "count": 7,
+        "total": 202,
+        "rate": 0.034653465346534656
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.11386138613861387,
+      "ge_4_5": 0.034653465346534656
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 22,
+        "best_score": 4.7,
+        "mean_score": 3.134090909090909,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 8,
+            "total": 22,
+            "rate": 0.36363636363636365
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 22,
+            "rate": 0.09090909090909091
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.36363636363636365,
+          "ge_4_5": 0.09090909090909091
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 22,
+        "best_score": 3.35,
+        "mean_score": 1.9068181818181817,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 22,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 22,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 22,
+        "best_score": 3.35,
+        "mean_score": 1.9068181818181817,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 22,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 22,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 26,
+        "best_score": 5.0,
+        "mean_score": 2.5615384615384613,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 26,
+            "rate": 0.15384615384615385
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 26,
+            "rate": 0.15384615384615385
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15384615384615385,
+          "ge_4_5": 0.15384615384615385
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 22,
+        "best_score": 5.0,
+        "mean_score": 2.915909090909091,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 22,
+            "rate": 0.22727272727272727
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.22727272727272727,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 25,
+        "best_score": 4.1,
+        "mean_score": 2.9939999999999998,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 25,
+            "rate": 0.12
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.12,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 28,
+        "best_score": 4.15,
+        "mean_score": 2.517857142857143,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 28,
+            "rate": 0.03571428571428571
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 28,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03571428571428571,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 18,
+        "best_score": 4.2,
+        "mean_score": 2.6527777777777777,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 18,
+            "rate": 0.1111111111111111
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.1111111111111111,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 17,
+        "best_score": 3.35,
+        "mean_score": 1.8352941176470587,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 17,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/touhuansjhqzhdn/1_10_20260515_232155_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 9,
+      "ranked_script_count": 9,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.1111111111111111,
+        "top3": 0.4444444444444444,
+        "top5": 0.6666666666666666,
+        "top10": 0.7777777777777778,
+        "top20": 1.0
+      },
+      "mean_rank": 6.111111111111111,
+      "median_rank": 5,
+      "mean_system_judge_score": 3.4055555555555554,
+      "min_system_judge_score": 1.5,
+      "max_system_judge_score": 5.0,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.5555555555555554,
+        "event_match": 3.111111111111111,
+        "scene_match": 4.333333333333333,
+        "tone_match": 3.111111111111111,
+        "editing_suitability": 3.3333333333333335
+      },
+      "mean_gap_to_judge_best": 0.7277777777777779,
+      "system_score_rate": {
+        "ge_4_0": 0.3333333333333333,
+        "ge_4_5": 0.2222222222222222
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 6,
+          "scripts_with_any_rate": 0.6666666666666666,
+          "system_best_score_count": 3,
+          "system_best_score_rate": 0.3333333333333333
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 3,
+          "scripts_with_any_rate": 0.3333333333333333,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.2222222222222222
+        }
+      },
+      "recall": {
+        "top1": 0.1111111111111111,
+        "top3": 0.4074074074074074,
+        "top5": 0.48888888888888893,
+        "top10": 0.6666666666666666,
+        "top20": 0.9214285714285714
+      },
+      "ndcg": {
+        "top1": 0.8113491806028215,
+        "top3": 0.8548664877347137,
+        "top5": 0.8570846174124578,
+        "top10": 0.8880977889936302,
+        "top20": 0.9413575691418278
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "八年销冠的刘洋，居然被公司要求替妻子的白月光秦泽游街，而理由，居然是他签下的5000万大单子是假的",
+        "episode_target": 1,
+        "n_candidates": 22,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.59375,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.2,
+        "high_score_counts": {
+          "ge_4_0": 8,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.9574468085106382,
+          "top3": 0.7571333501281549,
+          "top5": 0.7602806028027219,
+          "top10": 0.8564017632996841,
+          "top20": 0.9406205738173474
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "公司规定业绩垫底的员工要穿印着垫底王三个大字的衣服游街，这个垫底的，居然是丈夫的白月光",
+        "episode_target": 1,
+        "n_candidates": 22,
+        "system_segment_id": 4,
+        "system_episode": 1,
+        "system_source_score": 0.441406,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.8,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.7611940298507462,
+          "top3": 0.8269160857781772,
+          "top5": 0.795358092289393,
+          "top10": 0.8634015306635533,
+          "top20": 0.9352355477158296
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "秦泽在刘洋耳边说了一句，他就把数据给换了",
+        "episode_target": 1,
+        "n_candidates": 22,
+        "system_segment_id": 10,
+        "system_episode": 1,
+        "system_source_score": 0.722656,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.35,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9800908187870159,
+          "top5": 0.970571509300297,
+          "top10": 0.9618163055508783,
+          "top20": 0.9869642261111293
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "刘洋当场拒绝游街，怒提离职，理由是公司给他安排的活儿全是垫底王",
+        "episode_target": 2,
+        "n_candidates": 26,
+        "system_segment_id": 7,
+        "system_episode": 2,
+        "system_source_score": 0.496094,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 5.0,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9822350853420482,
+          "top5": 0.8562292289134597,
+          "top10": 0.8482854767119705,
+          "top20": 0.9503631560867026
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "李思琪以生孩子为条件让刘洋替秦泽游街，刘洋坚决拒绝，并提出离职",
+        "episode_target": 1,
+        "n_candidates": 22,
+        "system_segment_id": 17,
+        "system_episode": 1,
+        "system_source_score": 0.71875,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 22,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.7,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.9,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 0.86,
+          "top3": 0.9112845804803742,
+          "top5": 0.9588639261934196,
+          "top10": 0.9637895293041964,
+          "top20": 0.9680788946069757
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "刘洋拿出真实销售数据证明秦泽垫底，李思琪为维护秦泽开除秘书，刘洋要回工资卡",
+        "episode_target": 4,
+        "n_candidates": 25,
+        "system_segment_id": 9,
+        "system_episode": 4,
+        "system_source_score": 0.808594,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 3.0,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 4,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.1,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.8
+        },
+        "ndcg": {
+          "top1": 0.7317073170731708,
+          "top3": 0.8020165931340076,
+          "top5": 0.8587000465677371,
+          "top10": 0.8859971117632718,
+          "top20": 0.9006362714433821
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "妻子假意补偿实则送错尺码，逼刘洋把客户让给秦泽，刘洋在朋友圈发布离职消息导致客户解约，并果断提出离婚",
+        "episode_target": 7,
+        "n_candidates": 28,
+        "system_segment_id": 6,
+        "system_episode": 7,
+        "system_source_score": 0.746094,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 9,
+        "system_judge_score": 2.9,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.25,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.6,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.6987951807228915,
+          "top3": 0.7656035939015512,
+          "top5": 0.8162839562727597,
+          "top10": 0.8482950267687588,
+          "top20": 0.9181805650709585
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "白月光发照片炫耀，刘洋查流水发现8年工资被挥霍，收集证据找律师准备起诉",
+        "episode_target": 8,
+        "n_candidates": 18,
+        "system_segment_id": 16,
+        "system_episode": 8,
+        "system_source_score": 0.816406,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 3.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 8,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 0.65,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8452380952380951,
+          "top3": 0.9049573041463376,
+          "top5": 0.9117529328630573,
+          "top10": 0.9136406679904164,
+          "top20": 0.9582125702454046
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "妻子提拔白月光并逼刘洋签屈辱合同，刘洋强硬离职，随后56家公司总裁集体登场宣布解约，卡在妻子即将面临灭顶之灾的瞬间",
+        "episode_target": 9,
+        "n_candidates": 17,
+        "system_segment_id": 8,
+        "system_episode": 9,
+        "system_source_score": 0.024414,
+        "system_status": "success",
+        "system_top_matches_count": 17,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.5,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 9,
+        "judge_best_score": 3.35,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.5,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.44776119402985076,
+          "top3": 0.7635609779147565,
+          "top5": 0.7857212615092747,
+          "top10": 0.8512526888899423,
+          "top20": 0.9139263171787205
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

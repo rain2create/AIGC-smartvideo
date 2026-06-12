@@ -1,0 +1,544 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "shaguozhouyufnx",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/shaguozhouyufnx/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/shaguozhouyufnx/1_10_20260518_151121_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 258,
+    "script_count": 10,
+    "mean": 1.709108527131783,
+    "min": 1.0,
+    "max": 4.8,
+    "score_sum": 440.9499999999998,
+    "dimension_sums": {
+      "entity_match": 645.0,
+      "event_match": 353.0,
+      "scene_match": 503.0,
+      "tone_match": 388.0,
+      "editing_suitability": 336.0
+    },
+    "dimension_counts": {
+      "entity_match": 258,
+      "event_match": 258,
+      "scene_match": 258,
+      "tone_match": 258,
+      "editing_suitability": 258
+    },
+    "dimension_means": {
+      "entity_match": 2.5,
+      "event_match": 1.3682170542635659,
+      "scene_match": 1.949612403100775,
+      "tone_match": 1.503875968992248,
+      "editing_suitability": 1.302325581395349
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 10,
+        "total": 258,
+        "rate": 0.03875968992248062
+      },
+      "ge_4_5": {
+        "count": 2,
+        "total": 258,
+        "rate": 0.007751937984496124
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.03875968992248062,
+      "ge_4_5": 0.007751937984496124
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 22,
+        "best_score": 4.55,
+        "mean_score": 2.234090909090909,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 5,
+            "total": 22,
+            "rate": 0.22727272727272727
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.22727272727272727,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 32,
+        "best_score": 3.55,
+        "mean_score": 1.6265625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 32,
+        "best_score": 3.95,
+        "mean_score": 1.365625,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 32,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 22,
+        "best_score": 4.8,
+        "mean_score": 1.725,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 22,
+            "rate": 0.045454545454545456
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.045454545454545456,
+          "ge_4_5": 0.045454545454545456
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 25,
+        "best_score": 3.8,
+        "mean_score": 1.844,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 25,
+        "best_score": 2.9,
+        "mean_score": 1.584,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 25,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 26,
+        "best_score": 2.9,
+        "mean_score": 1.3615384615384616,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 26,
+        "best_score": 4.45,
+        "mean_score": 2.207692307692308,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 26,
+            "rate": 0.15384615384615385
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15384615384615385,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 24,
+        "best_score": 3.4,
+        "mean_score": 1.46875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 11,
+        "n_candidates": 24,
+        "best_score": 3.25,
+        "mean_score": 1.8479166666666667,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 24,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/shaguozhouyufnx/1_10_20260518_151121_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 4,
+      "ranked_script_count": 4,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.75,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 2.75,
+      "median_rank": 2.5,
+      "mean_system_judge_score": 3.0375,
+      "min_system_judge_score": 1.75,
+      "max_system_judge_score": 4.3,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.25,
+        "event_match": 2.25,
+        "scene_match": 3.75,
+        "tone_match": 3.0,
+        "editing_suitability": 2.0
+      },
+      "mean_gap_to_judge_best": 1.175,
+      "system_score_rate": {
+        "ge_4_0": 0.25,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.25
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.6666666666666666,
+        "top5": 0.75,
+        "top10": 0.675,
+        "top20": 0.775
+      },
+      "ndcg": {
+        "top1": 0.7215830890895519,
+        "top3": 0.8077978919987595,
+        "top5": 0.8506479230954527,
+        "top10": 0.8883278754386693,
+        "top20": 0.9063212240280056
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "天才厨师少女时知味，因为不愿贿赂经理被鼎食大酒店开除",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 8,
+        "system_episode": 2,
+        "system_source_score": 0.589844,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.3,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 12,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.25,
+        "high_score_counts": {
+          "ge_4_0": 5,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.945054945054945,
+          "top3": 0.965473274077051,
+          "top5": 0.9876224822700339,
+          "top10": 0.9722408486061187,
+          "top20": 0.9764013954603686
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "闺蜜带她去散心，在散心的过程中，她遇到了一位手持费南雪的帅气男模",
+        "episode_target": 1,
+        "n_candidates": 32,
+        "system_segment_id": 25,
+        "system_episode": 1,
+        "system_source_score": 0.433594,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 3.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 26,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.45,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.4,
+          "top20": 0.6
+        },
+        "ndcg": {
+          "top1": 0.8732394366197184,
+          "top3": 0.7988267279139498,
+          "top5": 0.8394351345108386,
+          "top10": 0.8484042532859405,
+          "top20": 0.8622552113476547
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "那男子名叫程燕，是鼎食幕后的大老板宴先生",
+        "episode_target": 1,
+        "n_candidates": 32,
+        "system_segment_id": 8,
+        "system_episode": 1,
+        "system_source_score": 0.486328,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 1.75,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 26,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.95,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 2.2,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.4430379746835443,
+          "top3": 0.6389298672725156,
+          "top5": 0.6712786130474551,
+          "top10": 0.8051496207626236,
+          "top20": 0.8459569971316067
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "在酒店的另一角，经理宣布张师傅为本月最佳厨师，这一决定激起了时知味的质疑",
+        "episode_target": 2,
+        "n_candidates": 22,
+        "system_segment_id": 9,
+        "system_episode": 2,
+        "system_source_score": 0.5625,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.0,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 8,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.8,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.625,
+          "top3": 0.8279616987315217,
+          "top5": 0.9042554625534832,
+          "top10": 0.9275167790999945,
+          "top20": 0.9406712921723923
+        },
+        "diagnosis": "接近，可优化"
+      }
+    ]
+  }
+}

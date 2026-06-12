@@ -1,0 +1,850 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "xiangyanhuonayang-wuBGM",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/xiangyanhuonayang-wuBGM/annotation_20260520_g5",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xiangyanhuonayang-wuBGM/1_10_20260516_091835_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 190,
+    "script_count": 10,
+    "mean": 1.8128947368421053,
+    "min": 1.0,
+    "max": 4.7,
+    "score_sum": 344.4499999999999,
+    "dimension_sums": {
+      "entity_match": 434.0,
+      "event_match": 258.0,
+      "scene_match": 419.0,
+      "tone_match": 366.0,
+      "editing_suitability": 259.0
+    },
+    "dimension_counts": {
+      "entity_match": 190,
+      "event_match": 190,
+      "scene_match": 190,
+      "tone_match": 190,
+      "editing_suitability": 190
+    },
+    "dimension_means": {
+      "entity_match": 2.2842105263157895,
+      "event_match": 1.3578947368421053,
+      "scene_match": 2.205263157894737,
+      "tone_match": 1.9263157894736842,
+      "editing_suitability": 1.3631578947368421
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 7,
+        "total": 190,
+        "rate": 0.03684210526315789
+      },
+      "ge_4_5": {
+        "count": 3,
+        "total": 190,
+        "rate": 0.015789473684210527
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.03684210526315789,
+      "ge_4_5": 0.015789473684210527
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 19,
+        "best_score": 3.1,
+        "mean_score": 1.8578947368421053,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 19,
+        "best_score": 4.2,
+        "mean_score": 1.7421052631578948,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 19,
+            "rate": 0.05263157894736842
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05263157894736842,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 19,
+        "best_score": 3.25,
+        "mean_score": 1.6026315789473684,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 19,
+        "best_score": 2.0,
+        "mean_score": 1.3736842105263158,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 19,
+        "best_score": 3.6,
+        "mean_score": 1.6263157894736842,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 19,
+        "best_score": 2.3,
+        "mean_score": 1.4473684210526316,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 19,
+        "best_score": 4.7,
+        "mean_score": 2.2394736842105263,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 19,
+            "rate": 0.15789473684210525
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 19,
+            "rate": 0.05263157894736842
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.15789473684210525,
+          "ge_4_5": 0.05263157894736842
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 19,
+        "best_score": 4.5,
+        "mean_score": 2.2973684210526315,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 19,
+            "rate": 0.10526315789473684
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.10526315789473684,
+          "ge_4_5": 0.10526315789473684
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 19,
+        "best_score": 4.1,
+        "mean_score": 1.8657894736842104,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 19,
+            "rate": 0.05263157894736842
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05263157894736842,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 10,
+        "n_candidates": 19,
+        "best_score": 3.05,
+        "mean_score": 2.0763157894736843,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 19,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/xiangyanhuonayang-wuBGM/1_10_20260516_091835_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 10,
+      "ranked_script_count": 10,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.4,
+        "top5": 0.6,
+        "top10": 0.9,
+        "top20": 1.0
+      },
+      "mean_rank": 5.7,
+      "median_rank": 4.0,
+      "mean_system_judge_score": 2.68,
+      "min_system_judge_score": 1.0,
+      "max_system_judge_score": 4.5,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.0,
+        "event_match": 2.1,
+        "scene_match": 3.5,
+        "tone_match": 2.9,
+        "editing_suitability": 2.0
+      },
+      "mean_gap_to_judge_best": 0.8,
+      "system_score_rate": {
+        "ge_4_0": 0.2,
+        "ge_4_5": 0.1
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.4,
+          "system_best_score_count": 2,
+          "system_best_score_rate": 0.2
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.2,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.1
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.5,
+        "top5": 0.62,
+        "top10": 0.7,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.7423525685032473,
+        "top3": 0.8420592588852723,
+        "top5": 0.8551392488289005,
+        "top10": 0.9058054716625019,
+        "top20": 0.9444331176424237
+      },
+      "max_top_matches": 19
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "阳光灿烂的下午，一个男人当着你的面，宣布要亲手处理你这个贱种",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 8,
+        "system_episode": 10,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.0,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 3.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 11,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.1,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.5,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6451612903225806,
+          "top3": 0.8642917240805355,
+          "top5": 0.8470615900799792,
+          "top10": 0.8319931269363188,
+          "top20": 0.9278974667219638
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "画面切至抢救线，齐先生下达死命令必须救活方先生",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 15,
+        "system_episode": 10,
+        "system_source_score": 0.882812,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.2,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.1,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7380952380952381,
+          "top3": 0.8520547131876457,
+          "top5": 0.8654471029276074,
+          "top10": 0.9251441197515686,
+          "top20": 0.9410346307808803
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "他命令医生全力以赴，仿佛方先生是他唯一的亲人",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 15,
+        "system_episode": 10,
+        "system_source_score": 0.632812,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.7,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7846153846153846,
+          "top3": 0.9227578511809958,
+          "top5": 0.9067370996326143,
+          "top10": 0.9522685206718245,
+          "top20": 0.9652872725409106
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "然而剧情急转直下，齐先生得知方先生出事后，竟因极度愧疚而选择吞药自杀",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 15,
+        "system_episode": 10,
+        "system_source_score": 0.036865,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 19,
+        "system_judge_score": 1.0,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5,
+          "top3": 0.681857719373278,
+          "top5": 0.7213672762344576,
+          "top10": 0.818939342993719,
+          "top20": 0.9029889610283541
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "当抢救人员拼尽全力将方先生从死亡线上拉回，齐先生却在手术室外结束了自己的生命",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 13,
+        "system_episode": 10,
+        "system_source_score": 0.318359,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 2.05,
+        "system_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.6,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.55,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.5694444444444444,
+          "top3": 0.7378378924913632,
+          "top5": 0.7723289642582752,
+          "top10": 0.8943736313645406,
+          "top20": 0.9157578143695179
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "更令人错愕的是，方先生在昏迷中竟然有余力，颤抖着打开手机，屏幕上亮起一个联系人：乔青龙",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.014954,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 8,
+        "system_judge_score": 1.4,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 1.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 19,
+        "judge_best_episode": 10,
+        "judge_best_score": 2.3,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 2.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.9,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6086956521739131,
+          "top3": 0.849250299964565,
+          "top5": 0.894620824092253,
+          "top10": 0.914607780884225,
+          "top20": 0.9509398597418112
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "他准备说出一个惊天的秘密，却因抢救而中断了这个重要的指令",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.589844,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 4.4,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.8,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.9361702127659575,
+          "top3": 0.8930245334776267,
+          "top5": 0.9209988506386574,
+          "top10": 0.9723624927049093,
+          "top20": 0.9748373351894505
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "就在方先生准备揭晓寻找乔青龙的终极目的——进行记忆清除手术",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 19,
+        "system_episode": 10,
+        "system_source_score": 0.78125,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 17,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8399551500351935,
+          "top5": 0.8404274713435229,
+          "top10": 0.9354891179129015,
+          "top20": 0.9549540583305461
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "画面切至手术室，医生正在进行一项神秘的手术",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 16,
+        "system_episode": 10,
+        "system_source_score": 0.214844,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 3.1,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.7560975609756099,
+          "top3": 0.8934270396322962,
+          "top5": 0.9392437347832855,
+          "top10": 0.941783445069009,
+          "top20": 0.9576833847165849
+        },
+        "diagnosis": "排序可优化"
+      },
+      {
+        "segment_sequence": 10,
+        "script_text": "然而镜头最后定格在方先生苍白的脸上，以及他紧握的右手——手机还握在手中，屏幕停留在乔青龙的联系人界面",
+        "episode_target": 10,
+        "n_candidates": 19,
+        "system_segment_id": 18,
+        "system_episode": 10,
+        "system_source_score": 0.052734,
+        "system_status": "success",
+        "system_top_matches_count": 19,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 2.7,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 3.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.35,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.8852459016393444,
+          "top3": 0.8861356654292235,
+          "top5": 0.8431595742983526,
+          "top10": 0.8710931383360028,
+          "top20": 0.9529503930042166
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}

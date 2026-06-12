@@ -1,0 +1,777 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:44:40",
+  "canonical_variant": "canonical",
+  "dj": "yinshishenchuzqk",
+  "variant": "qwen_q3_rerank_q1_dpo2000",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/yinshishenchuzqk/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yinshishenchuzqk/1_10_20260519_151332_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 279,
+    "script_count": 9,
+    "mean": 2.161827956989247,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 603.1500000000001,
+    "dimension_sums": {
+      "entity_match": 712.0,
+      "event_match": 454.0,
+      "scene_match": 868.0,
+      "tone_match": 585.0,
+      "editing_suitability": 481.0
+    },
+    "dimension_counts": {
+      "entity_match": 279,
+      "event_match": 279,
+      "scene_match": 279,
+      "tone_match": 279,
+      "editing_suitability": 279
+    },
+    "dimension_means": {
+      "entity_match": 2.5519713261648747,
+      "event_match": 1.6272401433691757,
+      "scene_match": 3.111111111111111,
+      "tone_match": 2.096774193548387,
+      "editing_suitability": 1.7240143369175627
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 39,
+        "total": 279,
+        "rate": 0.13978494623655913
+      },
+      "ge_4_5": {
+        "count": 15,
+        "total": 279,
+        "rate": 0.053763440860215055
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.13978494623655913,
+      "ge_4_5": 0.053763440860215055
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 53,
+        "best_score": 4.7,
+        "mean_score": 1.5962264150943397,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03773584905660377,
+          "ge_4_5": 0.03773584905660377
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 53,
+        "best_score": 5.0,
+        "mean_score": 1.8349056603773586,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 53,
+            "rate": 0.03773584905660377
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 53,
+            "rate": 0.018867924528301886
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03773584905660377,
+          "ge_4_5": 0.018867924528301886
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 26,
+        "best_score": 3.8,
+        "mean_score": 1.853846153846154,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 26,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 28,
+        "best_score": 4.7,
+        "mean_score": 3.4357142857142855,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 9,
+            "total": 28,
+            "rate": 0.32142857142857145
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 28,
+            "rate": 0.17857142857142858
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.32142857142857145,
+          "ge_4_5": 0.17857142857142858
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 28,
+        "best_score": 5.0,
+        "mean_score": 3.875,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 17,
+            "total": 28,
+            "rate": 0.6071428571428571
+          },
+          "ge_4_5": {
+            "count": 4,
+            "total": 28,
+            "rate": 0.14285714285714285
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.6071428571428571,
+          "ge_4_5": 0.14285714285714285
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 21,
+        "best_score": 4.7,
+        "mean_score": 2.557142857142857,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 21,
+            "rate": 0.19047619047619047
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 21,
+            "rate": 0.047619047619047616
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.19047619047619047,
+          "ge_4_5": 0.047619047619047616
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 30,
+        "best_score": 3.1,
+        "mean_score": 1.385,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 30,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 30,
+        "best_score": 4.8,
+        "mean_score": 1.6,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 30,
+            "rate": 0.03333333333333333
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 30,
+            "rate": 0.03333333333333333
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.03333333333333333,
+          "ge_4_5": 0.03333333333333333
+        }
+      },
+      {
+        "segment_sequence": 9,
+        "n_candidates": 10,
+        "best_score": 4.7,
+        "mean_score": 2.515,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 4,
+            "total": 10,
+            "rate": 0.4
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 10,
+            "rate": 0.1
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.4,
+          "ge_4_5": 0.1
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/yinshishenchuzqk/1_10_20260519_151332_structured_qwen_q3_rerank_q1_dpo2000.json",
+    "summary": {
+      "script_count": 9,
+      "ranked_script_count": 9,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.4444444444444444,
+        "top3": 0.5555555555555556,
+        "top5": 0.8888888888888888,
+        "top10": 0.8888888888888888,
+        "top20": 1.0
+      },
+      "mean_rank": 3.6666666666666665,
+      "median_rank": 2,
+      "mean_system_judge_score": 3.716666666666667,
+      "min_system_judge_score": 1.15,
+      "max_system_judge_score": 4.8,
+      "mean_system_dimension_scores": {
+        "entity_match": 4.0,
+        "event_match": 3.3333333333333335,
+        "scene_match": 4.111111111111111,
+        "tone_match": 3.7777777777777777,
+        "editing_suitability": 3.5555555555555554
+      },
+      "mean_gap_to_judge_best": 0.7833333333333333,
+      "system_score_rate": {
+        "ge_4_0": 0.5555555555555556,
+        "ge_4_5": 0.5555555555555556
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 7,
+          "scripts_with_any_rate": 0.7777777777777778,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.5555555555555556
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 7,
+          "scripts_with_any_rate": 0.7777777777777778,
+          "system_best_score_count": 5,
+          "system_best_score_rate": 0.5555555555555556
+        }
+      },
+      "recall": {
+        "top1": 0.4444444444444444,
+        "top3": 0.4074074074074074,
+        "top5": 0.4444444444444445,
+        "top10": 0.6888888888888889,
+        "top20": 0.8125
+      },
+      "ndcg": {
+        "top1": 0.806707004298667,
+        "top3": 0.8200880927078247,
+        "top5": 0.8033860913177147,
+        "top10": 0.8732853402788349,
+        "top20": 0.9175686958181704
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "国际餐饮协会主席皮特在龙威大酒店餐饮部闹事，威胁要让酒店破产",
+        "episode_target": 1,
+        "n_candidates": 53,
+        "system_segment_id": 11,
+        "system_episode": 1,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.15,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.5425531914893617,
+          "top3": 0.6161897510945115,
+          "top5": 0.6310522996684731,
+          "top10": 0.7868855529810777,
+          "top20": 0.8211226740553914
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "杜乘风在后厨打牌，完全不知前厅发生的闹剧",
+        "episode_target": 1,
+        "n_candidates": 53,
+        "system_segment_id": 35,
+        "system_episode": 1,
+        "system_source_score": 0.496094,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 5,
+        "system_judge_score": 3.35,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 7,
+        "judge_best_episode": 1,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.65,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": 0.7
+        },
+        "ndcg": {
+          "top1": 0.67,
+          "top3": 0.8582884299128691,
+          "top5": 0.8929769919214837,
+          "top10": 0.8761872836467202,
+          "top20": 0.8965804257253412
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "董事长将国宴交给女儿柳真真负责，她聘请了专门的西餐团队应对国宴",
+        "episode_target": 3,
+        "n_candidates": 26,
+        "system_segment_id": 14,
+        "system_episode": 3,
+        "system_source_score": 0.699219,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.8,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 3.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.7,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 0.7368421052631579,
+          "top3": 0.8461241044058518,
+          "top5": 0.818593664707873,
+          "top10": 0.8548995533515392,
+          "top20": 0.9157291493167371
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "柳真真拒绝嫁给杜乘风并前往后厨，看到杜乘风在国宴前夕仍玩游戏，一气之下宣布开除他",
+        "episode_target": 2,
+        "n_candidates": 28,
+        "system_segment_id": 5,
+        "system_episode": 2,
+        "system_source_score": 0.613281,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 9,
+          "ge_4_5": 5
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.7,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.892309733022245,
+          "top5": 0.9020815026386972,
+          "top10": 0.9173717162954541,
+          "top20": 0.9579716094294863
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "柳真真指责杜乘风后厨支出过高，甚至弄脏了酒店的百年高汤",
+        "episode_target": 2,
+        "n_candidates": 28,
+        "system_segment_id": 13,
+        "system_episode": 2,
+        "system_source_score": 0.523438,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 2,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 21,
+        "judge_best_episode": 2,
+        "judge_best_score": 5.0,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.3,
+        "high_score_counts": {
+          "ge_4_0": 17,
+          "ge_4_5": 4
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.5,
+          "top20": 0.9
+        },
+        "ndcg": {
+          "top1": 0.9400000000000001,
+          "top3": 0.9100980463471167,
+          "top5": 0.9222626064633244,
+          "top10": 0.9435300785728279,
+          "top20": 0.9677764939470276
+        },
+        "diagnosis": "接近，可优化"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "她任命西餐厨师冯宝坤为行政总厨，使用高汤调味料制作至尊佛跳墙，导致城主大人品尝后大怒，限时半小时重做",
+        "episode_target": 6,
+        "n_candidates": 21,
+        "system_segment_id": 1,
+        "system_episode": 6,
+        "system_source_score": 0.206055,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 6,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.2,
+          "top10": 0.7,
+          "top20": 0.95
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.8544305401105305,
+          "top5": 0.8074788983850175,
+          "top10": 0.8806072656023821,
+          "top20": 0.9478284068467318
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "就在这时，董事长乘车赶回龙威大酒店，途中遇到叶总停车救人",
+        "episode_target": 7,
+        "n_candidates": 30,
+        "system_segment_id": 4,
+        "system_episode": 7,
+        "system_source_score": 0.05835,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 14,
+        "system_judge_score": 1.15,
+        "system_dimension_scores": {
+          "entity_match": 1.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 14,
+        "judge_best_episode": 7,
+        "judge_best_score": 3.1,
+        "judge_best_dimension_scores": {
+          "entity_match": 2.0,
+          "event_match": 3.0,
+          "scene_match": 4.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 1.95,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.0,
+          "top10": 0.6,
+          "top20": 0.85
+        },
+        "ndcg": {
+          "top1": 0.3709677419354838,
+          "top3": 0.5146583255292329,
+          "top5": 0.5264583121665679,
+          "top10": 0.699145416634197,
+          "top20": 0.8138419555786959
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "叶总得知杜乘风被柳真真开除，感到震惊",
+        "episode_target": 7,
+        "n_candidates": 30,
+        "system_segment_id": 18,
+        "system_episode": 7,
+        "system_source_score": 0.585938,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.8,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 18,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.8,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 5.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.8,
+          "top20": 0.75
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9085114229876979,
+          "top5": 0.8447576442490519,
+          "top10": 0.9212140696262079,
+          "top20": 0.9575404216650142
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 9,
+        "script_text": "董事长回到酒店后，立即打电话命令柳真真挽回杜乘风，否则后果不堪设想",
+        "episode_target": 10,
+        "n_candidates": 10,
+        "system_segment_id": 9,
+        "system_episode": 10,
+        "system_source_score": 0.094238,
+        "system_status": "success",
+        "system_top_matches_count": 10,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.7,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 9,
+        "judge_best_episode": 10,
+        "judge_best_score": 4.7,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 5.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 4,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9801824809603668,
+          "top5": 0.8848129016589431,
+          "top10": 0.9797271257991079,
+          "top20": 0.9797271257991079
+        },
+        "diagnosis": "已命中高质量"
+      }
+    ]
+  }
+}

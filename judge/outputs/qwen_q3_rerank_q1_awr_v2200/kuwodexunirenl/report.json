@@ -1,0 +1,704 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-09T02:43:18",
+  "canonical_variant": "canonical",
+  "dj": "kuwodexunirenl",
+  "variant": "qwen_q3_rerank_q1_awr_v2200",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/kuwodexunirenl/annotation_20260520_g3",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/kuwodexunirenl/1_10_20260513_225050_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 113,
+    "script_count": 8,
+    "mean": 2.0752212389380533,
+    "min": 1.0,
+    "max": 4.5,
+    "score_sum": 234.50000000000009,
+    "dimension_sums": {
+      "entity_match": 364.0,
+      "event_match": 174.0,
+      "scene_match": 304.0,
+      "tone_match": 186.0,
+      "editing_suitability": 174.0
+    },
+    "dimension_counts": {
+      "entity_match": 113,
+      "event_match": 113,
+      "scene_match": 113,
+      "tone_match": 113,
+      "editing_suitability": 113
+    },
+    "dimension_means": {
+      "entity_match": 3.2212389380530975,
+      "event_match": 1.5398230088495575,
+      "scene_match": 2.690265486725664,
+      "tone_match": 1.6460176991150441,
+      "editing_suitability": 1.5398230088495575
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 7,
+        "total": 113,
+        "rate": 0.061946902654867256
+      },
+      "ge_4_5": {
+        "count": 3,
+        "total": 113,
+        "rate": 0.02654867256637168
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.061946902654867256,
+      "ge_4_5": 0.02654867256637168
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 15,
+        "best_score": 4.4,
+        "mean_score": 2.45,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 3,
+            "total": 15,
+            "rate": 0.2
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 15,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.2,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 14,
+        "best_score": 4.5,
+        "mean_score": 2.3607142857142858,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 2,
+            "total": 14,
+            "rate": 0.14285714285714285
+          },
+          "ge_4_5": {
+            "count": 2,
+            "total": 14,
+            "rate": 0.14285714285714285
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.14285714285714285,
+          "ge_4_5": 0.14285714285714285
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 12,
+        "best_score": 3.05,
+        "mean_score": 1.6833333333333333,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 12,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 11,
+        "best_score": 3.05,
+        "mean_score": 1.540909090909091,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 18,
+        "best_score": 4.15,
+        "mean_score": 2.111111111111111,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05555555555555555,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 11,
+        "best_score": 2.4,
+        "mean_score": 1.45,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 11,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 18,
+        "best_score": 4.5,
+        "mean_score": 2.552777777777778,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          },
+          "ge_4_5": {
+            "count": 1,
+            "total": 18,
+            "rate": 0.05555555555555555
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.05555555555555555,
+          "ge_4_5": 0.05555555555555555
+        }
+      },
+      {
+        "segment_sequence": 8,
+        "n_candidates": 14,
+        "best_score": 3.45,
+        "mean_score": 1.975,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 14,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/kuwodexunirenl/1_10_20260513_225050_structured_qwen_q3_rerank_q1_awr_v2200.json",
+    "summary": {
+      "script_count": 8,
+      "ranked_script_count": 8,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.5,
+        "top3": 0.625,
+        "top5": 0.75,
+        "top10": 0.875,
+        "top20": 1.0
+      },
+      "mean_rank": 3.75,
+      "median_rank": 2.0,
+      "mean_system_judge_score": 2.925,
+      "min_system_judge_score": 1.55,
+      "max_system_judge_score": 4.5,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.75,
+        "event_match": 2.625,
+        "scene_match": 3.25,
+        "tone_match": 2.5,
+        "editing_suitability": 2.75
+      },
+      "mean_gap_to_judge_best": 0.7625,
+      "system_score_rate": {
+        "ge_4_0": 0.125,
+        "ge_4_5": 0.125
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 4,
+          "scripts_with_any_rate": 0.5,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.125
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 2,
+          "scripts_with_any_rate": 0.25,
+          "system_best_score_count": 1,
+          "system_best_score_rate": 0.125
+        }
+      },
+      "recall": {
+        "top1": 0.5,
+        "top3": 0.5416666666666666,
+        "top5": 0.65,
+        "top10": 0.8,
+        "top20": null
+      },
+      "ndcg": {
+        "top1": 0.8052952339661676,
+        "top3": 0.8621263173231037,
+        "top5": 0.8741047506420366,
+        "top10": 0.914805654337789,
+        "top20": 0.9492166751629887
+      },
+      "max_top_matches": 18
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "曾经的屌丝沈小腾，被绿后意外拥有了首富系统，从此开始了他的人生逆袭之旅",
+        "episode_target": 2,
+        "n_candidates": 15,
+        "system_segment_id": 1,
+        "system_episode": 2,
+        "system_source_score": 0.644531,
+        "system_status": "success",
+        "system_top_matches_count": 15,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 6,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 2.0,
+          "editing_suitability": 4.0
+        },
+        "judge_best_segment_id": 13,
+        "judge_best_episode": 2,
+        "judge_best_score": 4.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 3.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 1.35,
+        "high_score_counts": {
+          "ge_4_0": 3,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6931818181818181,
+          "top3": 0.8722977513467197,
+          "top5": 0.9063310884123351,
+          "top10": 0.9081371824144958,
+          "top20": 0.9399398026192373
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "沈小腾用尽全力为张薇付出，却始终无法赢得她的真心",
+        "episode_target": 1,
+        "n_candidates": 14,
+        "system_segment_id": 5,
+        "system_episode": 1,
+        "system_source_score": 0.287109,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 4.5,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 1,
+        "judge_best_score": 4.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 2,
+          "ge_4_5": 2
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.4,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.835122328984965,
+          "top5": 0.8526109352647957,
+          "top10": 0.918974097113787,
+          "top20": 0.949579564633251
+        },
+        "diagnosis": "已命中高质量"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "在他几乎绝望的时候，意外激活的首富系统给了他第二次机会",
+        "episode_target": 3,
+        "n_candidates": 12,
+        "system_segment_id": 1,
+        "system_episode": 3,
+        "system_source_score": 0.109863,
+        "system_status": "success",
+        "system_top_matches_count": 12,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 3,
+        "judge_best_score": 3.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 3.0,
+          "scene_match": 2.0,
+          "tone_match": 3.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.6666666666666666,
+          "top5": 1.0,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9751182176297963,
+          "top5": 0.994880222044131,
+          "top10": 0.9596643569289336,
+          "top20": 0.9928826924601039
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 4,
+        "script_text": "然而，即使拥有了无尽的财富，他依然无法改变张薇的心意",
+        "episode_target": 4,
+        "n_candidates": 11,
+        "system_segment_id": 5,
+        "system_episode": 4,
+        "system_source_score": 0.001701,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.05,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 5,
+        "judge_best_episode": 4,
+        "judge_best_score": 3.05,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.888287348933208,
+          "top5": 0.8743520062331048,
+          "top10": 0.9220340506165075,
+          "top20": 0.9595503969851146
+        },
+        "diagnosis": "命中但上限不足"
+      },
+      {
+        "segment_sequence": 5,
+        "script_text": "最终，在医院的争吵中，两人彻底分手，沈小腾被赶出了家门",
+        "episode_target": 5,
+        "n_candidates": 18,
+        "system_segment_id": 4,
+        "system_episode": 5,
+        "system_source_score": 0.014038,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 2.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 5,
+        "judge_best_score": 4.15,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 4.0,
+          "scene_match": 2.0,
+          "tone_match": 5.0,
+          "editing_suitability": 4.0
+        },
+        "score_gap_to_judge_best": 1.6,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 0.7,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6144578313253011,
+          "top3": 0.8950791214168915,
+          "top5": 0.8756317664999058,
+          "top10": 0.9189257686907218,
+          "top20": 0.9470230985149161
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 6,
+        "script_text": "面对突如其来的打击，沈小腾并没有放弃",
+        "episode_target": 4,
+        "n_candidates": 11,
+        "system_segment_id": 3,
+        "system_episode": 4,
+        "system_source_score": 0.063477,
+        "system_status": "success",
+        "system_top_matches_count": 11,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 4,
+        "judge_best_score": 2.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 1.0,
+          "top5": 0.8,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6458333333333334,
+          "top3": 0.9244608337686622,
+          "top5": 0.9262293753229485,
+          "top10": 0.9544020938989107,
+          "top20": 0.9560448579000795
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 7,
+        "script_text": "他利用首富系统的隐藏功能，不仅实现了人生巅峰，还狠狠地打了那些曾经瞧不起他的人的脸",
+        "episode_target": 7,
+        "n_candidates": 18,
+        "system_segment_id": 8,
+        "system_episode": 7,
+        "system_source_score": 0.171875,
+        "system_status": "success",
+        "system_top_matches_count": 18,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 13,
+        "system_judge_score": 2.2,
+        "system_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 1.0,
+          "scene_match": 5.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 10,
+        "judge_best_episode": 7,
+        "judge_best_score": 4.5,
+        "judge_best_dimension_scores": {
+          "entity_match": 4.0,
+          "event_match": 4.0,
+          "scene_match": 5.0,
+          "tone_match": 5.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 2.3,
+        "high_score_counts": {
+          "ge_4_0": 1,
+          "ge_4_5": 1
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.0,
+          "top5": 0.2,
+          "top10": 0.6,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.48888888888888893,
+          "top3": 0.5801371899623009,
+          "top5": 0.6453431860367895,
+          "top10": 0.7937893853700988,
+          "top20": 0.8720457749706315
+        },
+        "diagnosis": "有好候选但错排"
+      },
+      {
+        "segment_sequence": 8,
+        "script_text": "他能否赢回张薇的芳心，让我们拭目以待",
+        "episode_target": 1,
+        "n_candidates": 14,
+        "system_segment_id": 1,
+        "system_episode": 1,
+        "system_source_score": 0.53125,
+        "system_status": "success",
+        "system_top_matches_count": 14,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 1,
+        "system_judge_score": 3.45,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.45,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 3.0,
+          "scene_match": 3.0,
+          "tone_match": 4.0,
+          "editing_suitability": 5.0
+        },
+        "score_gap_to_judge_best": 0.0,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 1.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.8,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 1.0,
+          "top3": 0.9265077465422865,
+          "top5": 0.917459425322283,
+          "top10": 0.9425182996688575,
+          "top20": 0.9766672132205757
+        },
+        "diagnosis": "命中但上限不足"
+      }
+    ]
+  }
+}

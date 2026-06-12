@@ -1,0 +1,427 @@
+{
+  "report_type": "canonical_variant_detail",
+  "generated_at": "2026-06-03T03:06:06",
+  "canonical_variant": "canonical",
+  "dj": "niepanchengfenu",
+  "variant": "qwen_q3_rerank_q1_sft_final",
+  "canonical_run": "/home/jovyan/data03/search_public/xby/smart_videoV6/judge/outputs/canonical/niepanchengfenu/annotation_20260520_g1",
+  "canonical_structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/niepanchengfenu/1_10_20260514_014901_structured.json",
+  "candidate_pool": {
+    "total_evaluations": 138,
+    "script_count": 7,
+    "mean": 1.978985507246377,
+    "min": 1.0,
+    "max": 5.0,
+    "score_sum": 273.1000000000001,
+    "dimension_sums": {
+      "entity_match": 418.0,
+      "event_match": 196.0,
+      "scene_match": 398.0,
+      "tone_match": 208.0,
+      "editing_suitability": 190.0
+    },
+    "dimension_counts": {
+      "entity_match": 138,
+      "event_match": 138,
+      "scene_match": 138,
+      "tone_match": 138,
+      "editing_suitability": 138
+    },
+    "dimension_means": {
+      "entity_match": 3.028985507246377,
+      "event_match": 1.4202898550724639,
+      "scene_match": 2.8840579710144927,
+      "tone_match": 1.5072463768115942,
+      "editing_suitability": 1.3768115942028984
+    },
+    "score_threshold_stats": {
+      "ge_4_0": {
+        "count": 7,
+        "total": 138,
+        "rate": 0.050724637681159424
+      },
+      "ge_4_5": {
+        "count": 5,
+        "total": 138,
+        "rate": 0.036231884057971016
+      }
+    },
+    "score_rate": {
+      "ge_4_0": 0.050724637681159424,
+      "ge_4_5": 0.036231884057971016
+    },
+    "per_script": [
+      {
+        "segment_sequence": 1,
+        "n_candidates": 13,
+        "best_score": 3.25,
+        "mean_score": 1.8384615384615384,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 2,
+        "n_candidates": 13,
+        "best_score": 2.4,
+        "mean_score": 1.6653846153846155,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 13,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 3,
+        "n_candidates": 20,
+        "best_score": 3.55,
+        "mean_score": 2.3525,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 20,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 4,
+        "n_candidates": 14,
+        "best_score": 5.0,
+        "mean_score": 3.2714285714285714,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 7,
+            "total": 14,
+            "rate": 0.5
+          },
+          "ge_4_5": {
+            "count": 5,
+            "total": 14,
+            "rate": 0.35714285714285715
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.5,
+          "ge_4_5": 0.35714285714285715
+        }
+      },
+      {
+        "segment_sequence": 5,
+        "n_candidates": 23,
+        "best_score": 3.55,
+        "mean_score": 2.015217391304348,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 23,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 23,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 6,
+        "n_candidates": 37,
+        "best_score": 3.6,
+        "mean_score": 1.6175675675675676,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 37,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 37,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      },
+      {
+        "segment_sequence": 7,
+        "n_candidates": 18,
+        "best_score": 1.95,
+        "mean_score": 1.5833333333333335,
+        "score_threshold_stats": {
+          "ge_4_0": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          },
+          "ge_4_5": {
+            "count": 0,
+            "total": 18,
+            "rate": 0.0
+          }
+        },
+        "score_rate": {
+          "ge_4_0": 0.0,
+          "ge_4_5": 0.0
+        }
+      }
+    ]
+  },
+  "variant_result": {
+    "status": "ok",
+    "structured_json": "/home/jovyan/data03/search_public/xby/smart_videoV6/text_video_match/cache/niepanchengfenu/1_10_20260514_014901_structured_qwen_q3_rerank_q1_sft_final.json",
+    "summary": {
+      "script_count": 3,
+      "ranked_script_count": 3,
+      "coverage": 1.0,
+      "topk_rate": {
+        "top1": 0.0,
+        "top3": 0.3333333333333333,
+        "top5": 0.6666666666666666,
+        "top10": 1.0,
+        "top20": 1.0
+      },
+      "mean_rank": 4.666666666666667,
+      "median_rank": 4,
+      "mean_system_judge_score": 2.216666666666667,
+      "min_system_judge_score": 1.55,
+      "max_system_judge_score": 3.15,
+      "mean_system_dimension_scores": {
+        "entity_match": 3.6666666666666665,
+        "event_match": 1.6666666666666667,
+        "scene_match": 2.3333333333333335,
+        "tone_match": 2.0,
+        "editing_suitability": 1.3333333333333333
+      },
+      "mean_gap_to_judge_best": 0.85,
+      "system_score_rate": {
+        "ge_4_0": 0.0,
+        "ge_4_5": 0.0
+      },
+      "score_threshold_by_script": {
+        "ge_4_0": {
+          "scripts_with_any_count": 0,
+          "scripts_with_any_rate": 0.0,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        },
+        "ge_4_5": {
+          "scripts_with_any_count": 0,
+          "scripts_with_any_rate": 0.0,
+          "system_best_score_count": 0,
+          "system_best_score_rate": 0.0
+        }
+      },
+      "recall": {
+        "top1": 0.0,
+        "top3": 0.4444444444444444,
+        "top5": 0.6,
+        "top10": 0.7666666666666667,
+        "top20": 1.0
+      },
+      "ndcg": {
+        "top1": 0.7110524256651017,
+        "top3": 0.7478335683155196,
+        "top5": 0.8088802129536073,
+        "top10": 0.878679770021027,
+        "top20": 0.9204671244549699
+      },
+      "max_top_matches": 20
+    },
+    "scripts": [
+      {
+        "segment_sequence": 1,
+        "script_text": "火焰灼烧，剧痛之中，她睁开了眼，四周依旧是熟悉的东宫选妃场景，可这一次，她记得清清楚楚，前世所受的屈辱与阴谋",
+        "episode_target": 1,
+        "n_candidates": 13,
+        "system_segment_id": 3,
+        "system_episode": 1,
+        "system_source_score": 0.257812,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 4,
+        "system_judge_score": 1.95,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 2.0,
+          "scene_match": 1.0,
+          "tone_match": 2.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 2,
+        "judge_best_episode": 1,
+        "judge_best_score": 3.25,
+        "judge_best_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 4.0,
+          "scene_match": 1.0,
+          "tone_match": 4.0,
+          "editing_suitability": 3.0
+        },
+        "score_gap_to_judge_best": 1.3,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.6,
+          "top10": 0.9,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6,
+          "top3": 0.7077415513433174,
+          "top5": 0.8096300838233297,
+          "top10": 0.8928728052934872,
+          "top20": 0.90123809243221
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 2,
+        "script_text": "重生归来，宋南栀比前世更加谨慎，她暗中布局，巧妙躲过那些暗中的算计",
+        "episode_target": 1,
+        "n_candidates": 13,
+        "system_segment_id": 10,
+        "system_episode": 1,
+        "system_source_score": 0.332031,
+        "system_status": "success",
+        "system_top_matches_count": 13,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 7,
+        "system_judge_score": 1.55,
+        "system_dimension_scores": {
+          "entity_match": 3.0,
+          "event_match": 1.0,
+          "scene_match": 2.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "judge_best_segment_id": 3,
+        "judge_best_episode": 1,
+        "judge_best_score": 2.4,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 3.0,
+          "tone_match": 1.0,
+          "editing_suitability": 1.0
+        },
+        "score_gap_to_judge_best": 0.85,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.6666666666666666,
+          "top5": 0.8,
+          "top10": 1.0,
+          "top20": null
+        },
+        "ndcg": {
+          "top1": 0.6458333333333334,
+          "top3": 0.8146705828858525,
+          "top5": 0.8607212931014017,
+          "top10": 0.9326068810282955,
+          "top20": 0.9395412869700336
+        },
+        "diagnosis": "候选池不足"
+      },
+      {
+        "segment_sequence": 3,
+        "script_text": "当太子东宫令牌验证她的身份，宋南栀获得了东宫选妃的资格，可恶少石楚生的挑衅，让她再次面临巨大的压力",
+        "episode_target": 4,
+        "n_candidates": 20,
+        "system_segment_id": 4,
+        "system_episode": 4,
+        "system_source_score": 0.482422,
+        "system_status": "success",
+        "system_top_matches_count": 20,
+        "system_in_candidate_pool": true,
+        "system_judge_rank": 3,
+        "system_judge_score": 3.15,
+        "system_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 4.0,
+          "tone_match": 3.0,
+          "editing_suitability": 2.0
+        },
+        "judge_best_segment_id": 1,
+        "judge_best_episode": 4,
+        "judge_best_score": 3.55,
+        "judge_best_dimension_scores": {
+          "entity_match": 5.0,
+          "event_match": 2.0,
+          "scene_match": 5.0,
+          "tone_match": 4.0,
+          "editing_suitability": 2.0
+        },
+        "score_gap_to_judge_best": 0.4,
+        "high_score_counts": {
+          "ge_4_0": 0,
+          "ge_4_5": 0
+        },
+        "recall": {
+          "top1": 0.0,
+          "top3": 0.3333333333333333,
+          "top5": 0.4,
+          "top10": 0.4,
+          "top20": 1.0
+        },
+        "ndcg": {
+          "top1": 0.8873239436619719,
+          "top3": 0.7210885707173891,
+          "top5": 0.7562892619360906,
+          "top10": 0.8105596237412983,
+          "top20": 0.9206219939626663
+        },
+        "diagnosis": "候选池不足"
+      }
+    ]
+  }
+}
